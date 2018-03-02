@@ -139,7 +139,7 @@ getnetwork <- function(dir,
           if (all(diff(tmp) == 1)) {
             suppressWarnings(min(tmp, na.rm = TRUE) - 1)
           } else {
-            suppressWarnings(min(tmp[c(diff(tmp) > 1, FALSE)], na.rm = TRUE) - 1)
+            suppressWarnings(min(tmp[c(diff(c(y, tmp)) > 1)], na.rm = TRUE) - 1)
           }
         }
       }),
@@ -149,7 +149,7 @@ getnetwork <- function(dir,
     max_length <- lapply(internal, length)
     sub_index_end <- mapply(function(x, y)
       ifelse(x == Inf, y, x),
-      sub_index_end, max_length)
+      sub_index_end, max_length, SIMPLIFY = FALSE)
     
     sub_index <- mapply(function(x, y) cbind(x, y),
                         def_internal, sub_index_end, SIMPLIFY = FALSE)
@@ -157,7 +157,7 @@ getnetwork <- function(dir,
     # remove row if it is from first to last
     sub_index <- mapply(
       function(x, y) matrix(x[!apply(x, 1, diff) >= c(y - 2),], ncol = 2),
-      sub_index, max_length)
+      sub_index, max_length, SIMPLIFY = FALSE)
     
     out <- list()
     out$sub_index <- sub_index
