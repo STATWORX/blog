@@ -42,16 +42,55 @@ hist_cat = figure(x_range= x_hist_cat, plot_height=350, plot_width=350, title="H
 # Darstellung des Histograms
 hist_cat.vbar(x='x', top='top', width=0.5, source=source_hist_cat)
 
-# Allgemeinen Plot erstellen
-scatter = figure(plot_height=400, plot_width=400, title="Scatter-Plot",
-                 tools="crosshair,pan,reset,save,wheel_zoom",
+
+# Scatter Plot
+scatter = figure(plot_height=350, plot_width=350, title="Scatter-Plot",
                  x_axis_label='total_bill',
                  y_axis_label='tip')
 
 source_scatter = ColumnDataSource(data=dict(x=tips.total_bill, y=tips.tip))
-# Darstellung des Scatter Diagramms
+# Darstellung des Scatter Plots
 scatter.scatter(x='x', y='y', source=source_scatter)
 
+
+# WIDGTS
+# Select Histogramm
+select_hist = Select(title="Histogramm", value="tip", options=list(tips.columns))
+
+# Select Scatter
+select_x = Select(title="Scatter X", value="total_bill", options=['total_bill', 'size', 'tip'])
+select_y = Select(title="Scatter Y", value="tip", options=['total_bill', 'size', 'tip'])
+
+# Callbacks zum Aktualisieren der Visualisierungen
+def update_hist(data):
+    """Aktualisierung der Diagramme"""
+    if is_categorical_dtype(data) is True:
+        summary = data.value_counts()
+        hist_cat.x_range.factors = list(summary.index)
+        source_hist_cat.data = dict(x=list(summary.index), top=summary.values)
+        hist_cat.yaxis.axis_label = select_hist.value
+    else:
+        top_hist, x_hist = np.histogram(data)
+        source_hist_num.data = dict(x= x_hist[:-1], top=top_hist)
+        hist_num.yaxis.axis_label = select_hist.value
+
+
+def update_data(attrname, old, new):
+    """Update der Daten sowie der Beschriftungen"""
+    # Achsenbeschriftung aktualisieren
+    scatter.xaxis.axis_label = select_x.value
+    scatter.yaxis.axis_label = select_y.value
+    x = select_x.value
+    y = select_y.value
+    hist_variable = select_hist.value
+    update_hist(tips[hist_variable])
+    source_scatter.data = dict(x=tips[x], y= tips[y])
+
+
+for w in [select_hist, select_x, select_y]:
+    w.on_change('value', update_data)
+
 # Hinzufügen des Histograms in das Hauptdokument
-curdoc().add_root(row(hist_num, scatter, width=800))
-curdoc().add_root(row(hist_cat, width=800))
+curdoc().add_root(row(select_hist, select_x, select_y, width=400))
+curdoc().add_root(row(hist_num, scatter, width=400))
+curdoc().add_root(row(hist_cat, width=400))
