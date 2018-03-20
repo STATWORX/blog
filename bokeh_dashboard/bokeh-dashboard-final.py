@@ -62,29 +62,25 @@ select_x = Select(title="Scatter X", value="total_bill", options=['total_bill', 
 select_y = Select(title="Scatter Y", value="tip", options=['total_bill', 'size', 'tip'])
 
 # Callbacks zum Aktualisieren der Visualisierungen
-def update_hist(data):
-    """Aktualisierung der Diagramme"""
-    if is_categorical_dtype(data) is True:
-        summary = data.value_counts()
-        hist_cat.x_range.factors = list(summary.index)
-        source_hist_cat.data = dict(x=list(summary.index), top=summary.values)
-        hist_cat.yaxis.axis_label = select_hist.value
-    else:
-        top_hist, x_hist = np.histogram(data)
-        source_hist_num.data = dict(x= x_hist[:-1], top=top_hist)
-        hist_num.yaxis.axis_label = select_hist.value
-
-
 def update_data(attrname, old, new):
     """Update der Daten sowie der Beschriftungen"""
-    # Achsenbeschriftung aktualisieren
+    # Scatter Diagramm
     scatter.xaxis.axis_label = select_x.value
     scatter.yaxis.axis_label = select_y.value
     x = select_x.value
     y = select_y.value
-    hist_variable = select_hist.value
-    update_hist(tips[hist_variable])
     source_scatter.data = dict(x=tips[x], y= tips[y])
+    # Histogramme
+    data_hist = tips[select_hist.value]
+    if is_categorical_dtype(data_hist) is True:
+        summary = data_hist.value_counts()
+        hist_cat.x_range.factors = list(summary.index)
+        source_hist_cat.data = dict(x=list(summary.index), top=summary.values)
+        hist_cat.yaxis.axis_label = select_hist.value
+    else:
+        top_hist, x_hist = np.histogram(data_hist)
+        source_hist_num.data = dict(x= x_hist[:-1], top=top_hist)
+        hist_num.yaxis.axis_label = select_hist.value
 
 
 for w in [select_hist, select_x, select_y]:
