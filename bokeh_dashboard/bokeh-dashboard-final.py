@@ -15,47 +15,46 @@ tips = load_dataset("tips")
 
 # VISUALISIERUNGEN
 # Histogramm mit Numpy erstellen
-top_hist_num, x_hist_num = np.histogram(tips.total_bill)
+top_hist, x_hist = np.histogram(tips.total_bill)
 
 # Daten in Dict überführen
-source_hist_num = ColumnDataSource(data=dict(x=x_hist_num[:-1], top=top_hist_num))
+source_hist = ColumnDataSource(data=dict(x=x_hist[:-1], top=top_hist))
 
-# Histogramm mit Verhältnisskala
-hist_num = figure(plot_height=350, plot_width=350, title="Histogramm - Verhältnisskala",
-                  y_axis_label='total_bill')
+# Allgemeinen Plot erstellen
+hist = figure(plot_height=350, plot_width=350, title="Histogramm",
+              y_axis_label='total_bill')
 
-# Darstellung des Histograms
-hist_num.vbar(x='x', top='top', width=0.5, source=source_hist_num)
+# Darstellung des Säulendiagramms
+hist.vbar(x='x', top='top', width=0.5, source=source_hist)
 
 # Kategoriale Variablen
-hist_cat_data = tips.smoker.value_counts()
-x_hist_cat = list(hist_cat_data.index)
-top_hist_cat = hist_cat_data.values
+kat_data = tips.smoker.value_counts()
+x_kat = list(kat_data.index)
+top_kat = kat_data.values
 
 # Daten in Dict überführen
-source_hist_cat = ColumnDataSource(data=dict(x=x_hist_cat, top=top_hist_cat))
+source_kat = ColumnDataSource(data=dict(x=x_kat, top=top_kat))
 
-# Histogramm mit Nominalskala
-hist_cat = figure(x_range= x_hist_cat, plot_height=350, plot_width=350, title="Histogramm - Nominalskala",
-                  y_axis_label='smoker')
+# Allgemeinen Plot erstellen
+bar = figure(x_range= x_kat, plot_height=350, plot_width=350, title="Säulendiagramm",
+             y_axis_label='smoker')
 
-# Darstellung des Histograms
-hist_cat.vbar(x='x', top='top', width=0.5, source=source_hist_cat)
+# Darstellung des Säulendiagramm
+bar.vbar(x='x', top='top', width=0.5, source=source_kat)
 
-
-# Scatter Plot
-scatter = figure(plot_height=350, plot_width=350, title="Scatter-Plot",
+# Allgemeinen Plot erstellen
+scatter = figure(plot_height=400, plot_width=400, title="Scatter-Plot",
+                 tools="crosshair,pan,reset,save,wheel_zoom",
                  x_axis_label='total_bill',
                  y_axis_label='tip')
 
 source_scatter = ColumnDataSource(data=dict(x=tips.total_bill, y=tips.tip))
-# Darstellung des Scatter Plots
+# Darstellung des Scatter Diagramms
 scatter.scatter(x='x', y='y', source=source_scatter)
-
 
 # WIDGTS
 # Select Histogramm
-select_hist = Select(title="Histogramm", value="tip", options=list(tips.columns))
+select_hist = Select(title="Histogramm", value="total_bill", options=list(tips.columns))
 
 # Select Scatter
 select_x = Select(title="Scatter X", value="total_bill", options=['total_bill', 'size', 'tip'])
@@ -74,13 +73,13 @@ def update_data(attrname, old, new):
     data_hist = tips[select_hist.value]
     if is_categorical_dtype(data_hist) is True:
         summary = data_hist.value_counts()
-        hist_cat.x_range.factors = list(summary.index)
-        source_hist_cat.data = dict(x=list(summary.index), top=summary.values)
-        hist_cat.yaxis.axis_label = select_hist.value
+        bar.x_range.factors = list(summary.index)
+        source_kat.data = dict(x=list(summary.index), top=summary.values)
+        bar.yaxis.axis_label = select_hist.value
     else:
         top_hist, x_hist = np.histogram(data_hist)
-        source_hist_num.data = dict(x= x_hist[:-1], top=top_hist)
-        hist_num.yaxis.axis_label = select_hist.value
+        source_hist.data = dict(x= x_hist[:-1], top=top_hist)
+        hist.yaxis.axis_label = select_hist.value
 
 
 for w in [select_hist, select_x, select_y]:
@@ -88,5 +87,5 @@ for w in [select_hist, select_x, select_y]:
 
 # Hinzufügen des Histograms in das Hauptdokument
 curdoc().add_root(row(select_hist, select_x, select_y, width=400))
-curdoc().add_root(row(hist_num, scatter, width=400))
-curdoc().add_root(row(hist_cat, width=400))
+curdoc().add_root(row(hist, scatter, width=400))
+curdoc().add_root(row(bar, width=400))
