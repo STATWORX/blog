@@ -22,7 +22,7 @@ source_hist = ColumnDataSource(data=dict(x=x_hist[:-1], top=top_hist))
 hist = figure(plot_height=350, plot_width=350, title="Histogramm",
               y_axis_label='total_bill')
 
-# Darstellung des Säulendiagramms
+# Darstellung des Histograms
 hist.vbar(x='x', top='top', width=0.5, source=source_hist)
 
 # Kategoriale Variablen

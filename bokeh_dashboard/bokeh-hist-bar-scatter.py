@@ -50,6 +50,6 @@ source_scatter = ColumnDataSource(data=dict(x=tips.total_bill, y=tips.tip))
 # Darstellung des Scatter Diagramms
 scatter.scatter(x='x', y='y', source=source_scatter)
 
-# Hinzufügen des Histograms in das Hauptdokument
+# Hinzufügen des Scatter Plots in das Hauptdokument
 curdoc().add_root(row(hist, scatter, width=800))
 curdoc().add_root(row(bar, width=800))

@@ -49,12 +49,13 @@ scatter = figure(plot_height=400, plot_width=400, title="Scatter-Plot",
                  y_axis_label='tip')
 
 source_scatter = ColumnDataSource(data=dict(x=tips.total_bill, y=tips.tip))
+
 # Darstellung des Scatter Diagramms
 scatter.scatter(x='x', y='y', source=source_scatter)
 
 # WIDGTS
 # Select Histogramm
-select_hist = Select(title="Histogramm", value="total_bill", options=list(tips.columns))
+select_hist = Select(title="Histogramm/Säulendiagramm", value="total_bill", options=list(tips.columns))
 
 # Select Scatter
 select_x = Select(title="Scatter X", value="total_bill", options=['total_bill', 'size', 'tip'])
@@ -69,7 +70,7 @@ def update_data(attrname, old, new):
     x = select_x.value
     y = select_y.value
     source_scatter.data = dict(x=tips[x], y= tips[y])
-    # Histogramme
+    # Histogram/Säulendiagramm
     data_hist = tips[select_hist.value]
     if is_categorical_dtype(data_hist) is True:
         summary = data_hist.value_counts()
@@ -77,10 +78,9 @@ def update_data(attrname, old, new):
         source_kat.data = dict(x=list(summary.index), top=summary.values)
         bar.yaxis.axis_label = select_hist.value
     else:
-        top_hist, x_hist = np.histogram(data_hist)
-        source_hist.data = dict(x= x_hist[:-1], top=top_hist)
+        top_hist_new, x_hist_new = np.histogram(data_hist)
+        source_hist.data = dict(x= x_hist_new[:-1], top=top_hist_new)
         hist.yaxis.axis_label = select_hist.value
-
 
 for w in [select_hist, select_x, select_y]:
     w.on_change('value', update_data)
