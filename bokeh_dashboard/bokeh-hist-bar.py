@@ -19,10 +19,10 @@ top_hist, x_hist = np.histogram(tips.total_bill)
 source_hist = ColumnDataSource(data=dict(x=x_hist[:-1], top=top_hist))
 
 # Allgemeinen Plot erstellen
-hist = figure(plot_height=350, plot_width=350, title="Histogramm",
-              y_axis_label='total_bill')
+hist = figure(plot_height=400, plot_width=400, title="Histogramm",
+              x_axis_label='total_bill', y_axis_label='Absolute Häufigkeit')
 
-# Darstellung des Histograms
+# Darstellung des Säulendiagramms
 hist.vbar(x='x', top='top', width=0.5, source=source_hist)
 
 # Kategoriale Variablen
@@ -34,11 +34,11 @@ top_kat = kat_data.values
 source_kat = ColumnDataSource(data=dict(x=x_kat, top=top_kat))
 
 # Allgemeinen Plot erstellen
-bar = figure(x_range= x_kat, plot_height=350, plot_width=350, title="Säulendiagramm",
-             y_axis_label='smoker')
+bar = figure(x_range= x_kat, plot_height=400, plot_width=400, title="Säulendiagramm",
+             x_axis_label='smoker', y_axis_label='Absolute Häufigkeit')
 
 # Darstellung des Säulendiagramm
-bar.vbar(x='x', top='top', width=0.5, source=source_kat)
+bar.vbar(x='x', top='top', width=0.1, source=source_kat)
 
 # Hinzufügen der beiden Visualisierungen in das Hauptdokument
-curdoc().add_root(row(hist, bar, width=800))
+curdoc().add_root(row(hist, bar))
