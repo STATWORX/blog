@@ -1,0 +1,4801 @@
+0,1,2,3,4
+Russia,4 - 2,Saudi Arabia,0,1
+Russia,1 - 3,Egypt,0,17
+Russia,1 - 3,Uruguay,0,-34
+Saudi Arabia,1 - 2,Egypt,0,33
+Saudi Arabia,1 - 3,Uruguay,0,-19
+Egypt,0 - 1,Uruguay,0,2
+Portugal,1 - 2,Spain,0,4
+Portugal,4 - 1,Morocco,0,18
+Portugal,1 - 2,Iran,0,-35
+Spain,7 - 2,Morocco,0,36
+Spain,4 - 0,Iran,0,-20
+Morocco,2 - 1,Iran,0,3
+France,3 - 1,Australia,0,5
+France,2 - 0,Peru,0,22
+France,1 - 1,Denmark,0,-38
+Australia,1 - 0,Peru,0,37
+Australia,1 - 3,Denmark,0,-21
+Peru,0 - 4,Denmark,0,7
+Argentina,4 - 0,Island,0,6
+Argentina,1 - 1,Croatia,0,23
+Argentina,4 - 0,Nigeria,0,-39
+Island,1 - 1,Croatia,0,40
+Island,2 - 1,Nigeria,0,-25
+Croatia,1 - 1,Nigeria,0,8
+Brazil,4 - 0,Switzerland,0,11
+Brazil,3 - 0,Costa Rica,0,24
+Brazil,3 - 3,Serbia,0,-43
+Switzerland,2 - 1,Costa Rica,0,44
+Switzerland,1 - 1,Serbia,0,-26
+Costa Rica,2 - 2,Serbia,0,9
+Germany,3 - 1,Mexico,0,10
+Germany,4 - 0,Sweden,0,29
+Germany,1 - 1,South Korea,0,-42
+Mexico,3 - 0,Sweden,0,41
+Mexico,4 - 1,South Korea,0,-28
+Sweden,1 - 0,South Korea,0,12
+Belgium,1 - 1,Panama,0,13
+Belgium,3 - 1,Tunesia,0,27
+Belgium,1 - 1,England,0,-45
+Panama,1 - 1,Tunesia,0,47
+Panama,0 - 2,England,0,-30
+Tunesia,1 - 1,England,0,14
+Poland,1 - 3,Senegal,0,16
+Poland,3 - 1,Colombia,0,32
+Poland,2 - 0,Japan,0,-48
+Senegal,0 - 3,Colombia,0,46
+Senegal,2 - 3,Japan,0,-31
+Colombia,3 - 0,Japan,0,15
+Russia,3 - 2,Saudi Arabia,1,1
+Russia,2 - 0,Egypt,1,17
+Russia,2 - 5,Uruguay,1,-34
+Saudi Arabia,1 - 5,Egypt,1,33
+Saudi Arabia,1 - 2,Uruguay,1,-19
+Egypt,0 - 1,Uruguay,1,2
+Portugal,2 - 5,Spain,1,4
+Portugal,3 - 3,Morocco,1,18
+Portugal,3 - 1,Iran,1,-35
+Spain,1 - 0,Morocco,1,36
+Spain,1 - 1,Iran,1,-20
+Morocco,1 - 2,Iran,1,3
+France,3 - 2,Australia,1,5
+France,0 - 2,Peru,1,22
+France,4 - 2,Denmark,1,-38
+Australia,3 - 1,Peru,1,37
+Australia,1 - 1,Denmark,1,-21
+Peru,2 - 0,Denmark,1,7
+Argentina,3 - 1,Island,1,6
+Argentina,2 - 0,Croatia,1,23
+Argentina,3 - 2,Nigeria,1,-39
+Island,3 - 1,Croatia,1,40
+Island,3 - 1,Nigeria,1,-25
+Croatia,0 - 2,Nigeria,1,8
+Brazil,3 - 0,Switzerland,1,11
+Brazil,3 - 0,Costa Rica,1,24
+Brazil,1 - 0,Serbia,1,-43
+Switzerland,2 - 1,Costa Rica,1,44
+Switzerland,2 - 0,Serbia,1,-26
+Costa Rica,2 - 3,Serbia,1,9
+Germany,4 - 2,Mexico,1,10
+Germany,2 - 1,Sweden,1,29
+Germany,2 - 2,South Korea,1,-42
+Mexico,1 - 2,Sweden,1,41
+Mexico,2 - 2,South Korea,1,-28
+Sweden,1 - 1,South Korea,1,12
+Belgium,2 - 1,Panama,1,13
+Belgium,1 - 0,Tunesia,1,27
+Belgium,2 - 2,England,1,-45
+Panama,2 - 1,Tunesia,1,47
+Panama,0 - 2,England,1,-30
+Tunesia,0 - 2,England,1,14
+Poland,4 - 1,Senegal,1,16
+Poland,0 - 1,Colombia,1,32
+Poland,2 - 1,Japan,1,-48
+Senegal,3 - 0,Colombia,1,46
+Senegal,0 - 0,Japan,1,-31
+Colombia,3 - 0,Japan,1,15
+Russia,3 - 2,Saudi Arabia,2,1
+Russia,1 - 0,Egypt,2,17
+Russia,2 - 2,Uruguay,2,-34
+Saudi Arabia,2 - 2,Egypt,2,33
+Saudi Arabia,1 - 2,Uruguay,2,-19
+Egypt,0 - 0,Uruguay,2,2
+Portugal,3 - 2,Spain,2,4
+Portugal,2 - 2,Morocco,2,18
+Portugal,3 - 1,Iran,2,-35
+Spain,3 - 2,Morocco,2,36
+Spain,5 - 4,Iran,2,-20
+Morocco,5 - 0,Iran,2,3
+France,2 - 1,Australia,2,5
+France,2 - 0,Peru,2,22
+France,1 - 1,Denmark,2,-38
+Australia,0 - 2,Peru,2,37
+Australia,0 - 3,Denmark,2,-21
+Peru,0 - 4,Denmark,2,7
+Argentina,2 - 3,Island,2,6
+Argentina,2 - 2,Croatia,2,23
+Argentina,2 - 0,Nigeria,2,-39
+Island,1 - 3,Croatia,2,40
+Island,1 - 0,Nigeria,2,-25
+Croatia,4 - 0,Nigeria,2,8
+Brazil,2 - 0,Switzerland,2,11
+Brazil,5 - 1,Costa Rica,2,24
+Brazil,3 - 1,Serbia,2,-43
+Switzerland,4 - 1,Costa Rica,2,44
+Switzerland,2 - 2,Serbia,2,-26
+Costa Rica,2 - 0,Serbia,2,9
+Germany,2 - 0,Mexico,2,10
+Germany,1 - 1,Sweden,2,29
+Germany,3 - 0,South Korea,2,-42
+Mexico,2 - 1,Sweden,2,41
+Mexico,2 - 1,South Korea,2,-28
+Sweden,1 - 1,South Korea,2,12
+Belgium,3 - 1,Panama,2,13
+Belgium,3 - 0,Tunesia,2,27
+Belgium,2 - 1,England,2,-45
+Panama,1 - 5,Tunesia,2,47
+Panama,1 - 4,England,2,-30
+Tunesia,0 - 2,England,2,14
+Poland,3 - 0,Senegal,2,16
+Poland,0 - 2,Colombia,2,32
+Poland,1 - 3,Japan,2,-48
+Senegal,2 - 1,Colombia,2,46
+Senegal,3 - 0,Japan,2,-31
+Colombia,2 - 1,Japan,2,15
+Russia,4 - 3,Saudi Arabia,3,1
+Russia,2 - 3,Egypt,3,17
+Russia,0 - 2,Uruguay,3,-34
+Saudi Arabia,0 - 2,Egypt,3,33
+Saudi Arabia,1 - 2,Uruguay,3,-19
+Egypt,0 - 3,Uruguay,3,2
+Portugal,2 - 1,Spain,3,4
+Portugal,0 - 2,Morocco,3,18
+Portugal,3 - 0,Iran,3,-35
+Spain,2 - 1,Morocco,3,36
+Spain,2 - 2,Iran,3,-20
+Morocco,3 - 2,Iran,3,3
+France,4 - 0,Australia,3,5
+France,2 - 0,Peru,3,22
+France,1 - 0,Denmark,3,-38
+Australia,1 - 1,Peru,3,37
+Australia,1 - 0,Denmark,3,-21
+Peru,3 - 2,Denmark,3,7
+Argentina,3 - 1,Island,3,6
+Argentina,1 - 1,Croatia,3,23
+Argentina,0 - 1,Nigeria,3,-39
+Island,2 - 0,Croatia,3,40
+Island,0 - 2,Nigeria,3,-25
+Croatia,0 - 0,Nigeria,3,8
+Brazil,1 - 1,Switzerland,3,11
+Brazil,3 - 1,Costa Rica,3,24
+Brazil,4 - 0,Serbia,3,-43
+Switzerland,1 - 3,Costa Rica,3,44
+Switzerland,1 - 2,Serbia,3,-26
+Costa Rica,1 - 1,Serbia,3,9
+Germany,0 - 0,Mexico,3,10
+Germany,3 - 1,Sweden,3,29
+Germany,3 - 1,South Korea,3,-42
+Mexico,1 - 2,Sweden,3,41
+Mexico,3 - 4,South Korea,3,-28
+Sweden,3 - 2,South Korea,3,12
+Belgium,3 - 0,Panama,3,13
+Belgium,2 - 1,Tunesia,3,27
+Belgium,1 - 2,England,3,-45
+Panama,1 - 3,Tunesia,3,47
+Panama,0 - 0,England,3,-30
+Tunesia,0 - 6,England,3,14
+Poland,2 - 1,Senegal,3,16
+Poland,1 - 3,Colombia,3,32
+Poland,2 - 1,Japan,3,-48
+Senegal,4 - 2,Colombia,3,46
+Senegal,0 - 0,Japan,3,-31
+Colombia,3 - 0,Japan,3,15
+Russia,3 - 1,Saudi Arabia,4,1
+Russia,0 - 1,Egypt,4,17
+Russia,2 - 1,Uruguay,4,-34
+Saudi Arabia,1 - 5,Egypt,4,33
+Saudi Arabia,1 - 3,Uruguay,4,-19
+Egypt,0 - 1,Uruguay,4,2
+Portugal,0 - 2,Spain,4,4
+Portugal,3 - 1,Morocco,4,18
+Portugal,4 - 2,Iran,4,-35
+Spain,1 - 0,Morocco,4,36
+Spain,5 - 1,Iran,4,-20
+Morocco,0 - 2,Iran,4,3
+France,2 - 1,Australia,4,5
+France,1 - 2,Peru,4,22
+France,1 - 2,Denmark,4,-38
+Australia,2 - 2,Peru,4,37
+Australia,1 - 1,Denmark,4,-21
+Peru,0 - 5,Denmark,4,7
+Argentina,1 - 0,Island,4,6
+Argentina,1 - 0,Croatia,4,23
+Argentina,3 - 0,Nigeria,4,-39
+Island,1 - 2,Croatia,4,40
+Island,1 - 3,Nigeria,4,-25
+Croatia,2 - 2,Nigeria,4,8
+Brazil,5 - 0,Switzerland,4,11
+Brazil,2 - 0,Costa Rica,4,24
+Brazil,4 - 0,Serbia,4,-43
+Switzerland,1 - 0,Costa Rica,4,44
+Switzerland,5 - 0,Serbia,4,-26
+Costa Rica,2 - 1,Serbia,4,9
+Germany,3 - 0,Mexico,4,10
+Germany,2 - 0,Sweden,4,29
+Germany,2 - 0,South Korea,4,-42
+Mexico,2 - 0,Sweden,4,41
+Mexico,2 - 2,South Korea,4,-28
+Sweden,3 - 1,South Korea,4,12
+Belgium,1 - 0,Panama,4,13
+Belgium,2 - 3,Tunesia,4,27
+Belgium,3 - 2,England,4,-45
+Panama,4 - 4,Tunesia,4,47
+Panama,0 - 3,England,4,-30
+Tunesia,0 - 1,England,4,14
+Poland,1 - 1,Senegal,4,16
+Poland,1 - 1,Colombia,4,32
+Poland,2 - 1,Japan,4,-48
+Senegal,3 - 3,Colombia,4,46
+Senegal,2 - 2,Japan,4,-31
+Colombia,1 - 0,Japan,4,15
+Russia,7 - 0,Saudi Arabia,5,1
+Russia,1 - 2,Egypt,5,17
+Russia,0 - 1,Uruguay,5,-34
+Saudi Arabia,0 - 3,Egypt,5,33
+Saudi Arabia,2 - 3,Uruguay,5,-19
+Egypt,1 - 4,Uruguay,5,2
+Portugal,2 - 2,Spain,5,4
+Portugal,2 - 0,Morocco,5,18
+Portugal,3 - 0,Iran,5,-35
+Spain,2 - 1,Morocco,5,36
+Spain,2 - 0,Iran,5,-20
+Morocco,3 - 3,Iran,5,3
+France,3 - 2,Australia,5,5
+France,0 - 1,Peru,5,22
+France,3 - 2,Denmark,5,-38
+Australia,1 - 2,Peru,5,37
+Australia,0 - 2,Denmark,5,-21
+Peru,3 - 2,Denmark,5,7
+Argentina,0 - 1,Island,5,6
+Argentina,2 - 1,Croatia,5,23
+Argentina,4 - 1,Nigeria,5,-39
+Island,0 - 2,Croatia,5,40
+Island,2 - 1,Nigeria,5,-25
+Croatia,0 - 2,Nigeria,5,8
+Brazil,1 - 1,Switzerland,5,11
+Brazil,5 - 1,Costa Rica,5,24
+Brazil,2 - 1,Serbia,5,-43
+Switzerland,1 - 0,Costa Rica,5,44
+Switzerland,0 - 0,Serbia,5,-26
+Costa Rica,2 - 2,Serbia,5,9
+Germany,5 - 0,Mexico,5,10
+Germany,4 - 1,Sweden,5,29
+Germany,1 - 1,South Korea,5,-42
+Mexico,3 - 3,Sweden,5,41
+Mexico,1 - 4,South Korea,5,-28
+Sweden,1 - 0,South Korea,5,12
+Belgium,2 - 0,Panama,5,13
+Belgium,2 - 0,Tunesia,5,27
+Belgium,1 - 4,England,5,-45
+Panama,0 - 2,Tunesia,5,47
+Panama,0 - 7,England,5,-30
+Tunesia,0 - 5,England,5,14
+Poland,2 - 2,Senegal,5,16
+Poland,0 - 0,Colombia,5,32
+Poland,0 - 2,Japan,5,-48
+Senegal,1 - 2,Colombia,5,46
+Senegal,2 - 0,Japan,5,-31
+Colombia,3 - 1,Japan,5,15
+Russia,1 - 0,Saudi Arabia,6,1
+Russia,1 - 1,Egypt,6,17
+Russia,0 - 2,Uruguay,6,-34
+Saudi Arabia,1 - 0,Egypt,6,33
+Saudi Arabia,2 - 0,Uruguay,6,-19
+Egypt,1 - 2,Uruguay,6,2
+Portugal,2 - 1,Spain,6,4
+Portugal,3 - 2,Morocco,6,18
+Portugal,4 - 0,Iran,6,-35
+Spain,0 - 0,Morocco,6,36
+Spain,2 - 1,Iran,6,-20
+Morocco,0 - 2,Iran,6,3
+France,2 - 1,Australia,6,5
+France,2 - 0,Peru,6,22
+France,2 - 0,Denmark,6,-38
+Australia,0 - 2,Peru,6,37
+Australia,2 - 2,Denmark,6,-21
+Peru,2 - 1,Denmark,6,7
+Argentina,2 - 3,Island,6,6
+Argentina,3 - 2,Croatia,6,23
+Argentina,4 - 0,Nigeria,6,-39
+Island,3 - 5,Croatia,6,40
+Island,1 - 1,Nigeria,6,-25
+Croatia,2 - 2,Nigeria,6,8
+Brazil,4 - 1,Switzerland,6,11
+Brazil,2 - 0,Costa Rica,6,24
+Brazil,4 - 0,Serbia,6,-43
+Switzerland,1 - 0,Costa Rica,6,44
+Switzerland,1 - 1,Serbia,6,-26
+Costa Rica,0 - 1,Serbia,6,9
+Germany,4 - 1,Mexico,6,10
+Germany,3 - 0,Sweden,6,29
+Germany,4 - 0,South Korea,6,-42
+Mexico,0 - 1,Sweden,6,41
+Mexico,2 - 2,South Korea,6,-28
+Sweden,1 - 1,South Korea,6,12
+Belgium,5 - 0,Panama,6,13
+Belgium,2 - 1,Tunesia,6,27
+Belgium,3 - 0,England,6,-45
+Panama,1 - 1,Tunesia,6,47
+Panama,1 - 3,England,6,-30
+Tunesia,0 - 2,England,6,14
+Poland,3 - 3,Senegal,6,16
+Poland,3 - 4,Colombia,6,32
+Poland,1 - 1,Japan,6,-48
+Senegal,1 - 2,Colombia,6,46
+Senegal,1 - 2,Japan,6,-31
+Colombia,0 - 0,Japan,6,15
+Russia,2 - 2,Saudi Arabia,7,1
+Russia,3 - 0,Egypt,7,17
+Russia,1 - 0,Uruguay,7,-34
+Saudi Arabia,0 - 4,Egypt,7,33
+Saudi Arabia,0 - 1,Uruguay,7,-19
+Egypt,0 - 1,Uruguay,7,2
+Portugal,0 - 3,Spain,7,4
+Portugal,3 - 1,Morocco,7,18
+Portugal,1 - 0,Iran,7,-35
+Spain,4 - 0,Morocco,7,36
+Spain,0 - 1,Iran,7,-20
+Morocco,2 - 1,Iran,7,3
+France,2 - 1,Australia,7,5
+France,1 - 2,Peru,7,22
+France,0 - 0,Denmark,7,-38
+Australia,1 - 2,Peru,7,37
+Australia,0 - 2,Denmark,7,-21
+Peru,2 - 2,Denmark,7,7
+Argentina,3 - 1,Island,7,6
+Argentina,1 - 4,Croatia,7,23
+Argentina,5 - 2,Nigeria,7,-39
+Island,1 - 0,Croatia,7,40
+Island,3 - 1,Nigeria,7,-25
+Croatia,1 - 1,Nigeria,7,8
+Brazil,3 - 1,Switzerland,7,11
+Brazil,5 - 0,Costa Rica,7,24
+Brazil,3 - 1,Serbia,7,-43
+Switzerland,4 - 0,Costa Rica,7,44
+Switzerland,3 - 0,Serbia,7,-26
+Costa Rica,1 - 2,Serbia,7,9
+Germany,2 - 2,Mexico,7,10
+Germany,3 - 2,Sweden,7,29
+Germany,0 - 0,South Korea,7,-42
+Mexico,0 - 2,Sweden,7,41
+Mexico,2 - 2,South Korea,7,-28
+Sweden,2 - 1,South Korea,7,12
+Belgium,2 - 0,Panama,7,13
+Belgium,3 - 3,Tunesia,7,27
+Belgium,1 - 1,England,7,-45
+Panama,3 - 2,Tunesia,7,47
+Panama,0 - 2,England,7,-30
+Tunesia,1 - 2,England,7,14
+Poland,0 - 1,Senegal,7,16
+Poland,0 - 1,Colombia,7,32
+Poland,0 - 1,Japan,7,-48
+Senegal,1 - 2,Colombia,7,46
+Senegal,2 - 2,Japan,7,-31
+Colombia,1 - 0,Japan,7,15
+Russia,2 - 1,Saudi Arabia,8,1
+Russia,1 - 2,Egypt,8,17
+Russia,0 - 2,Uruguay,8,-34
+Saudi Arabia,0 - 1,Egypt,8,33
+Saudi Arabia,0 - 2,Uruguay,8,-19
+Egypt,0 - 1,Uruguay,8,2
+Portugal,2 - 0,Spain,8,4
+Portugal,2 - 2,Morocco,8,18
+Portugal,3 - 0,Iran,8,-35
+Spain,5 - 1,Morocco,8,36
+Spain,2 - 1,Iran,8,-20
+Morocco,0 - 0,Iran,8,3
+France,3 - 0,Australia,8,5
+France,2 - 3,Peru,8,22
+France,3 - 1,Denmark,8,-38
+Australia,1 - 3,Peru,8,37
+Australia,1 - 1,Denmark,8,-21
+Peru,0 - 1,Denmark,8,7
+Argentina,1 - 1,Island,8,6
+Argentina,1 - 2,Croatia,8,23
+Argentina,2 - 2,Nigeria,8,-39
+Island,0 - 4,Croatia,8,40
+Island,2 - 0,Nigeria,8,-25
+Croatia,4 - 0,Nigeria,8,8
+Brazil,2 - 0,Switzerland,8,11
+Brazil,2 - 0,Costa Rica,8,24
+Brazil,1 - 2,Serbia,8,-43
+Switzerland,3 - 0,Costa Rica,8,44
+Switzerland,0 - 0,Serbia,8,-26
+Costa Rica,0 - 1,Serbia,8,9
+Germany,2 - 2,Mexico,8,10
+Germany,1 - 0,Sweden,8,29
+Germany,5 - 3,South Korea,8,-42
+Mexico,1 - 1,Sweden,8,41
+Mexico,1 - 2,South Korea,8,-28
+Sweden,2 - 0,South Korea,8,12
+Belgium,1 - 1,Panama,8,13
+Belgium,2 - 3,Tunesia,8,27
+Belgium,2 - 0,England,8,-45
+Panama,0 - 1,Tunesia,8,47
+Panama,1 - 2,England,8,-30
+Tunesia,2 - 2,England,8,14
+Poland,1 - 1,Senegal,8,16
+Poland,1 - 1,Colombia,8,32
+Poland,3 - 1,Japan,8,-48
+Senegal,1 - 2,Colombia,8,46
+Senegal,2 - 1,Japan,8,-31
+Colombia,6 - 0,Japan,8,15
+Russia,1 - 1,Saudi Arabia,9,1
+Russia,2 - 1,Egypt,9,17
+Russia,0 - 1,Uruguay,9,-34
+Saudi Arabia,2 - 3,Egypt,9,33
+Saudi Arabia,0 - 0,Uruguay,9,-19
+Egypt,1 - 2,Uruguay,9,2
+Portugal,1 - 1,Spain,9,4
+Portugal,4 - 1,Morocco,9,18
+Portugal,1 - 0,Iran,9,-35
+Spain,3 - 0,Morocco,9,36
+Spain,4 - 1,Iran,9,-20
+Morocco,1 - 2,Iran,9,3
+France,5 - 1,Australia,9,5
+France,1 - 1,Peru,9,22
+France,2 - 0,Denmark,9,-38
+Australia,3 - 2,Peru,9,37
+Australia,0 - 3,Denmark,9,-21
+Peru,1 - 2,Denmark,9,7
+Argentina,3 - 0,Island,9,6
+Argentina,5 - 1,Croatia,9,23
+Argentina,0 - 2,Nigeria,9,-39
+Island,3 - 1,Croatia,9,40
+Island,2 - 2,Nigeria,9,-25
+Croatia,5 - 0,Nigeria,9,8
+Brazil,0 - 1,Switzerland,9,11
+Brazil,3 - 0,Costa Rica,9,24
+Brazil,4 - 0,Serbia,9,-43
+Switzerland,1 - 0,Costa Rica,9,44
+Switzerland,1 - 1,Serbia,9,-26
+Costa Rica,3 - 1,Serbia,9,9
+Germany,4 - 1,Mexico,9,10
+Germany,0 - 2,Sweden,9,29
+Germany,2 - 1,South Korea,9,-42
+Mexico,0 - 0,Sweden,9,41
+Mexico,4 - 1,South Korea,9,-28
+Sweden,1 - 3,South Korea,9,12
+Belgium,4 - 1,Panama,9,13
+Belgium,3 - 2,Tunesia,9,27
+Belgium,1 - 6,England,9,-45
+Panama,2 - 1,Tunesia,9,47
+Panama,0 - 2,England,9,-30
+Tunesia,0 - 6,England,9,14
+Poland,2 - 3,Senegal,9,16
+Poland,1 - 4,Colombia,9,32
+Poland,2 - 2,Japan,9,-48
+Senegal,1 - 0,Colombia,9,46
+Senegal,1 - 1,Japan,9,-31
+Colombia,3 - 1,Japan,9,15
+Russia,3 - 0,Saudi Arabia,10,1
+Russia,1 - 2,Egypt,10,17
+Russia,0 - 2,Uruguay,10,-34
+Saudi Arabia,1 - 3,Egypt,10,33
+Saudi Arabia,2 - 4,Uruguay,10,-19
+Egypt,1 - 1,Uruguay,10,2
+Portugal,1 - 3,Spain,10,4
+Portugal,1 - 0,Morocco,10,18
+Portugal,1 - 0,Iran,10,-35
+Spain,3 - 0,Morocco,10,36
+Spain,2 - 0,Iran,10,-20
+Morocco,2 - 3,Iran,10,3
+France,1 - 0,Australia,10,5
+France,0 - 1,Peru,10,22
+France,2 - 2,Denmark,10,-38
+Australia,2 - 1,Peru,10,37
+Australia,0 - 0,Denmark,10,-21
+Peru,0 - 2,Denmark,10,7
+Argentina,0 - 0,Island,10,6
+Argentina,1 - 0,Croatia,10,23
+Argentina,0 - 0,Nigeria,10,-39
+Island,0 - 1,Croatia,10,40
+Island,2 - 2,Nigeria,10,-25
+Croatia,1 - 0,Nigeria,10,8
+Brazil,3 - 1,Switzerland,10,11
+Brazil,1 - 2,Costa Rica,10,24
+Brazil,2 - 0,Serbia,10,-43
+Switzerland,1 - 1,Costa Rica,10,44
+Switzerland,1 - 1,Serbia,10,-26
+Costa Rica,1 - 2,Serbia,10,9
+Germany,4 - 1,Mexico,10,10
+Germany,3 - 0,Sweden,10,29
+Germany,2 - 0,South Korea,10,-42
+Mexico,1 - 0,Sweden,10,41
+Mexico,1 - 3,South Korea,10,-28
+Sweden,3 - 1,South Korea,10,12
+Belgium,1 - 0,Panama,10,13
+Belgium,0 - 0,Tunesia,10,27
+Belgium,1 - 4,England,10,-45
+Panama,3 - 2,Tunesia,10,47
+Panama,0 - 3,England,10,-30
+Tunesia,1 - 4,England,10,14
+Poland,0 - 3,Senegal,10,16
+Poland,3 - 2,Colombia,10,32
+Poland,3 - 2,Japan,10,-48
+Senegal,0 - 2,Colombia,10,46
+Senegal,2 - 2,Japan,10,-31
+Colombia,3 - 3,Japan,10,15
+Russia,3 - 1,Saudi Arabia,11,1
+Russia,1 - 1,Egypt,11,17
+Russia,0 - 1,Uruguay,11,-34
+Saudi Arabia,0 - 1,Egypt,11,33
+Saudi Arabia,2 - 4,Uruguay,11,-19
+Egypt,1 - 2,Uruguay,11,2
+Portugal,0 - 2,Spain,11,4
+Portugal,2 - 2,Morocco,11,18
+Portugal,1 - 0,Iran,11,-35
+Spain,3 - 0,Morocco,11,36
+Spain,3 - 1,Iran,11,-20
+Morocco,1 - 4,Iran,11,3
+France,4 - 0,Australia,11,5
+France,3 - 2,Peru,11,22
+France,3 - 2,Denmark,11,-38
+Australia,0 - 0,Peru,11,37
+Australia,0 - 0,Denmark,11,-21
+Peru,0 - 1,Denmark,11,7
+Argentina,0 - 2,Island,11,6
+Argentina,3 - 0,Croatia,11,23
+Argentina,5 - 2,Nigeria,11,-39
+Island,1 - 3,Croatia,11,40
+Island,2 - 0,Nigeria,11,-25
+Croatia,1 - 0,Nigeria,11,8
+Brazil,2 - 0,Switzerland,11,11
+Brazil,3 - 2,Costa Rica,11,24
+Brazil,2 - 1,Serbia,11,-43
+Switzerland,3 - 3,Costa Rica,11,44
+Switzerland,3 - 2,Serbia,11,-26
+Costa Rica,0 - 1,Serbia,11,9
+Germany,3 - 0,Mexico,11,10
+Germany,2 - 3,Sweden,11,29
+Germany,4 - 2,South Korea,11,-42
+Mexico,0 - 1,Sweden,11,41
+Mexico,1 - 2,South Korea,11,-28
+Sweden,1 - 3,South Korea,11,12
+Belgium,3 - 0,Panama,11,13
+Belgium,3 - 1,Tunesia,11,27
+Belgium,1 - 4,England,11,-45
+Panama,1 - 3,Tunesia,11,47
+Panama,1 - 3,England,11,-30
+Tunesia,0 - 3,England,11,14
+Poland,1 - 0,Senegal,11,16
+Poland,1 - 1,Colombia,11,32
+Poland,3 - 2,Japan,11,-48
+Senegal,1 - 1,Colombia,11,46
+Senegal,2 - 0,Japan,11,-31
+Colombia,3 - 0,Japan,11,15
+Russia,1 - 0,Saudi Arabia,12,1
+Russia,2 - 0,Egypt,12,17
+Russia,1 - 2,Uruguay,12,-34
+Saudi Arabia,1 - 1,Egypt,12,33
+Saudi Arabia,0 - 3,Uruguay,12,-19
+Egypt,1 - 2,Uruguay,12,2
+Portugal,0 - 1,Spain,12,4
+Portugal,3 - 0,Morocco,12,18
+Portugal,5 - 0,Iran,12,-35
+Spain,1 - 1,Morocco,12,36
+Spain,4 - 0,Iran,12,-20
+Morocco,2 - 2,Iran,12,3
+France,3 - 1,Australia,12,5
+France,2 - 1,Peru,12,22
+France,4 - 0,Denmark,12,-38
+Australia,0 - 1,Peru,12,37
+Australia,1 - 2,Denmark,12,-21
+Peru,3 - 2,Denmark,12,7
+Argentina,3 - 0,Island,12,6
+Argentina,0 - 1,Croatia,12,23
+Argentina,2 - 3,Nigeria,12,-39
+Island,0 - 3,Croatia,12,40
+Island,1 - 1,Nigeria,12,-25
+Croatia,2 - 2,Nigeria,12,8
+Brazil,1 - 2,Switzerland,12,11
+Brazil,2 - 1,Costa Rica,12,24
+Brazil,5 - 1,Serbia,12,-43
+Switzerland,2 - 0,Costa Rica,12,44
+Switzerland,0 - 3,Serbia,12,-26
+Costa Rica,2 - 0,Serbia,12,9
+Germany,1 - 3,Mexico,12,10
+Germany,2 - 0,Sweden,12,29
+Germany,6 - 1,South Korea,12,-42
+Mexico,2 - 2,Sweden,12,41
+Mexico,1 - 0,South Korea,12,-28
+Sweden,3 - 1,South Korea,12,12
+Belgium,1 - 0,Panama,12,13
+Belgium,3 - 2,Tunesia,12,27
+Belgium,1 - 2,England,12,-45
+Panama,2 - 2,Tunesia,12,47
+Panama,1 - 2,England,12,-30
+Tunesia,1 - 5,England,12,14
+Poland,1 - 1,Senegal,12,16
+Poland,1 - 3,Colombia,12,32
+Poland,2 - 0,Japan,12,-48
+Senegal,1 - 0,Colombia,12,46
+Senegal,1 - 1,Japan,12,-31
+Colombia,4 - 0,Japan,12,15
+Russia,2 - 5,Saudi Arabia,13,1
+Russia,2 - 0,Egypt,13,17
+Russia,0 - 1,Uruguay,13,-34
+Saudi Arabia,2 - 2,Egypt,13,33
+Saudi Arabia,1 - 2,Uruguay,13,-19
+Egypt,1 - 1,Uruguay,13,2
+Portugal,0 - 2,Spain,13,4
+Portugal,1 - 1,Morocco,13,18
+Portugal,3 - 0,Iran,13,-35
+Spain,1 - 2,Morocco,13,36
+Spain,1 - 1,Iran,13,-20
+Morocco,0 - 0,Iran,13,3
+France,3 - 2,Australia,13,5
+France,1 - 0,Peru,13,22
+France,0 - 1,Denmark,13,-38
+Australia,2 - 1,Peru,13,37
+Australia,1 - 0,Denmark,13,-21
+Peru,1 - 0,Denmark,13,7
+Argentina,3 - 0,Island,13,6
+Argentina,1 - 1,Croatia,13,23
+Argentina,2 - 2,Nigeria,13,-39
+Island,2 - 3,Croatia,13,40
+Island,1 - 1,Nigeria,13,-25
+Croatia,0 - 0,Nigeria,13,8
+Brazil,1 - 1,Switzerland,13,11
+Brazil,3 - 0,Costa Rica,13,24
+Brazil,2 - 1,Serbia,13,-43
+Switzerland,1 - 1,Costa Rica,13,44
+Switzerland,0 - 2,Serbia,13,-26
+Costa Rica,1 - 2,Serbia,13,9
+Germany,2 - 1,Mexico,13,10
+Germany,2 - 1,Sweden,13,29
+Germany,1 - 2,South Korea,13,-42
+Mexico,1 - 2,Sweden,13,41
+Mexico,0 - 0,South Korea,13,-28
+Sweden,1 - 0,South Korea,13,12
+Belgium,1 - 0,Panama,13,13
+Belgium,3 - 1,Tunesia,13,27
+Belgium,1 - 1,England,13,-45
+Panama,0 - 1,Tunesia,13,47
+Panama,1 - 2,England,13,-30
+Tunesia,0 - 1,England,13,14
+Poland,0 - 1,Senegal,13,16
+Poland,2 - 2,Colombia,13,32
+Poland,0 - 2,Japan,13,-48
+Senegal,0 - 3,Colombia,13,46
+Senegal,0 - 1,Japan,13,-31
+Colombia,3 - 1,Japan,13,15
+Russia,5 - 4,Saudi Arabia,14,1
+Russia,1 - 3,Egypt,14,17
+Russia,1 - 2,Uruguay,14,-34
+Saudi Arabia,1 - 2,Egypt,14,33
+Saudi Arabia,0 - 3,Uruguay,14,-19
+Egypt,1 - 3,Uruguay,14,2
+Portugal,1 - 3,Spain,14,4
+Portugal,0 - 1,Morocco,14,18
+Portugal,2 - 0,Iran,14,-35
+Spain,3 - 0,Morocco,14,36
+Spain,2 - 0,Iran,14,-20
+Morocco,1 - 1,Iran,14,3
+France,3 - 1,Australia,14,5
+France,2 - 1,Peru,14,22
+France,1 - 4,Denmark,14,-38
+Australia,2 - 1,Peru,14,37
+Australia,2 - 1,Denmark,14,-21
+Peru,1 - 1,Denmark,14,7
+Argentina,2 - 0,Island,14,6
+Argentina,0 - 1,Croatia,14,23
+Argentina,3 - 1,Nigeria,14,-39
+Island,0 - 3,Croatia,14,40
+Island,1 - 2,Nigeria,14,-25
+Croatia,1 - 1,Nigeria,14,8
+Brazil,1 - 1,Switzerland,14,11
+Brazil,5 - 1,Costa Rica,14,24
+Brazil,2 - 2,Serbia,14,-43
+Switzerland,1 - 2,Costa Rica,14,44
+Switzerland,1 - 1,Serbia,14,-26
+Costa Rica,3 - 2,Serbia,14,9
+Germany,1 - 0,Mexico,14,10
+Germany,0 - 0,Sweden,14,29
+Germany,3 - 2,South Korea,14,-42
+Mexico,4 - 1,Sweden,14,41
+Mexico,5 - 2,South Korea,14,-28
+Sweden,2 - 1,South Korea,14,12
+Belgium,3 - 1,Panama,14,13
+Belgium,2 - 0,Tunesia,14,27
+Belgium,4 - 3,England,14,-45
+Panama,0 - 1,Tunesia,14,47
+Panama,3 - 2,England,14,-30
+Tunesia,1 - 5,England,14,14
+Poland,1 - 3,Senegal,14,16
+Poland,2 - 2,Colombia,14,32
+Poland,1 - 3,Japan,14,-48
+Senegal,2 - 3,Colombia,14,46
+Senegal,4 - 2,Japan,14,-31
+Colombia,1 - 0,Japan,14,15
+Russia,3 - 1,Saudi Arabia,15,1
+Russia,1 - 1,Egypt,15,17
+Russia,1 - 4,Uruguay,15,-34
+Saudi Arabia,2 - 2,Egypt,15,33
+Saudi Arabia,0 - 0,Uruguay,15,-19
+Egypt,0 - 3,Uruguay,15,2
+Portugal,1 - 2,Spain,15,4
+Portugal,2 - 0,Morocco,15,18
+Portugal,3 - 1,Iran,15,-35
+Spain,0 - 0,Morocco,15,36
+Spain,2 - 0,Iran,15,-20
+Morocco,2 - 3,Iran,15,3
+France,1 - 0,Australia,15,5
+France,1 - 1,Peru,15,22
+France,2 - 2,Denmark,15,-38
+Australia,1 - 2,Peru,15,37
+Australia,1 - 4,Denmark,15,-21
+Peru,1 - 1,Denmark,15,7
+Argentina,2 - 1,Island,15,6
+Argentina,1 - 2,Croatia,15,23
+Argentina,0 - 2,Nigeria,15,-39
+Island,0 - 2,Croatia,15,40
+Island,3 - 2,Nigeria,15,-25
+Croatia,2 - 1,Nigeria,15,8
+Brazil,3 - 1,Switzerland,15,11
+Brazil,1 - 1,Costa Rica,15,24
+Brazil,3 - 0,Serbia,15,-43
+Switzerland,3 - 1,Costa Rica,15,44
+Switzerland,2 - 0,Serbia,15,-26
+Costa Rica,2 - 2,Serbia,15,9
+Germany,5 - 1,Mexico,15,10
+Germany,0 - 0,Sweden,15,29
+Germany,3 - 0,South Korea,15,-42
+Mexico,1 - 1,Sweden,15,41
+Mexico,3 - 1,South Korea,15,-28
+Sweden,2 - 2,South Korea,15,12
+Belgium,1 - 0,Panama,15,13
+Belgium,1 - 2,Tunesia,15,27
+Belgium,0 - 1,England,15,-45
+Panama,2 - 2,Tunesia,15,47
+Panama,0 - 1,England,15,-30
+Tunesia,1 - 1,England,15,14
+Poland,1 - 5,Senegal,15,16
+Poland,2 - 2,Colombia,15,32
+Poland,2 - 2,Japan,15,-48
+Senegal,2 - 1,Colombia,15,46
+Senegal,2 - 0,Japan,15,-31
+Colombia,3 - 1,Japan,15,15
+Russia,2 - 1,Saudi Arabia,16,1
+Russia,3 - 2,Egypt,16,17
+Russia,1 - 3,Uruguay,16,-34
+Saudi Arabia,1 - 3,Egypt,16,33
+Saudi Arabia,1 - 2,Uruguay,16,-19
+Egypt,1 - 3,Uruguay,16,2
+Portugal,1 - 0,Spain,16,4
+Portugal,1 - 2,Morocco,16,18
+Portugal,0 - 1,Iran,16,-35
+Spain,1 - 1,Morocco,16,36
+Spain,3 - 2,Iran,16,-20
+Morocco,1 - 1,Iran,16,3
+France,1 - 0,Australia,16,5
+France,2 - 1,Peru,16,22
+France,1 - 2,Denmark,16,-38
+Australia,1 - 1,Peru,16,37
+Australia,1 - 3,Denmark,16,-21
+Peru,1 - 3,Denmark,16,7
+Argentina,0 - 1,Island,16,6
+Argentina,1 - 1,Croatia,16,23
+Argentina,2 - 0,Nigeria,16,-39
+Island,2 - 4,Croatia,16,40
+Island,1 - 2,Nigeria,16,-25
+Croatia,3 - 1,Nigeria,16,8
+Brazil,1 - 0,Switzerland,16,11
+Brazil,1 - 0,Costa Rica,16,24
+Brazil,2 - 1,Serbia,16,-43
+Switzerland,1 - 0,Costa Rica,16,44
+Switzerland,1 - 3,Serbia,16,-26
+Costa Rica,0 - 1,Serbia,16,9
+Germany,4 - 2,Mexico,16,10
+Germany,2 - 0,Sweden,16,29
+Germany,4 - 2,South Korea,16,-42
+Mexico,0 - 1,Sweden,16,41
+Mexico,4 - 2,South Korea,16,-28
+Sweden,0 - 1,South Korea,16,12
+Belgium,5 - 1,Panama,16,13
+Belgium,2 - 2,Tunesia,16,27
+Belgium,1 - 2,England,16,-45
+Panama,1 - 2,Tunesia,16,47
+Panama,0 - 2,England,16,-30
+Tunesia,1 - 1,England,16,14
+Poland,0 - 4,Senegal,16,16
+Poland,4 - 3,Colombia,16,32
+Poland,2 - 1,Japan,16,-48
+Senegal,0 - 3,Colombia,16,46
+Senegal,2 - 0,Japan,16,-31
+Colombia,2 - 0,Japan,16,15
+Russia,3 - 3,Saudi Arabia,17,1
+Russia,1 - 2,Egypt,17,17
+Russia,1 - 1,Uruguay,17,-34
+Saudi Arabia,0 - 2,Egypt,17,33
+Saudi Arabia,0 - 1,Uruguay,17,-19
+Egypt,0 - 3,Uruguay,17,2
+Portugal,0 - 3,Spain,17,4
+Portugal,2 - 1,Morocco,17,18
+Portugal,1 - 1,Iran,17,-35
+Spain,1 - 1,Morocco,17,36
+Spain,3 - 1,Iran,17,-20
+Morocco,2 - 0,Iran,17,3
+France,3 - 0,Australia,17,5
+France,2 - 0,Peru,17,22
+France,3 - 1,Denmark,17,-38
+Australia,3 - 3,Peru,17,37
+Australia,0 - 1,Denmark,17,-21
+Peru,2 - 1,Denmark,17,7
+Argentina,4 - 2,Island,17,6
+Argentina,2 - 2,Croatia,17,23
+Argentina,4 - 3,Nigeria,17,-39
+Island,2 - 1,Croatia,17,40
+Island,4 - 0,Nigeria,17,-25
+Croatia,2 - 1,Nigeria,17,8
+Brazil,3 - 2,Switzerland,17,11
+Brazil,3 - 0,Costa Rica,17,24
+Brazil,2 - 0,Serbia,17,-43
+Switzerland,1 - 2,Costa Rica,17,44
+Switzerland,2 - 0,Serbia,17,-26
+Costa Rica,2 - 2,Serbia,17,9
+Germany,3 - 0,Mexico,17,10
+Germany,0 - 3,Sweden,17,29
+Germany,1 - 1,South Korea,17,-42
+Mexico,0 - 2,Sweden,17,41
+Mexico,5 - 0,South Korea,17,-28
+Sweden,1 - 2,South Korea,17,12
+Belgium,4 - 0,Panama,17,13
+Belgium,4 - 1,Tunesia,17,27
+Belgium,1 - 3,England,17,-45
+Panama,1 - 0,Tunesia,17,47
+Panama,0 - 5,England,17,-30
+Tunesia,0 - 4,England,17,14
+Poland,1 - 2,Senegal,17,16
+Poland,2 - 2,Colombia,17,32
+Poland,3 - 0,Japan,17,-48
+Senegal,2 - 1,Colombia,17,46
+Senegal,1 - 1,Japan,17,-31
+Colombia,1 - 0,Japan,17,15
+Russia,2 - 3,Saudi Arabia,18,1
+Russia,5 - 1,Egypt,18,17
+Russia,1 - 4,Uruguay,18,-34
+Saudi Arabia,1 - 2,Egypt,18,33
+Saudi Arabia,2 - 3,Uruguay,18,-19
+Egypt,0 - 3,Uruguay,18,2
+Portugal,0 - 3,Spain,18,4
+Portugal,3 - 2,Morocco,18,18
+Portugal,3 - 1,Iran,18,-35
+Spain,3 - 1,Morocco,18,36
+Spain,2 - 1,Iran,18,-20
+Morocco,1 - 2,Iran,18,3
+France,3 - 0,Australia,18,5
+France,0 - 0,Peru,18,22
+France,2 - 1,Denmark,18,-38
+Australia,0 - 3,Peru,18,37
+Australia,1 - 2,Denmark,18,-21
+Peru,1 - 0,Denmark,18,7
+Argentina,1 - 1,Island,18,6
+Argentina,1 - 1,Croatia,18,23
+Argentina,0 - 0,Nigeria,18,-39
+Island,1 - 0,Croatia,18,40
+Island,1 - 1,Nigeria,18,-25
+Croatia,1 - 1,Nigeria,18,8
+Brazil,1 - 2,Switzerland,18,11
+Brazil,3 - 2,Costa Rica,18,24
+Brazil,3 - 2,Serbia,18,-43
+Switzerland,1 - 0,Costa Rica,18,44
+Switzerland,3 - 1,Serbia,18,-26
+Costa Rica,1 - 4,Serbia,18,9
+Germany,2 - 4,Mexico,18,10
+Germany,4 - 2,Sweden,18,29
+Germany,1 - 2,South Korea,18,-42
+Mexico,0 - 1,Sweden,18,41
+Mexico,0 - 0,South Korea,18,-28
+Sweden,1 - 1,South Korea,18,12
+Belgium,2 - 0,Panama,18,13
+Belgium,3 - 0,Tunesia,18,27
+Belgium,2 - 1,England,18,-45
+Panama,2 - 2,Tunesia,18,47
+Panama,0 - 2,England,18,-30
+Tunesia,0 - 4,England,18,14
+Poland,2 - 1,Senegal,18,16
+Poland,0 - 1,Colombia,18,32
+Poland,3 - 0,Japan,18,-48
+Senegal,2 - 2,Colombia,18,46
+Senegal,0 - 2,Japan,18,-31
+Colombia,2 - 0,Japan,18,15
+Russia,3 - 0,Saudi Arabia,19,1
+Russia,4 - 2,Egypt,19,17
+Russia,0 - 3,Uruguay,19,-34
+Saudi Arabia,1 - 2,Egypt,19,33
+Saudi Arabia,0 - 4,Uruguay,19,-19
+Egypt,2 - 2,Uruguay,19,2
+Portugal,0 - 6,Spain,19,4
+Portugal,3 - 0,Morocco,19,18
+Portugal,5 - 1,Iran,19,-35
+Spain,1 - 1,Morocco,19,36
+Spain,1 - 1,Iran,19,-20
+Morocco,2 - 1,Iran,19,3
+France,2 - 0,Australia,19,5
+France,4 - 2,Peru,19,22
+France,3 - 0,Denmark,19,-38
+Australia,3 - 2,Peru,19,37
+Australia,0 - 1,Denmark,19,-21
+Peru,1 - 4,Denmark,19,7
+Argentina,2 - 2,Island,19,6
+Argentina,3 - 2,Croatia,19,23
+Argentina,1 - 2,Nigeria,19,-39
+Island,0 - 2,Croatia,19,40
+Island,1 - 1,Nigeria,19,-25
+Croatia,1 - 1,Nigeria,19,8
+Brazil,0 - 1,Switzerland,19,11
+Brazil,3 - 0,Costa Rica,19,24
+Brazil,3 - 1,Serbia,19,-43
+Switzerland,1 - 0,Costa Rica,19,44
+Switzerland,3 - 1,Serbia,19,-26
+Costa Rica,2 - 2,Serbia,19,9
+Germany,1 - 1,Mexico,19,10
+Germany,3 - 0,Sweden,19,29
+Germany,2 - 1,South Korea,19,-42
+Mexico,2 - 0,Sweden,19,41
+Mexico,3 - 2,South Korea,19,-28
+Sweden,0 - 2,South Korea,19,12
+Belgium,1 - 0,Panama,19,13
+Belgium,3 - 0,Tunesia,19,27
+Belgium,1 - 2,England,19,-45
+Panama,1 - 3,Tunesia,19,47
+Panama,0 - 1,England,19,-30
+Tunesia,0 - 3,England,19,14
+Poland,0 - 0,Senegal,19,16
+Poland,1 - 2,Colombia,19,32
+Poland,6 - 1,Japan,19,-48
+Senegal,3 - 3,Colombia,19,46
+Senegal,3 - 1,Japan,19,-31
+Colombia,5 - 0,Japan,19,15
+Russia,0 - 0,Saudi Arabia,20,1
+Russia,0 - 1,Egypt,20,17
+Russia,0 - 4,Uruguay,20,-34
+Saudi Arabia,1 - 3,Egypt,20,33
+Saudi Arabia,0 - 7,Uruguay,20,-19
+Egypt,1 - 4,Uruguay,20,2
+Portugal,1 - 0,Spain,20,4
+Portugal,1 - 2,Morocco,20,18
+Portugal,1 - 0,Iran,20,-35
+Spain,1 - 0,Morocco,20,36
+Spain,5 - 0,Iran,20,-20
+Morocco,1 - 2,Iran,20,3
+France,3 - 1,Australia,20,5
+France,3 - 1,Peru,20,22
+France,3 - 0,Denmark,20,-38
+Australia,2 - 2,Peru,20,37
+Australia,1 - 3,Denmark,20,-21
+Peru,2 - 3,Denmark,20,7
+Argentina,2 - 1,Island,20,6
+Argentina,3 - 2,Croatia,20,23
+Argentina,1 - 1,Nigeria,20,-39
+Island,1 - 2,Croatia,20,40
+Island,2 - 0,Nigeria,20,-25
+Croatia,4 - 0,Nigeria,20,8
+Brazil,2 - 1,Switzerland,20,11
+Brazil,3 - 0,Costa Rica,20,24
+Brazil,2 - 0,Serbia,20,-43
+Switzerland,1 - 2,Costa Rica,20,44
+Switzerland,4 - 0,Serbia,20,-26
+Costa Rica,2 - 2,Serbia,20,9
+Germany,4 - 2,Mexico,20,10
+Germany,3 - 1,Sweden,20,29
+Germany,2 - 1,South Korea,20,-42
+Mexico,0 - 1,Sweden,20,41
+Mexico,2 - 3,South Korea,20,-28
+Sweden,4 - 3,South Korea,20,12
+Belgium,1 - 0,Panama,20,13
+Belgium,2 - 2,Tunesia,20,27
+Belgium,1 - 2,England,20,-45
+Panama,1 - 2,Tunesia,20,47
+Panama,0 - 4,England,20,-30
+Tunesia,0 - 1,England,20,14
+Poland,1 - 1,Senegal,20,16
+Poland,2 - 2,Colombia,20,32
+Poland,3 - 0,Japan,20,-48
+Senegal,1 - 3,Colombia,20,46
+Senegal,0 - 1,Japan,20,-31
+Colombia,3 - 1,Japan,20,15
+Russia,2 - 2,Saudi Arabia,21,1
+Russia,2 - 2,Egypt,21,17
+Russia,2 - 2,Uruguay,21,-34
+Saudi Arabia,1 - 1,Egypt,21,33
+Saudi Arabia,0 - 3,Uruguay,21,-19
+Egypt,1 - 2,Uruguay,21,2
+Portugal,3 - 2,Spain,21,4
+Portugal,3 - 1,Morocco,21,18
+Portugal,5 - 0,Iran,21,-35
+Spain,2 - 0,Morocco,21,36
+Spain,4 - 1,Iran,21,-20
+Morocco,0 - 2,Iran,21,3
+France,4 - 1,Australia,21,5
+France,3 - 0,Peru,21,22
+France,2 - 3,Denmark,21,-38
+Australia,1 - 1,Peru,21,37
+Australia,0 - 2,Denmark,21,-21
+Peru,2 - 4,Denmark,21,7
+Argentina,2 - 1,Island,21,6
+Argentina,3 - 1,Croatia,21,23
+Argentina,4 - 0,Nigeria,21,-39
+Island,0 - 3,Croatia,21,40
+Island,2 - 1,Nigeria,21,-25
+Croatia,2 - 1,Nigeria,21,8
+Brazil,2 - 2,Switzerland,21,11
+Brazil,1 - 0,Costa Rica,21,24
+Brazil,4 - 0,Serbia,21,-43
+Switzerland,3 - 2,Costa Rica,21,44
+Switzerland,3 - 0,Serbia,21,-26
+Costa Rica,2 - 1,Serbia,21,9
+Germany,1 - 3,Mexico,21,10
+Germany,2 - 1,Sweden,21,29
+Germany,3 - 2,South Korea,21,-42
+Mexico,1 - 2,Sweden,21,41
+Mexico,1 - 0,South Korea,21,-28
+Sweden,2 - 3,South Korea,21,12
+Belgium,2 - 1,Panama,21,13
+Belgium,0 - 1,Tunesia,21,27
+Belgium,0 - 4,England,21,-45
+Panama,2 - 1,Tunesia,21,47
+Panama,2 - 1,England,21,-30
+Tunesia,0 - 3,England,21,14
+Poland,1 - 1,Senegal,21,16
+Poland,0 - 1,Colombia,21,32
+Poland,4 - 1,Japan,21,-48
+Senegal,0 - 2,Colombia,21,46
+Senegal,3 - 1,Japan,21,-31
+Colombia,4 - 1,Japan,21,15
+Russia,2 - 2,Saudi Arabia,22,1
+Russia,6 - 2,Egypt,22,17
+Russia,1 - 2,Uruguay,22,-34
+Saudi Arabia,2 - 1,Egypt,22,33
+Saudi Arabia,0 - 3,Uruguay,22,-19
+Egypt,0 - 2,Uruguay,22,2
+Portugal,0 - 1,Spain,22,4
+Portugal,3 - 1,Morocco,22,18
+Portugal,3 - 0,Iran,22,-35
+Spain,3 - 1,Morocco,22,36
+Spain,2 - 2,Iran,22,-20
+Morocco,2 - 1,Iran,22,3
+France,2 - 0,Australia,22,5
+France,1 - 1,Peru,22,22
+France,3 - 0,Denmark,22,-38
+Australia,0 - 2,Peru,22,37
+Australia,2 - 0,Denmark,22,-21
+Peru,2 - 0,Denmark,22,7
+Argentina,2 - 0,Island,22,6
+Argentina,2 - 2,Croatia,22,23
+Argentina,4 - 3,Nigeria,22,-39
+Island,1 - 4,Croatia,22,40
+Island,2 - 1,Nigeria,22,-25
+Croatia,2 - 1,Nigeria,22,8
+Brazil,2 - 3,Switzerland,22,11
+Brazil,4 - 0,Costa Rica,22,24
+Brazil,1 - 1,Serbia,22,-43
+Switzerland,2 - 3,Costa Rica,22,44
+Switzerland,2 - 3,Serbia,22,-26
+Costa Rica,2 - 2,Serbia,22,9
+Germany,1 - 3,Mexico,22,10
+Germany,2 - 0,Sweden,22,29
+Germany,2 - 0,South Korea,22,-42
+Mexico,1 - 0,Sweden,22,41
+Mexico,3 - 1,South Korea,22,-28
+Sweden,3 - 1,South Korea,22,12
+Belgium,6 - 0,Panama,22,13
+Belgium,2 - 1,Tunesia,22,27
+Belgium,2 - 2,England,22,-45
+Panama,3 - 2,Tunesia,22,47
+Panama,0 - 4,England,22,-30
+Tunesia,3 - 1,England,22,14
+Poland,1 - 3,Senegal,22,16
+Poland,3 - 1,Colombia,22,32
+Poland,4 - 0,Japan,22,-48
+Senegal,2 - 2,Colombia,22,46
+Senegal,0 - 0,Japan,22,-31
+Colombia,0 - 0,Japan,22,15
+Russia,1 - 2,Saudi Arabia,23,1
+Russia,3 - 0,Egypt,23,17
+Russia,2 - 4,Uruguay,23,-34
+Saudi Arabia,0 - 1,Egypt,23,33
+Saudi Arabia,0 - 1,Uruguay,23,-19
+Egypt,1 - 1,Uruguay,23,2
+Portugal,1 - 3,Spain,23,4
+Portugal,1 - 2,Morocco,23,18
+Portugal,3 - 0,Iran,23,-35
+Spain,4 - 1,Morocco,23,36
+Spain,0 - 0,Iran,23,-20
+Morocco,1 - 0,Iran,23,3
+France,2 - 1,Australia,23,5
+France,4 - 1,Peru,23,22
+France,2 - 0,Denmark,23,-38
+Australia,1 - 1,Peru,23,37
+Australia,0 - 2,Denmark,23,-21
+Peru,1 - 2,Denmark,23,7
+Argentina,0 - 0,Island,23,6
+Argentina,1 - 0,Croatia,23,23
+Argentina,4 - 1,Nigeria,23,-39
+Island,0 - 2,Croatia,23,40
+Island,1 - 1,Nigeria,23,-25
+Croatia,2 - 1,Nigeria,23,8
+Brazil,1 - 0,Switzerland,23,11
+Brazil,3 - 1,Costa Rica,23,24
+Brazil,2 - 0,Serbia,23,-43
+Switzerland,1 - 1,Costa Rica,23,44
+Switzerland,2 - 0,Serbia,23,-26
+Costa Rica,0 - 2,Serbia,23,9
+Germany,1 - 0,Mexico,23,10
+Germany,3 - 0,Sweden,23,29
+Germany,2 - 1,South Korea,23,-42
+Mexico,1 - 1,Sweden,23,41
+Mexico,1 - 0,South Korea,23,-28
+Sweden,2 - 1,South Korea,23,12
+Belgium,1 - 1,Panama,23,13
+Belgium,0 - 0,Tunesia,23,27
+Belgium,1 - 1,England,23,-45
+Panama,0 - 1,Tunesia,23,47
+Panama,0 - 3,England,23,-30
+Tunesia,1 - 4,England,23,14
+Poland,1 - 1,Senegal,23,16
+Poland,1 - 3,Colombia,23,32
+Poland,1 - 0,Japan,23,-48
+Senegal,0 - 2,Colombia,23,46
+Senegal,0 - 3,Japan,23,-31
+Colombia,3 - 0,Japan,23,15
+Russia,2 - 0,Saudi Arabia,24,1
+Russia,3 - 0,Egypt,24,17
+Russia,1 - 3,Uruguay,24,-34
+Saudi Arabia,2 - 0,Egypt,24,33
+Saudi Arabia,1 - 1,Uruguay,24,-19
+Egypt,2 - 3,Uruguay,24,2
+Portugal,3 - 2,Spain,24,4
+Portugal,1 - 0,Morocco,24,18
+Portugal,2 - 1,Iran,24,-35
+Spain,2 - 2,Morocco,24,36
+Spain,2 - 1,Iran,24,-20
+Morocco,1 - 1,Iran,24,3
+France,0 - 0,Australia,24,5
+France,2 - 1,Peru,24,22
+France,1 - 2,Denmark,24,-38
+Australia,4 - 1,Peru,24,37
+Australia,0 - 0,Denmark,24,-21
+Peru,2 - 1,Denmark,24,7
+Argentina,3 - 1,Island,24,6
+Argentina,2 - 3,Croatia,24,23
+Argentina,3 - 2,Nigeria,24,-39
+Island,0 - 1,Croatia,24,40
+Island,3 - 1,Nigeria,24,-25
+Croatia,1 - 1,Nigeria,24,8
+Brazil,2 - 0,Switzerland,24,11
+Brazil,5 - 1,Costa Rica,24,24
+Brazil,3 - 0,Serbia,24,-43
+Switzerland,4 - 0,Costa Rica,24,44
+Switzerland,3 - 1,Serbia,24,-26
+Costa Rica,1 - 1,Serbia,24,9
+Germany,4 - 2,Mexico,24,10
+Germany,2 - 2,Sweden,24,29
+Germany,3 - 0,South Korea,24,-42
+Mexico,3 - 1,Sweden,24,41
+Mexico,3 - 0,South Korea,24,-28
+Sweden,2 - 1,South Korea,24,12
+Belgium,0 - 0,Panama,24,13
+Belgium,1 - 1,Tunesia,24,27
+Belgium,2 - 1,England,24,-45
+Panama,0 - 1,Tunesia,24,47
+Panama,1 - 3,England,24,-30
+Tunesia,1 - 2,England,24,14
+Poland,4 - 2,Senegal,24,16
+Poland,2 - 2,Colombia,24,32
+Poland,2 - 0,Japan,24,-48
+Senegal,0 - 1,Colombia,24,46
+Senegal,2 - 2,Japan,24,-31
+Colombia,2 - 1,Japan,24,15
+Russia,2 - 1,Saudi Arabia,25,1
+Russia,4 - 1,Egypt,25,17
+Russia,0 - 0,Uruguay,25,-34
+Saudi Arabia,2 - 2,Egypt,25,33
+Saudi Arabia,1 - 2,Uruguay,25,-19
+Egypt,0 - 1,Uruguay,25,2
+Portugal,2 - 0,Spain,25,4
+Portugal,1 - 2,Morocco,25,18
+Portugal,5 - 0,Iran,25,-35
+Spain,2 - 0,Morocco,25,36
+Spain,3 - 0,Iran,25,-20
+Morocco,1 - 1,Iran,25,3
+France,1 - 1,Australia,25,5
+France,2 - 0,Peru,25,22
+France,1 - 1,Denmark,25,-38
+Australia,3 - 4,Peru,25,37
+Australia,3 - 4,Denmark,25,-21
+Peru,2 - 3,Denmark,25,7
+Argentina,4 - 1,Island,25,6
+Argentina,2 - 0,Croatia,25,23
+Argentina,2 - 1,Nigeria,25,-39
+Island,1 - 0,Croatia,25,40
+Island,2 - 2,Nigeria,25,-25
+Croatia,2 - 2,Nigeria,25,8
+Brazil,4 - 2,Switzerland,25,11
+Brazil,3 - 0,Costa Rica,25,24
+Brazil,2 - 1,Serbia,25,-43
+Switzerland,2 - 1,Costa Rica,25,44
+Switzerland,1 - 1,Serbia,25,-26
+Costa Rica,1 - 2,Serbia,25,9
+Germany,1 - 0,Mexico,25,10
+Germany,1 - 4,Sweden,25,29
+Germany,3 - 1,South Korea,25,-42
+Mexico,0 - 2,Sweden,25,41
+Mexico,1 - 1,South Korea,25,-28
+Sweden,1 - 3,South Korea,25,12
+Belgium,4 - 0,Panama,25,13
+Belgium,3 - 0,Tunesia,25,27
+Belgium,3 - 5,England,25,-45
+Panama,2 - 0,Tunesia,25,47
+Panama,0 - 2,England,25,-30
+Tunesia,1 - 3,England,25,14
+Poland,0 - 2,Senegal,25,16
+Poland,3 - 2,Colombia,25,32
+Poland,1 - 2,Japan,25,-48
+Senegal,1 - 2,Colombia,25,46
+Senegal,4 - 3,Japan,25,-31
+Colombia,2 - 0,Japan,25,15
+Russia,3 - 1,Saudi Arabia,26,1
+Russia,2 - 1,Egypt,26,17
+Russia,2 - 0,Uruguay,26,-34
+Saudi Arabia,1 - 1,Egypt,26,33
+Saudi Arabia,0 - 1,Uruguay,26,-19
+Egypt,0 - 0,Uruguay,26,2
+Portugal,3 - 3,Spain,26,4
+Portugal,1 - 2,Morocco,26,18
+Portugal,3 - 1,Iran,26,-35
+Spain,2 - 0,Morocco,26,36
+Spain,1 - 1,Iran,26,-20
+Morocco,3 - 2,Iran,26,3
+France,6 - 0,Australia,26,5
+France,1 - 2,Peru,26,22
+France,1 - 1,Denmark,26,-38
+Australia,2 - 2,Peru,26,37
+Australia,0 - 3,Denmark,26,-21
+Peru,2 - 2,Denmark,26,7
+Argentina,4 - 1,Island,26,6
+Argentina,1 - 2,Croatia,26,23
+Argentina,2 - 0,Nigeria,26,-39
+Island,0 - 1,Croatia,26,40
+Island,1 - 3,Nigeria,26,-25
+Croatia,3 - 3,Nigeria,26,8
+Brazil,2 - 1,Switzerland,26,11
+Brazil,7 - 1,Costa Rica,26,24
+Brazil,2 - 0,Serbia,26,-43
+Switzerland,1 - 0,Costa Rica,26,44
+Switzerland,1 - 2,Serbia,26,-26
+Costa Rica,2 - 3,Serbia,26,9
+Germany,4 - 3,Mexico,26,10
+Germany,2 - 1,Sweden,26,29
+Germany,0 - 0,South Korea,26,-42
+Mexico,0 - 1,Sweden,26,41
+Mexico,2 - 1,South Korea,26,-28
+Sweden,2 - 0,South Korea,26,12
+Belgium,1 - 1,Panama,26,13
+Belgium,3 - 1,Tunesia,26,27
+Belgium,0 - 2,England,26,-45
+Panama,0 - 1,Tunesia,26,47
+Panama,0 - 2,England,26,-30
+Tunesia,2 - 0,England,26,14
+Poland,1 - 4,Senegal,26,16
+Poland,1 - 2,Colombia,26,32
+Poland,3 - 1,Japan,26,-48
+Senegal,0 - 2,Colombia,26,46
+Senegal,2 - 4,Japan,26,-31
+Colombia,2 - 3,Japan,26,15
+Russia,1 - 2,Saudi Arabia,27,1
+Russia,0 - 1,Egypt,27,17
+Russia,0 - 2,Uruguay,27,-34
+Saudi Arabia,2 - 0,Egypt,27,33
+Saudi Arabia,0 - 4,Uruguay,27,-19
+Egypt,2 - 3,Uruguay,27,2
+Portugal,0 - 1,Spain,27,4
+Portugal,3 - 1,Morocco,27,18
+Portugal,3 - 1,Iran,27,-35
+Spain,0 - 1,Morocco,27,36
+Spain,3 - 1,Iran,27,-20
+Morocco,1 - 0,Iran,27,3
+France,1 - 1,Australia,27,5
+France,3 - 1,Peru,27,22
+France,2 - 1,Denmark,27,-38
+Australia,3 - 0,Peru,27,37
+Australia,0 - 1,Denmark,27,-21
+Peru,1 - 1,Denmark,27,7
+Argentina,1 - 0,Island,27,6
+Argentina,3 - 2,Croatia,27,23
+Argentina,2 - 2,Nigeria,27,-39
+Island,0 - 0,Croatia,27,40
+Island,1 - 1,Nigeria,27,-25
+Croatia,1 - 1,Nigeria,27,8
+Brazil,2 - 0,Switzerland,27,11
+Brazil,2 - 1,Costa Rica,27,24
+Brazil,4 - 0,Serbia,27,-43
+Switzerland,2 - 1,Costa Rica,27,44
+Switzerland,3 - 1,Serbia,27,-26
+Costa Rica,2 - 0,Serbia,27,9
+Germany,4 - 0,Mexico,27,10
+Germany,0 - 2,Sweden,27,29
+Germany,3 - 1,South Korea,27,-42
+Mexico,2 - 3,Sweden,27,41
+Mexico,2 - 0,South Korea,27,-28
+Sweden,4 - 1,South Korea,27,12
+Belgium,3 - 1,Panama,27,13
+Belgium,3 - 0,Tunesia,27,27
+Belgium,4 - 2,England,27,-45
+Panama,1 - 0,Tunesia,27,47
+Panama,1 - 5,England,27,-30
+Tunesia,0 - 3,England,27,14
+Poland,1 - 0,Senegal,27,16
+Poland,0 - 1,Colombia,27,32
+Poland,1 - 2,Japan,27,-48
+Senegal,1 - 1,Colombia,27,46
+Senegal,3 - 1,Japan,27,-31
+Colombia,4 - 2,Japan,27,15
+Russia,3 - 3,Saudi Arabia,28,1
+Russia,2 - 0,Egypt,28,17
+Russia,0 - 5,Uruguay,28,-34
+Saudi Arabia,2 - 3,Egypt,28,33
+Saudi Arabia,0 - 0,Uruguay,28,-19
+Egypt,2 - 3,Uruguay,28,2
+Portugal,3 - 2,Spain,28,4
+Portugal,2 - 1,Morocco,28,18
+Portugal,2 - 0,Iran,28,-35
+Spain,4 - 1,Morocco,28,36
+Spain,2 - 0,Iran,28,-20
+Morocco,0 - 1,Iran,28,3
+France,2 - 0,Australia,28,5
+France,2 - 1,Peru,28,22
+France,3 - 0,Denmark,28,-38
+Australia,0 - 1,Peru,28,37
+Australia,0 - 1,Denmark,28,-21
+Peru,2 - 3,Denmark,28,7
+Argentina,1 - 1,Island,28,6
+Argentina,2 - 2,Croatia,28,23
+Argentina,2 - 2,Nigeria,28,-39
+Island,0 - 2,Croatia,28,40
+Island,2 - 1,Nigeria,28,-25
+Croatia,5 - 0,Nigeria,28,8
+Brazil,1 - 1,Switzerland,28,11
+Brazil,3 - 0,Costa Rica,28,24
+Brazil,2 - 1,Serbia,28,-43
+Switzerland,2 - 1,Costa Rica,28,44
+Switzerland,1 - 0,Serbia,28,-26
+Costa Rica,2 - 2,Serbia,28,9
+Germany,1 - 2,Mexico,28,10
+Germany,2 - 1,Sweden,28,29
+Germany,1 - 0,South Korea,28,-42
+Mexico,2 - 2,Sweden,28,41
+Mexico,3 - 3,South Korea,28,-28
+Sweden,2 - 1,South Korea,28,12
+Belgium,4 - 0,Panama,28,13
+Belgium,0 - 0,Tunesia,28,27
+Belgium,4 - 2,England,28,-45
+Panama,2 - 0,Tunesia,28,47
+Panama,0 - 1,England,28,-30
+Tunesia,2 - 3,England,28,14
+Poland,0 - 1,Senegal,28,16
+Poland,0 - 0,Colombia,28,32
+Poland,1 - 2,Japan,28,-48
+Senegal,1 - 2,Colombia,28,46
+Senegal,2 - 1,Japan,28,-31
+Colombia,5 - 0,Japan,28,15
+Russia,2 - 1,Saudi Arabia,29,1
+Russia,1 - 1,Egypt,29,17
+Russia,4 - 2,Uruguay,29,-34
+Saudi Arabia,0 - 8,Egypt,29,33
+Saudi Arabia,1 - 3,Uruguay,29,-19
+Egypt,1 - 3,Uruguay,29,2
+Portugal,0 - 0,Spain,29,4
+Portugal,2 - 3,Morocco,29,18
+Portugal,3 - 2,Iran,29,-35
+Spain,2 - 0,Morocco,29,36
+Spain,2 - 0,Iran,29,-20
+Morocco,1 - 3,Iran,29,3
+France,2 - 0,Australia,29,5
+France,0 - 0,Peru,29,22
+France,5 - 2,Denmark,29,-38
+Australia,0 - 1,Peru,29,37
+Australia,2 - 2,Denmark,29,-21
+Peru,1 - 1,Denmark,29,7
+Argentina,1 - 1,Island,29,6
+Argentina,2 - 1,Croatia,29,23
+Argentina,4 - 0,Nigeria,29,-39
+Island,2 - 2,Croatia,29,40
+Island,1 - 2,Nigeria,29,-25
+Croatia,2 - 1,Nigeria,29,8
+Brazil,1 - 2,Switzerland,29,11
+Brazil,1 - 1,Costa Rica,29,24
+Brazil,5 - 0,Serbia,29,-43
+Switzerland,0 - 0,Costa Rica,29,44
+Switzerland,2 - 2,Serbia,29,-26
+Costa Rica,0 - 0,Serbia,29,9
+Germany,0 - 1,Mexico,29,10
+Germany,2 - 1,Sweden,29,29
+Germany,3 - 0,South Korea,29,-42
+Mexico,1 - 0,Sweden,29,41
+Mexico,3 - 1,South Korea,29,-28
+Sweden,3 - 1,South Korea,29,12
+Belgium,2 - 0,Panama,29,13
+Belgium,3 - 2,Tunesia,29,27
+Belgium,1 - 0,England,29,-45
+Panama,1 - 2,Tunesia,29,47
+Panama,1 - 2,England,29,-30
+Tunesia,1 - 1,England,29,14
+Poland,1 - 1,Senegal,29,16
+Poland,1 - 0,Colombia,29,32
+Poland,2 - 0,Japan,29,-48
+Senegal,2 - 3,Colombia,29,46
+Senegal,2 - 3,Japan,29,-31
+Colombia,2 - 3,Japan,29,15
+Russia,3 - 1,Saudi Arabia,30,1
+Russia,1 - 1,Egypt,30,17
+Russia,1 - 3,Uruguay,30,-34
+Saudi Arabia,1 - 1,Egypt,30,33
+Saudi Arabia,1 - 0,Uruguay,30,-19
+Egypt,1 - 0,Uruguay,30,2
+Portugal,2 - 2,Spain,30,4
+Portugal,2 - 0,Morocco,30,18
+Portugal,2 - 1,Iran,30,-35
+Spain,5 - 0,Morocco,30,36
+Spain,3 - 0,Iran,30,-20
+Morocco,1 - 1,Iran,30,3
+France,4 - 1,Australia,30,5
+France,1 - 1,Peru,30,22
+France,4 - 0,Denmark,30,-38
+Australia,0 - 2,Peru,30,37
+Australia,1 - 3,Denmark,30,-21
+Peru,3 - 3,Denmark,30,7
+Argentina,0 - 1,Island,30,6
+Argentina,3 - 2,Croatia,30,23
+Argentina,3 - 1,Nigeria,30,-39
+Island,2 - 3,Croatia,30,40
+Island,3 - 1,Nigeria,30,-25
+Croatia,2 - 1,Nigeria,30,8
+Brazil,0 - 0,Switzerland,30,11
+Brazil,4 - 1,Costa Rica,30,24
+Brazil,4 - 0,Serbia,30,-43
+Switzerland,2 - 3,Costa Rica,30,44
+Switzerland,3 - 1,Serbia,30,-26
+Costa Rica,3 - 2,Serbia,30,9
+Germany,2 - 2,Mexico,30,10
+Germany,3 - 2,Sweden,30,29
+Germany,4 - 1,South Korea,30,-42
+Mexico,3 - 0,Sweden,30,41
+Mexico,1 - 2,South Korea,30,-28
+Sweden,3 - 1,South Korea,30,12
+Belgium,4 - 0,Panama,30,13
+Belgium,2 - 2,Tunesia,30,27
+Belgium,2 - 2,England,30,-45
+Panama,5 - 4,Tunesia,30,47
+Panama,0 - 2,England,30,-30
+Tunesia,1 - 4,England,30,14
+Poland,3 - 2,Senegal,30,16
+Poland,2 - 3,Colombia,30,32
+Poland,2 - 1,Japan,30,-48
+Senegal,1 - 1,Colombia,30,46
+Senegal,4 - 1,Japan,30,-31
+Colombia,3 - 1,Japan,30,15
+Russia,2 - 0,Saudi Arabia,31,1
+Russia,2 - 2,Egypt,31,17
+Russia,0 - 2,Uruguay,31,-34
+Saudi Arabia,0 - 1,Egypt,31,33
+Saudi Arabia,1 - 1,Uruguay,31,-19
+Egypt,0 - 3,Uruguay,31,2
+Portugal,0 - 0,Spain,31,4
+Portugal,1 - 1,Morocco,31,18
+Portugal,2 - 1,Iran,31,-35
+Spain,1 - 0,Morocco,31,36
+Spain,5 - 0,Iran,31,-20
+Morocco,2 - 4,Iran,31,3
+France,2 - 2,Australia,31,5
+France,1 - 0,Peru,31,22
+France,2 - 2,Denmark,31,-38
+Australia,2 - 1,Peru,31,37
+Australia,2 - 2,Denmark,31,-21
+Peru,1 - 3,Denmark,31,7
+Argentina,4 - 2,Island,31,6
+Argentina,2 - 2,Croatia,31,23
+Argentina,2 - 1,Nigeria,31,-39
+Island,0 - 2,Croatia,31,40
+Island,2 - 1,Nigeria,31,-25
+Croatia,2 - 1,Nigeria,31,8
+Brazil,2 - 1,Switzerland,31,11
+Brazil,2 - 0,Costa Rica,31,24
+Brazil,2 - 0,Serbia,31,-43
+Switzerland,2 - 1,Costa Rica,31,44
+Switzerland,1 - 1,Serbia,31,-26
+Costa Rica,1 - 0,Serbia,31,9
+Germany,3 - 1,Mexico,31,10
+Germany,2 - 0,Sweden,31,29
+Germany,2 - 0,South Korea,31,-42
+Mexico,1 - 2,Sweden,31,41
+Mexico,2 - 4,South Korea,31,-28
+Sweden,1 - 2,South Korea,31,12
+Belgium,3 - 1,Panama,31,13
+Belgium,3 - 1,Tunesia,31,27
+Belgium,3 - 1,England,31,-45
+Panama,2 - 4,Tunesia,31,47
+Panama,1 - 0,England,31,-30
+Tunesia,0 - 4,England,31,14
+Poland,0 - 3,Senegal,31,16
+Poland,3 - 5,Colombia,31,32
+Poland,1 - 0,Japan,31,-48
+Senegal,2 - 3,Colombia,31,46
+Senegal,0 - 0,Japan,31,-31
+Colombia,1 - 1,Japan,31,15
+Russia,3 - 0,Saudi Arabia,32,1
+Russia,2 - 1,Egypt,32,17
+Russia,1 - 1,Uruguay,32,-34
+Saudi Arabia,4 - 2,Egypt,32,33
+Saudi Arabia,0 - 3,Uruguay,32,-19
+Egypt,1 - 2,Uruguay,32,2
+Portugal,2 - 0,Spain,32,4
+Portugal,3 - 2,Morocco,32,18
+Portugal,4 - 1,Iran,32,-35
+Spain,3 - 0,Morocco,32,36
+Spain,2 - 1,Iran,32,-20
+Morocco,1 - 2,Iran,32,3
+France,4 - 2,Australia,32,5
+France,3 - 3,Peru,32,22
+France,1 - 0,Denmark,32,-38
+Australia,0 - 0,Peru,32,37
+Australia,1 - 3,Denmark,32,-21
+Peru,3 - 1,Denmark,32,7
+Argentina,3 - 0,Island,32,6
+Argentina,1 - 2,Croatia,32,23
+Argentina,2 - 0,Nigeria,32,-39
+Island,2 - 1,Croatia,32,40
+Island,4 - 0,Nigeria,32,-25
+Croatia,3 - 1,Nigeria,32,8
+Brazil,1 - 0,Switzerland,32,11
+Brazil,4 - 2,Costa Rica,32,24
+Brazil,5 - 0,Serbia,32,-43
+Switzerland,2 - 1,Costa Rica,32,44
+Switzerland,3 - 3,Serbia,32,-26
+Costa Rica,0 - 0,Serbia,32,9
+Germany,4 - 0,Mexico,32,10
+Germany,1 - 0,Sweden,32,29
+Germany,2 - 1,South Korea,32,-42
+Mexico,1 - 2,Sweden,32,41
+Mexico,1 - 2,South Korea,32,-28
+Sweden,1 - 0,South Korea,32,12
+Belgium,3 - 0,Panama,32,13
+Belgium,2 - 0,Tunesia,32,27
+Belgium,1 - 2,England,32,-45
+Panama,4 - 1,Tunesia,32,47
+Panama,1 - 3,England,32,-30
+Tunesia,0 - 2,England,32,14
+Poland,2 - 1,Senegal,32,16
+Poland,1 - 1,Colombia,32,32
+Poland,1 - 1,Japan,32,-48
+Senegal,2 - 2,Colombia,32,46
+Senegal,2 - 0,Japan,32,-31
+Colombia,4 - 1,Japan,32,15
+Russia,6 - 2,Saudi Arabia,33,1
+Russia,1 - 1,Egypt,33,17
+Russia,1 - 3,Uruguay,33,-34
+Saudi Arabia,0 - 2,Egypt,33,33
+Saudi Arabia,0 - 3,Uruguay,33,-19
+Egypt,0 - 3,Uruguay,33,2
+Portugal,0 - 3,Spain,33,4
+Portugal,3 - 1,Morocco,33,18
+Portugal,2 - 2,Iran,33,-35
+Spain,0 - 0,Morocco,33,36
+Spain,1 - 0,Iran,33,-20
+Morocco,3 - 1,Iran,33,3
+France,2 - 1,Australia,33,5
+France,1 - 1,Peru,33,22
+France,5 - 0,Denmark,33,-38
+Australia,1 - 0,Peru,33,37
+Australia,2 - 1,Denmark,33,-21
+Peru,1 - 5,Denmark,33,7
+Argentina,2 - 2,Island,33,6
+Argentina,2 - 1,Croatia,33,23
+Argentina,0 - 1,Nigeria,33,-39
+Island,0 - 1,Croatia,33,40
+Island,2 - 1,Nigeria,33,-25
+Croatia,2 - 0,Nigeria,33,8
+Brazil,2 - 2,Switzerland,33,11
+Brazil,6 - 0,Costa Rica,33,24
+Brazil,1 - 0,Serbia,33,-43
+Switzerland,2 - 0,Costa Rica,33,44
+Switzerland,1 - 2,Serbia,33,-26
+Costa Rica,0 - 0,Serbia,33,9
+Germany,2 - 3,Mexico,33,10
+Germany,3 - 1,Sweden,33,29
+Germany,1 - 2,South Korea,33,-42
+Mexico,1 - 3,Sweden,33,41
+Mexico,2 - 1,South Korea,33,-28
+Sweden,4 - 0,South Korea,33,12
+Belgium,2 - 0,Panama,33,13
+Belgium,1 - 1,Tunesia,33,27
+Belgium,2 - 0,England,33,-45
+Panama,0 - 1,Tunesia,33,47
+Panama,1 - 2,England,33,-30
+Tunesia,1 - 1,England,33,14
+Poland,0 - 1,Senegal,33,16
+Poland,3 - 1,Colombia,33,32
+Poland,3 - 0,Japan,33,-48
+Senegal,2 - 1,Colombia,33,46
+Senegal,2 - 2,Japan,33,-31
+Colombia,2 - 0,Japan,33,15
+Russia,2 - 1,Saudi Arabia,34,1
+Russia,1 - 2,Egypt,34,17
+Russia,0 - 2,Uruguay,34,-34
+Saudi Arabia,1 - 3,Egypt,34,33
+Saudi Arabia,1 - 4,Uruguay,34,-19
+Egypt,1 - 3,Uruguay,34,2
+Portugal,1 - 2,Spain,34,4
+Portugal,1 - 0,Morocco,34,18
+Portugal,1 - 1,Iran,34,-35
+Spain,2 - 1,Morocco,34,36
+Spain,3 - 2,Iran,34,-20
+Morocco,0 - 3,Iran,34,3
+France,3 - 2,Australia,34,5
+France,4 - 1,Peru,34,22
+France,3 - 5,Denmark,34,-38
+Australia,1 - 1,Peru,34,37
+Australia,1 - 2,Denmark,34,-21
+Peru,0 - 1,Denmark,34,7
+Argentina,2 - 1,Island,34,6
+Argentina,2 - 2,Croatia,34,23
+Argentina,3 - 3,Nigeria,34,-39
+Island,1 - 2,Croatia,34,40
+Island,2 - 5,Nigeria,34,-25
+Croatia,1 - 2,Nigeria,34,8
+Brazil,3 - 0,Switzerland,34,11
+Brazil,6 - 0,Costa Rica,34,24
+Brazil,1 - 1,Serbia,34,-43
+Switzerland,2 - 2,Costa Rica,34,44
+Switzerland,0 - 1,Serbia,34,-26
+Costa Rica,2 - 1,Serbia,34,9
+Germany,3 - 0,Mexico,34,10
+Germany,1 - 1,Sweden,34,29
+Germany,2 - 1,South Korea,34,-42
+Mexico,4 - 0,Sweden,34,41
+Mexico,1 - 1,South Korea,34,-28
+Sweden,1 - 1,South Korea,34,12
+Belgium,2 - 0,Panama,34,13
+Belgium,0 - 0,Tunesia,34,27
+Belgium,2 - 1,England,34,-45
+Panama,0 - 1,Tunesia,34,47
+Panama,0 - 1,England,34,-30
+Tunesia,0 - 1,England,34,14
+Poland,0 - 0,Senegal,34,16
+Poland,0 - 1,Colombia,34,32
+Poland,1 - 0,Japan,34,-48
+Senegal,2 - 1,Colombia,34,46
+Senegal,0 - 2,Japan,34,-31
+Colombia,0 - 0,Japan,34,15
+Russia,0 - 1,Saudi Arabia,35,1
+Russia,1 - 1,Egypt,35,17
+Russia,1 - 2,Uruguay,35,-34
+Saudi Arabia,0 - 2,Egypt,35,33
+Saudi Arabia,1 - 2,Uruguay,35,-19
+Egypt,2 - 3,Uruguay,35,2
+Portugal,2 - 3,Spain,35,4
+Portugal,4 - 1,Morocco,35,18
+Portugal,2 - 1,Iran,35,-35
+Spain,1 - 0,Morocco,35,36
+Spain,2 - 1,Iran,35,-20
+Morocco,0 - 2,Iran,35,3
+France,2 - 0,Australia,35,5
+France,1 - 0,Peru,35,22
+France,3 - 3,Denmark,35,-38
+Australia,2 - 2,Peru,35,37
+Australia,0 - 3,Denmark,35,-21
+Peru,2 - 1,Denmark,35,7
+Argentina,2 - 1,Island,35,6
+Argentina,1 - 0,Croatia,35,23
+Argentina,3 - 1,Nigeria,35,-39
+Island,0 - 2,Croatia,35,40
+Island,1 - 1,Nigeria,35,-25
+Croatia,1 - 1,Nigeria,35,8
+Brazil,2 - 0,Switzerland,35,11
+Brazil,3 - 1,Costa Rica,35,24
+Brazil,1 - 0,Serbia,35,-43
+Switzerland,1 - 0,Costa Rica,35,44
+Switzerland,5 - 0,Serbia,35,-26
+Costa Rica,2 - 2,Serbia,35,9
+Germany,3 - 0,Mexico,35,10
+Germany,3 - 2,Sweden,35,29
+Germany,2 - 0,South Korea,35,-42
+Mexico,2 - 2,Sweden,35,41
+Mexico,3 - 1,South Korea,35,-28
+Sweden,0 - 0,South Korea,35,12
+Belgium,2 - 1,Panama,35,13
+Belgium,1 - 1,Tunesia,35,27
+Belgium,1 - 5,England,35,-45
+Panama,4 - 0,Tunesia,35,47
+Panama,0 - 1,England,35,-30
+Tunesia,0 - 2,England,35,14
+Poland,2 - 1,Senegal,35,16
+Poland,3 - 3,Colombia,35,32
+Poland,5 - 2,Japan,35,-48
+Senegal,0 - 2,Colombia,35,46
+Senegal,0 - 1,Japan,35,-31
+Colombia,3 - 1,Japan,35,15
+Russia,2 - 0,Saudi Arabia,36,1
+Russia,0 - 1,Egypt,36,17
+Russia,2 - 2,Uruguay,36,-34
+Saudi Arabia,2 - 3,Egypt,36,33
+Saudi Arabia,0 - 4,Uruguay,36,-19
+Egypt,1 - 1,Uruguay,36,2
+Portugal,1 - 1,Spain,36,4
+Portugal,5 - 1,Morocco,36,18
+Portugal,1 - 0,Iran,36,-35
+Spain,4 - 2,Morocco,36,36
+Spain,4 - 0,Iran,36,-20
+Morocco,1 - 3,Iran,36,3
+France,0 - 1,Australia,36,5
+France,1 - 2,Peru,36,22
+France,2 - 1,Denmark,36,-38
+Australia,1 - 3,Peru,36,37
+Australia,0 - 1,Denmark,36,-21
+Peru,2 - 1,Denmark,36,7
+Argentina,2 - 1,Island,36,6
+Argentina,2 - 2,Croatia,36,23
+Argentina,1 - 0,Nigeria,36,-39
+Island,2 - 5,Croatia,36,40
+Island,5 - 0,Nigeria,36,-25
+Croatia,3 - 2,Nigeria,36,8
+Brazil,1 - 0,Switzerland,36,11
+Brazil,6 - 0,Costa Rica,36,24
+Brazil,2 - 0,Serbia,36,-43
+Switzerland,1 - 0,Costa Rica,36,44
+Switzerland,2 - 1,Serbia,36,-26
+Costa Rica,1 - 2,Serbia,36,9
+Germany,0 - 0,Mexico,36,10
+Germany,2 - 0,Sweden,36,29
+Germany,2 - 1,South Korea,36,-42
+Mexico,2 - 0,Sweden,36,41
+Mexico,2 - 0,South Korea,36,-28
+Sweden,3 - 3,South Korea,36,12
+Belgium,3 - 1,Panama,36,13
+Belgium,4 - 1,Tunesia,36,27
+Belgium,0 - 1,England,36,-45
+Panama,1 - 2,Tunesia,36,47
+Panama,0 - 3,England,36,-30
+Tunesia,0 - 2,England,36,14
+Poland,3 - 1,Senegal,36,16
+Poland,1 - 3,Colombia,36,32
+Poland,2 - 1,Japan,36,-48
+Senegal,2 - 0,Colombia,36,46
+Senegal,0 - 1,Japan,36,-31
+Colombia,2 - 0,Japan,36,15
+Russia,4 - 3,Saudi Arabia,37,1
+Russia,4 - 1,Egypt,37,17
+Russia,0 - 4,Uruguay,37,-34
+Saudi Arabia,0 - 1,Egypt,37,33
+Saudi Arabia,2 - 4,Uruguay,37,-19
+Egypt,0 - 0,Uruguay,37,2
+Portugal,1 - 4,Spain,37,4
+Portugal,3 - 0,Morocco,37,18
+Portugal,0 - 0,Iran,37,-35
+Spain,4 - 0,Morocco,37,36
+Spain,1 - 1,Iran,37,-20
+Morocco,0 - 2,Iran,37,3
+France,0 - 0,Australia,37,5
+France,0 - 1,Peru,37,22
+France,1 - 0,Denmark,37,-38
+Australia,1 - 2,Peru,37,37
+Australia,2 - 2,Denmark,37,-21
+Peru,2 - 2,Denmark,37,7
+Argentina,2 - 3,Island,37,6
+Argentina,2 - 3,Croatia,37,23
+Argentina,3 - 1,Nigeria,37,-39
+Island,1 - 1,Croatia,37,40
+Island,3 - 1,Nigeria,37,-25
+Croatia,0 - 0,Nigeria,37,8
+Brazil,5 - 3,Switzerland,37,11
+Brazil,2 - 0,Costa Rica,37,24
+Brazil,3 - 0,Serbia,37,-43
+Switzerland,2 - 0,Costa Rica,37,44
+Switzerland,3 - 3,Serbia,37,-26
+Costa Rica,1 - 1,Serbia,37,9
+Germany,0 - 0,Mexico,37,10
+Germany,1 - 0,Sweden,37,29
+Germany,2 - 0,South Korea,37,-42
+Mexico,4 - 2,Sweden,37,41
+Mexico,1 - 0,South Korea,37,-28
+Sweden,0 - 0,South Korea,37,12
+Belgium,1 - 0,Panama,37,13
+Belgium,2 - 1,Tunesia,37,27
+Belgium,0 - 0,England,37,-45
+Panama,2 - 5,Tunesia,37,47
+Panama,0 - 1,England,37,-30
+Tunesia,1 - 3,England,37,14
+Poland,2 - 1,Senegal,37,16
+Poland,1 - 2,Colombia,37,32
+Poland,2 - 1,Japan,37,-48
+Senegal,1 - 3,Colombia,37,46
+Senegal,2 - 2,Japan,37,-31
+Colombia,1 - 0,Japan,37,15
+Russia,3 - 1,Saudi Arabia,38,1
+Russia,0 - 3,Egypt,38,17
+Russia,0 - 1,Uruguay,38,-34
+Saudi Arabia,0 - 2,Egypt,38,33
+Saudi Arabia,0 - 4,Uruguay,38,-19
+Egypt,2 - 1,Uruguay,38,2
+Portugal,1 - 1,Spain,38,4
+Portugal,2 - 1,Morocco,38,18
+Portugal,2 - 1,Iran,38,-35
+Spain,2 - 1,Morocco,38,36
+Spain,3 - 0,Iran,38,-20
+Morocco,2 - 1,Iran,38,3
+France,1 - 1,Australia,38,5
+France,2 - 0,Peru,38,22
+France,5 - 1,Denmark,38,-38
+Australia,3 - 4,Peru,38,37
+Australia,1 - 2,Denmark,38,-21
+Peru,2 - 1,Denmark,38,7
+Argentina,5 - 1,Island,38,6
+Argentina,3 - 1,Croatia,38,23
+Argentina,1 - 0,Nigeria,38,-39
+Island,3 - 2,Croatia,38,40
+Island,4 - 1,Nigeria,38,-25
+Croatia,1 - 0,Nigeria,38,8
+Brazil,1 - 1,Switzerland,38,11
+Brazil,2 - 1,Costa Rica,38,24
+Brazil,4 - 0,Serbia,38,-43
+Switzerland,3 - 0,Costa Rica,38,44
+Switzerland,2 - 2,Serbia,38,-26
+Costa Rica,1 - 0,Serbia,38,9
+Germany,3 - 0,Mexico,38,10
+Germany,3 - 0,Sweden,38,29
+Germany,1 - 1,South Korea,38,-42
+Mexico,0 - 1,Sweden,38,41
+Mexico,5 - 0,South Korea,38,-28
+Sweden,4 - 4,South Korea,38,12
+Belgium,2 - 0,Panama,38,13
+Belgium,3 - 1,Tunesia,38,27
+Belgium,2 - 2,England,38,-45
+Panama,1 - 3,Tunesia,38,47
+Panama,1 - 3,England,38,-30
+Tunesia,2 - 2,England,38,14
+Poland,3 - 0,Senegal,38,16
+Poland,1 - 2,Colombia,38,32
+Poland,1 - 0,Japan,38,-48
+Senegal,2 - 3,Colombia,38,46
+Senegal,1 - 0,Japan,38,-31
+Colombia,1 - 1,Japan,38,15
+Russia,3 - 2,Saudi Arabia,39,1
+Russia,1 - 1,Egypt,39,17
+Russia,1 - 1,Uruguay,39,-34
+Saudi Arabia,2 - 0,Egypt,39,33
+Saudi Arabia,0 - 1,Uruguay,39,-19
+Egypt,2 - 3,Uruguay,39,2
+Portugal,1 - 2,Spain,39,4
+Portugal,4 - 0,Morocco,39,18
+Portugal,3 - 2,Iran,39,-35
+Spain,1 - 1,Morocco,39,36
+Spain,3 - 0,Iran,39,-20
+Morocco,3 - 2,Iran,39,3
+France,3 - 0,Australia,39,5
+France,1 - 0,Peru,39,22
+France,3 - 2,Denmark,39,-38
+Australia,3 - 3,Peru,39,37
+Australia,0 - 4,Denmark,39,-21
+Peru,2 - 2,Denmark,39,7
+Argentina,1 - 1,Island,39,6
+Argentina,2 - 2,Croatia,39,23
+Argentina,4 - 0,Nigeria,39,-39
+Island,1 - 0,Croatia,39,40
+Island,2 - 2,Nigeria,39,-25
+Croatia,3 - 1,Nigeria,39,8
+Brazil,3 - 1,Switzerland,39,11
+Brazil,1 - 1,Costa Rica,39,24
+Brazil,2 - 3,Serbia,39,-43
+Switzerland,1 - 1,Costa Rica,39,44
+Switzerland,1 - 4,Serbia,39,-26
+Costa Rica,3 - 1,Serbia,39,9
+Germany,5 - 0,Mexico,39,10
+Germany,2 - 1,Sweden,39,29
+Germany,2 - 1,South Korea,39,-42
+Mexico,2 - 0,Sweden,39,41
+Mexico,1 - 3,South Korea,39,-28
+Sweden,3 - 1,South Korea,39,12
+Belgium,2 - 0,Panama,39,13
+Belgium,0 - 0,Tunesia,39,27
+Belgium,1 - 1,England,39,-45
+Panama,2 - 3,Tunesia,39,47
+Panama,0 - 4,England,39,-30
+Tunesia,0 - 1,England,39,14
+Poland,2 - 1,Senegal,39,16
+Poland,3 - 1,Colombia,39,32
+Poland,2 - 1,Japan,39,-48
+Senegal,3 - 3,Colombia,39,46
+Senegal,1 - 0,Japan,39,-31
+Colombia,3 - 0,Japan,39,15
+Russia,4 - 0,Saudi Arabia,40,1
+Russia,1 - 1,Egypt,40,17
+Russia,1 - 4,Uruguay,40,-34
+Saudi Arabia,1 - 0,Egypt,40,33
+Saudi Arabia,2 - 4,Uruguay,40,-19
+Egypt,2 - 4,Uruguay,40,2
+Portugal,3 - 2,Spain,40,4
+Portugal,3 - 0,Morocco,40,18
+Portugal,0 - 1,Iran,40,-35
+Spain,3 - 0,Morocco,40,36
+Spain,1 - 0,Iran,40,-20
+Morocco,2 - 1,Iran,40,3
+France,1 - 1,Australia,40,5
+France,1 - 0,Peru,40,22
+France,3 - 1,Denmark,40,-38
+Australia,4 - 1,Peru,40,37
+Australia,0 - 0,Denmark,40,-21
+Peru,0 - 0,Denmark,40,7
+Argentina,2 - 1,Island,40,6
+Argentina,2 - 2,Croatia,40,23
+Argentina,2 - 0,Nigeria,40,-39
+Island,1 - 2,Croatia,40,40
+Island,2 - 4,Nigeria,40,-25
+Croatia,1 - 1,Nigeria,40,8
+Brazil,1 - 1,Switzerland,40,11
+Brazil,3 - 0,Costa Rica,40,24
+Brazil,5 - 1,Serbia,40,-43
+Switzerland,1 - 0,Costa Rica,40,44
+Switzerland,2 - 2,Serbia,40,-26
+Costa Rica,0 - 1,Serbia,40,9
+Germany,4 - 1,Mexico,40,10
+Germany,1 - 0,Sweden,40,29
+Germany,1 - 0,South Korea,40,-42
+Mexico,2 - 1,Sweden,40,41
+Mexico,2 - 1,South Korea,40,-28
+Sweden,2 - 1,South Korea,40,12
+Belgium,3 - 0,Panama,40,13
+Belgium,4 - 1,Tunesia,40,27
+Belgium,2 - 1,England,40,-45
+Panama,1 - 4,Tunesia,40,47
+Panama,0 - 3,England,40,-30
+Tunesia,1 - 5,England,40,14
+Poland,0 - 2,Senegal,40,16
+Poland,0 - 0,Colombia,40,32
+Poland,3 - 0,Japan,40,-48
+Senegal,1 - 1,Colombia,40,46
+Senegal,0 - 0,Japan,40,-31
+Colombia,2 - 2,Japan,40,15
+Russia,3 - 0,Saudi Arabia,41,1
+Russia,2 - 2,Egypt,41,17
+Russia,0 - 1,Uruguay,41,-34
+Saudi Arabia,1 - 1,Egypt,41,33
+Saudi Arabia,0 - 4,Uruguay,41,-19
+Egypt,1 - 4,Uruguay,41,2
+Portugal,3 - 1,Spain,41,4
+Portugal,3 - 1,Morocco,41,18
+Portugal,4 - 0,Iran,41,-35
+Spain,1 - 1,Morocco,41,36
+Spain,4 - 2,Iran,41,-20
+Morocco,1 - 2,Iran,41,3
+France,5 - 0,Australia,41,5
+France,0 - 0,Peru,41,22
+France,1 - 1,Denmark,41,-38
+Australia,2 - 2,Peru,41,37
+Australia,2 - 1,Denmark,41,-21
+Peru,3 - 0,Denmark,41,7
+Argentina,1 - 0,Island,41,6
+Argentina,1 - 2,Croatia,41,23
+Argentina,0 - 0,Nigeria,41,-39
+Island,2 - 1,Croatia,41,40
+Island,1 - 0,Nigeria,41,-25
+Croatia,2 - 0,Nigeria,41,8
+Brazil,5 - 1,Switzerland,41,11
+Brazil,3 - 1,Costa Rica,41,24
+Brazil,5 - 0,Serbia,41,-43
+Switzerland,2 - 3,Costa Rica,41,44
+Switzerland,2 - 3,Serbia,41,-26
+Costa Rica,4 - 2,Serbia,41,9
+Germany,3 - 3,Mexico,41,10
+Germany,3 - 1,Sweden,41,29
+Germany,3 - 2,South Korea,41,-42
+Mexico,5 - 2,Sweden,41,41
+Mexico,2 - 2,South Korea,41,-28
+Sweden,5 - 0,South Korea,41,12
+Belgium,1 - 0,Panama,41,13
+Belgium,4 - 0,Tunesia,41,27
+Belgium,2 - 3,England,41,-45
+Panama,1 - 0,Tunesia,41,47
+Panama,0 - 2,England,41,-30
+Tunesia,0 - 4,England,41,14
+Poland,3 - 1,Senegal,41,16
+Poland,0 - 3,Colombia,41,32
+Poland,1 - 3,Japan,41,-48
+Senegal,2 - 2,Colombia,41,46
+Senegal,2 - 0,Japan,41,-31
+Colombia,1 - 0,Japan,41,15
+Russia,3 - 1,Saudi Arabia,42,1
+Russia,3 - 1,Egypt,42,17
+Russia,0 - 1,Uruguay,42,-34
+Saudi Arabia,1 - 0,Egypt,42,33
+Saudi Arabia,0 - 0,Uruguay,42,-19
+Egypt,0 - 2,Uruguay,42,2
+Portugal,1 - 1,Spain,42,4
+Portugal,1 - 2,Morocco,42,18
+Portugal,4 - 0,Iran,42,-35
+Spain,3 - 0,Morocco,42,36
+Spain,1 - 1,Iran,42,-20
+Morocco,3 - 1,Iran,42,3
+France,3 - 0,Australia,42,5
+France,3 - 2,Peru,42,22
+France,3 - 4,Denmark,42,-38
+Australia,3 - 1,Peru,42,37
+Australia,0 - 2,Denmark,42,-21
+Peru,2 - 2,Denmark,42,7
+Argentina,1 - 1,Island,42,6
+Argentina,2 - 0,Croatia,42,23
+Argentina,1 - 1,Nigeria,42,-39
+Island,0 - 4,Croatia,42,40
+Island,0 - 2,Nigeria,42,-25
+Croatia,1 - 1,Nigeria,42,8
+Brazil,1 - 1,Switzerland,42,11
+Brazil,5 - 1,Costa Rica,42,24
+Brazil,2 - 2,Serbia,42,-43
+Switzerland,3 - 3,Costa Rica,42,44
+Switzerland,3 - 1,Serbia,42,-26
+Costa Rica,2 - 1,Serbia,42,9
+Germany,1 - 2,Mexico,42,10
+Germany,0 - 1,Sweden,42,29
+Germany,3 - 0,South Korea,42,-42
+Mexico,1 - 3,Sweden,42,41
+Mexico,2 - 2,South Korea,42,-28
+Sweden,1 - 2,South Korea,42,12
+Belgium,2 - 1,Panama,42,13
+Belgium,3 - 0,Tunesia,42,27
+Belgium,2 - 2,England,42,-45
+Panama,0 - 2,Tunesia,42,47
+Panama,0 - 0,England,42,-30
+Tunesia,0 - 1,England,42,14
+Poland,1 - 1,Senegal,42,16
+Poland,3 - 3,Colombia,42,32
+Poland,2 - 0,Japan,42,-48
+Senegal,1 - 1,Colombia,42,46
+Senegal,2 - 0,Japan,42,-31
+Colombia,2 - 0,Japan,42,15
+Russia,2 - 0,Saudi Arabia,43,1
+Russia,3 - 1,Egypt,43,17
+Russia,0 - 0,Uruguay,43,-34
+Saudi Arabia,0 - 1,Egypt,43,33
+Saudi Arabia,0 - 3,Uruguay,43,-19
+Egypt,0 - 2,Uruguay,43,2
+Portugal,2 - 2,Spain,43,4
+Portugal,1 - 2,Morocco,43,18
+Portugal,2 - 0,Iran,43,-35
+Spain,1 - 0,Morocco,43,36
+Spain,3 - 1,Iran,43,-20
+Morocco,1 - 2,Iran,43,3
+France,2 - 0,Australia,43,5
+France,2 - 0,Peru,43,22
+France,1 - 0,Denmark,43,-38
+Australia,4 - 0,Peru,43,37
+Australia,2 - 0,Denmark,43,-21
+Peru,1 - 3,Denmark,43,7
+Argentina,1 - 0,Island,43,6
+Argentina,0 - 1,Croatia,43,23
+Argentina,2 - 0,Nigeria,43,-39
+Island,2 - 2,Croatia,43,40
+Island,1 - 1,Nigeria,43,-25
+Croatia,2 - 1,Nigeria,43,8
+Brazil,2 - 1,Switzerland,43,11
+Brazil,2 - 1,Costa Rica,43,24
+Brazil,2 - 0,Serbia,43,-43
+Switzerland,1 - 2,Costa Rica,43,44
+Switzerland,3 - 2,Serbia,43,-26
+Costa Rica,3 - 3,Serbia,43,9
+Germany,4 - 2,Mexico,43,10
+Germany,5 - 1,Sweden,43,29
+Germany,2 - 0,South Korea,43,-42
+Mexico,3 - 2,Sweden,43,41
+Mexico,3 - 2,South Korea,43,-28
+Sweden,3 - 2,South Korea,43,12
+Belgium,3 - 0,Panama,43,13
+Belgium,2 - 0,Tunesia,43,27
+Belgium,1 - 2,England,43,-45
+Panama,3 - 1,Tunesia,43,47
+Panama,1 - 1,England,43,-30
+Tunesia,0 - 2,England,43,14
+Poland,2 - 3,Senegal,43,16
+Poland,1 - 1,Colombia,43,32
+Poland,1 - 2,Japan,43,-48
+Senegal,2 - 2,Colombia,43,46
+Senegal,2 - 2,Japan,43,-31
+Colombia,3 - 1,Japan,43,15
+Russia,3 - 0,Saudi Arabia,44,1
+Russia,1 - 2,Egypt,44,17
+Russia,1 - 2,Uruguay,44,-34
+Saudi Arabia,0 - 1,Egypt,44,33
+Saudi Arabia,1 - 2,Uruguay,44,-19
+Egypt,2 - 1,Uruguay,44,2
+Portugal,2 - 3,Spain,44,4
+Portugal,3 - 1,Morocco,44,18
+Portugal,1 - 0,Iran,44,-35
+Spain,3 - 0,Morocco,44,36
+Spain,2 - 0,Iran,44,-20
+Morocco,0 - 1,Iran,44,3
+France,2 - 1,Australia,44,5
+France,4 - 0,Peru,44,22
+France,2 - 3,Denmark,44,-38
+Australia,2 - 3,Peru,44,37
+Australia,0 - 3,Denmark,44,-21
+Peru,3 - 1,Denmark,44,7
+Argentina,3 - 3,Island,44,6
+Argentina,1 - 1,Croatia,44,23
+Argentina,4 - 0,Nigeria,44,-39
+Island,2 - 2,Croatia,44,40
+Island,0 - 2,Nigeria,44,-25
+Croatia,1 - 0,Nigeria,44,8
+Brazil,0 - 1,Switzerland,44,11
+Brazil,4 - 0,Costa Rica,44,24
+Brazil,4 - 1,Serbia,44,-43
+Switzerland,3 - 1,Costa Rica,44,44
+Switzerland,3 - 2,Serbia,44,-26
+Costa Rica,3 - 2,Serbia,44,9
+Germany,0 - 1,Mexico,44,10
+Germany,3 - 0,Sweden,44,29
+Germany,6 - 2,South Korea,44,-42
+Mexico,1 - 4,Sweden,44,41
+Mexico,2 - 0,South Korea,44,-28
+Sweden,2 - 0,South Korea,44,12
+Belgium,1 - 0,Panama,44,13
+Belgium,3 - 1,Tunesia,44,27
+Belgium,1 - 3,England,44,-45
+Panama,1 - 4,Tunesia,44,47
+Panama,0 - 2,England,44,-30
+Tunesia,0 - 4,England,44,14
+Poland,1 - 2,Senegal,44,16
+Poland,0 - 1,Colombia,44,32
+Poland,3 - 1,Japan,44,-48
+Senegal,2 - 2,Colombia,44,46
+Senegal,1 - 1,Japan,44,-31
+Colombia,1 - 0,Japan,44,15
+Russia,5 - 0,Saudi Arabia,45,1
+Russia,4 - 4,Egypt,45,17
+Russia,1 - 3,Uruguay,45,-34
+Saudi Arabia,0 - 2,Egypt,45,33
+Saudi Arabia,0 - 2,Uruguay,45,-19
+Egypt,0 - 4,Uruguay,45,2
+Portugal,0 - 0,Spain,45,4
+Portugal,3 - 0,Morocco,45,18
+Portugal,2 - 0,Iran,45,-35
+Spain,2 - 0,Morocco,45,36
+Spain,5 - 1,Iran,45,-20
+Morocco,1 - 0,Iran,45,3
+France,2 - 1,Australia,45,5
+France,3 - 0,Peru,45,22
+France,4 - 1,Denmark,45,-38
+Australia,0 - 3,Peru,45,37
+Australia,1 - 4,Denmark,45,-21
+Peru,1 - 1,Denmark,45,7
+Argentina,3 - 1,Island,45,6
+Argentina,2 - 0,Croatia,45,23
+Argentina,2 - 0,Nigeria,45,-39
+Island,1 - 2,Croatia,45,40
+Island,5 - 1,Nigeria,45,-25
+Croatia,3 - 0,Nigeria,45,8
+Brazil,2 - 1,Switzerland,45,11
+Brazil,2 - 0,Costa Rica,45,24
+Brazil,3 - 3,Serbia,45,-43
+Switzerland,2 - 0,Costa Rica,45,44
+Switzerland,0 - 2,Serbia,45,-26
+Costa Rica,1 - 2,Serbia,45,9
+Germany,2 - 1,Mexico,45,10
+Germany,2 - 1,Sweden,45,29
+Germany,1 - 1,South Korea,45,-42
+Mexico,1 - 1,Sweden,45,41
+Mexico,2 - 2,South Korea,45,-28
+Sweden,1 - 0,South Korea,45,12
+Belgium,3 - 0,Panama,45,13
+Belgium,2 - 1,Tunesia,45,27
+Belgium,1 - 2,England,45,-45
+Panama,1 - 1,Tunesia,45,47
+Panama,1 - 1,England,45,-30
+Tunesia,1 - 2,England,45,14
+Poland,3 - 1,Senegal,45,16
+Poland,3 - 4,Colombia,45,32
+Poland,1 - 0,Japan,45,-48
+Senegal,1 - 1,Colombia,45,46
+Senegal,2 - 2,Japan,45,-31
+Colombia,3 - 0,Japan,45,15
+Russia,2 - 4,Saudi Arabia,46,1
+Russia,1 - 1,Egypt,46,17
+Russia,1 - 1,Uruguay,46,-34
+Saudi Arabia,1 - 2,Egypt,46,33
+Saudi Arabia,1 - 3,Uruguay,46,-19
+Egypt,1 - 2,Uruguay,46,2
+Portugal,2 - 1,Spain,46,4
+Portugal,2 - 0,Morocco,46,18
+Portugal,5 - 1,Iran,46,-35
+Spain,3 - 0,Morocco,46,36
+Spain,5 - 1,Iran,46,-20
+Morocco,1 - 3,Iran,46,3
+France,5 - 0,Australia,46,5
+France,2 - 2,Peru,46,22
+France,3 - 3,Denmark,46,-38
+Australia,2 - 3,Peru,46,37
+Australia,2 - 5,Denmark,46,-21
+Peru,0 - 0,Denmark,46,7
+Argentina,1 - 0,Island,46,6
+Argentina,2 - 0,Croatia,46,23
+Argentina,3 - 1,Nigeria,46,-39
+Island,2 - 4,Croatia,46,40
+Island,2 - 2,Nigeria,46,-25
+Croatia,2 - 0,Nigeria,46,8
+Brazil,4 - 0,Switzerland,46,11
+Brazil,4 - 0,Costa Rica,46,24
+Brazil,1 - 0,Serbia,46,-43
+Switzerland,2 - 1,Costa Rica,46,44
+Switzerland,1 - 1,Serbia,46,-26
+Costa Rica,1 - 1,Serbia,46,9
+Germany,2 - 1,Mexico,46,10
+Germany,2 - 1,Sweden,46,29
+Germany,2 - 1,South Korea,46,-42
+Mexico,0 - 0,Sweden,46,41
+Mexico,0 - 3,South Korea,46,-28
+Sweden,1 - 0,South Korea,46,12
+Belgium,4 - 1,Panama,46,13
+Belgium,2 - 0,Tunesia,46,27
+Belgium,0 - 2,England,46,-45
+Panama,0 - 1,Tunesia,46,47
+Panama,0 - 3,England,46,-30
+Tunesia,0 - 3,England,46,14
+Poland,1 - 2,Senegal,46,16
+Poland,1 - 5,Colombia,46,32
+Poland,3 - 2,Japan,46,-48
+Senegal,3 - 2,Colombia,46,46
+Senegal,3 - 2,Japan,46,-31
+Colombia,2 - 3,Japan,46,15
+Russia,1 - 1,Saudi Arabia,47,1
+Russia,2 - 2,Egypt,47,17
+Russia,1 - 2,Uruguay,47,-34
+Saudi Arabia,2 - 2,Egypt,47,33
+Saudi Arabia,1 - 1,Uruguay,47,-19
+Egypt,0 - 5,Uruguay,47,2
+Portugal,0 - 2,Spain,47,4
+Portugal,2 - 1,Morocco,47,18
+Portugal,1 - 0,Iran,47,-35
+Spain,1 - 1,Morocco,47,36
+Spain,5 - 0,Iran,47,-20
+Morocco,1 - 0,Iran,47,3
+France,2 - 1,Australia,47,5
+France,3 - 0,Peru,47,22
+France,0 - 1,Denmark,47,-38
+Australia,0 - 2,Peru,47,37
+Australia,1 - 3,Denmark,47,-21
+Peru,1 - 2,Denmark,47,7
+Argentina,3 - 0,Island,47,6
+Argentina,2 - 1,Croatia,47,23
+Argentina,3 - 3,Nigeria,47,-39
+Island,1 - 4,Croatia,47,40
+Island,1 - 1,Nigeria,47,-25
+Croatia,2 - 0,Nigeria,47,8
+Brazil,2 - 2,Switzerland,47,11
+Brazil,2 - 1,Costa Rica,47,24
+Brazil,3 - 2,Serbia,47,-43
+Switzerland,2 - 1,Costa Rica,47,44
+Switzerland,2 - 2,Serbia,47,-26
+Costa Rica,2 - 1,Serbia,47,9
+Germany,1 - 0,Mexico,47,10
+Germany,1 - 1,Sweden,47,29
+Germany,0 - 2,South Korea,47,-42
+Mexico,2 - 0,Sweden,47,41
+Mexico,3 - 1,South Korea,47,-28
+Sweden,1 - 1,South Korea,47,12
+Belgium,2 - 2,Panama,47,13
+Belgium,3 - 1,Tunesia,47,27
+Belgium,1 - 3,England,47,-45
+Panama,3 - 2,Tunesia,47,47
+Panama,0 - 1,England,47,-30
+Tunesia,0 - 1,England,47,14
+Poland,3 - 3,Senegal,47,16
+Poland,1 - 1,Colombia,47,32
+Poland,2 - 0,Japan,47,-48
+Senegal,2 - 2,Colombia,47,46
+Senegal,4 - 1,Japan,47,-31
+Colombia,3 - 0,Japan,47,15
+Russia,0 - 0,Saudi Arabia,48,1
+Russia,4 - 2,Egypt,48,17
+Russia,0 - 1,Uruguay,48,-34
+Saudi Arabia,2 - 6,Egypt,48,33
+Saudi Arabia,1 - 3,Uruguay,48,-19
+Egypt,1 - 2,Uruguay,48,2
+Portugal,0 - 1,Spain,48,4
+Portugal,3 - 2,Morocco,48,18
+Portugal,4 - 1,Iran,48,-35
+Spain,4 - 0,Morocco,48,36
+Spain,4 - 0,Iran,48,-20
+Morocco,0 - 3,Iran,48,3
+France,3 - 1,Australia,48,5
+France,1 - 0,Peru,48,22
+France,1 - 1,Denmark,48,-38
+Australia,1 - 3,Peru,48,37
+Australia,0 - 3,Denmark,48,-21
+Peru,1 - 3,Denmark,48,7
+Argentina,1 - 1,Island,48,6
+Argentina,0 - 0,Croatia,48,23
+Argentina,2 - 0,Nigeria,48,-39
+Island,1 - 1,Croatia,48,40
+Island,2 - 0,Nigeria,48,-25
+Croatia,2 - 0,Nigeria,48,8
+Brazil,2 - 1,Switzerland,48,11
+Brazil,4 - 0,Costa Rica,48,24
+Brazil,2 - 0,Serbia,48,-43
+Switzerland,0 - 1,Costa Rica,48,44
+Switzerland,1 - 2,Serbia,48,-26
+Costa Rica,1 - 2,Serbia,48,9
+Germany,1 - 2,Mexico,48,10
+Germany,3 - 1,Sweden,48,29
+Germany,4 - 2,South Korea,48,-42
+Mexico,1 - 2,Sweden,48,41
+Mexico,1 - 0,South Korea,48,-28
+Sweden,5 - 2,South Korea,48,12
+Belgium,3 - 2,Panama,48,13
+Belgium,3 - 0,Tunesia,48,27
+Belgium,2 - 1,England,48,-45
+Panama,0 - 1,Tunesia,48,47
+Panama,0 - 2,England,48,-30
+Tunesia,0 - 2,England,48,14
+Poland,2 - 1,Senegal,48,16
+Poland,3 - 2,Colombia,48,32
+Poland,4 - 3,Japan,48,-48
+Senegal,2 - 3,Colombia,48,46
+Senegal,0 - 1,Japan,48,-31
+Colombia,4 - 1,Japan,48,15
+Russia,3 - 1,Saudi Arabia,49,1
+Russia,2 - 4,Egypt,49,17
+Russia,2 - 1,Uruguay,49,-34
+Saudi Arabia,1 - 1,Egypt,49,33
+Saudi Arabia,0 - 3,Uruguay,49,-19
+Egypt,1 - 2,Uruguay,49,2
+Portugal,1 - 4,Spain,49,4
+Portugal,4 - 1,Morocco,49,18
+Portugal,4 - 0,Iran,49,-35
+Spain,1 - 0,Morocco,49,36
+Spain,1 - 0,Iran,49,-20
+Morocco,1 - 1,Iran,49,3
+France,2 - 1,Australia,49,5
+France,0 - 0,Peru,49,22
+France,4 - 0,Denmark,49,-38
+Australia,2 - 4,Peru,49,37
+Australia,2 - 1,Denmark,49,-21
+Peru,0 - 2,Denmark,49,7
+Argentina,2 - 0,Island,49,6
+Argentina,4 - 0,Croatia,49,23
+Argentina,0 - 1,Nigeria,49,-39
+Island,2 - 1,Croatia,49,40
+Island,3 - 0,Nigeria,49,-25
+Croatia,0 - 0,Nigeria,49,8
+Brazil,1 - 0,Switzerland,49,11
+Brazil,4 - 1,Costa Rica,49,24
+Brazil,1 - 0,Serbia,49,-43
+Switzerland,1 - 1,Costa Rica,49,44
+Switzerland,2 - 0,Serbia,49,-26
+Costa Rica,0 - 1,Serbia,49,9
+Germany,3 - 2,Mexico,49,10
+Germany,1 - 1,Sweden,49,29
+Germany,4 - 2,South Korea,49,-42
+Mexico,2 - 1,Sweden,49,41
+Mexico,3 - 2,South Korea,49,-28
+Sweden,3 - 1,South Korea,49,12
+Belgium,2 - 0,Panama,49,13
+Belgium,4 - 2,Tunesia,49,27
+Belgium,2 - 0,England,49,-45
+Panama,3 - 1,Tunesia,49,47
+Panama,1 - 4,England,49,-30
+Tunesia,0 - 3,England,49,14
+Poland,2 - 2,Senegal,49,16
+Poland,2 - 2,Colombia,49,32
+Poland,1 - 2,Japan,49,-48
+Senegal,3 - 4,Colombia,49,46
+Senegal,2 - 4,Japan,49,-31
+Colombia,3 - 0,Japan,49,15
+Russia,6 - 0,Saudi Arabia,50,1
+Russia,1 - 3,Egypt,50,17
+Russia,0 - 4,Uruguay,50,-34
+Saudi Arabia,0 - 2,Egypt,50,33
+Saudi Arabia,0 - 1,Uruguay,50,-19
+Egypt,2 - 1,Uruguay,50,2
+Portugal,3 - 5,Spain,50,4
+Portugal,2 - 1,Morocco,50,18
+Portugal,1 - 0,Iran,50,-35
+Spain,1 - 0,Morocco,50,36
+Spain,2 - 1,Iran,50,-20
+Morocco,1 - 2,Iran,50,3
+France,4 - 1,Australia,50,5
+France,2 - 0,Peru,50,22
+France,4 - 0,Denmark,50,-38
+Australia,2 - 4,Peru,50,37
+Australia,3 - 1,Denmark,50,-21
+Peru,1 - 3,Denmark,50,7
+Argentina,3 - 1,Island,50,6
+Argentina,2 - 3,Croatia,50,23
+Argentina,2 - 0,Nigeria,50,-39
+Island,0 - 5,Croatia,50,40
+Island,2 - 4,Nigeria,50,-25
+Croatia,2 - 2,Nigeria,50,8
+Brazil,1 - 1,Switzerland,50,11
+Brazil,2 - 1,Costa Rica,50,24
+Brazil,3 - 0,Serbia,50,-43
+Switzerland,0 - 0,Costa Rica,50,44
+Switzerland,3 - 1,Serbia,50,-26
+Costa Rica,2 - 2,Serbia,50,9
+Germany,1 - 1,Mexico,50,10
+Germany,2 - 1,Sweden,50,29
+Germany,2 - 1,South Korea,50,-42
+Mexico,0 - 0,Sweden,50,41
+Mexico,2 - 1,South Korea,50,-28
+Sweden,1 - 0,South Korea,50,12
+Belgium,5 - 2,Panama,50,13
+Belgium,0 - 1,Tunesia,50,27
+Belgium,1 - 2,England,50,-45
+Panama,0 - 1,Tunesia,50,47
+Panama,0 - 2,England,50,-30
+Tunesia,0 - 2,England,50,14
+Poland,1 - 3,Senegal,50,16
+Poland,4 - 0,Colombia,50,32
+Poland,5 - 0,Japan,50,-48
+Senegal,2 - 0,Colombia,50,46
+Senegal,0 - 3,Japan,50,-31
+Colombia,3 - 0,Japan,50,15
+Russia,3 - 2,Saudi Arabia,51,1
+Russia,1 - 1,Egypt,51,17
+Russia,2 - 2,Uruguay,51,-34
+Saudi Arabia,0 - 2,Egypt,51,33
+Saudi Arabia,1 - 4,Uruguay,51,-19
+Egypt,0 - 3,Uruguay,51,2
+Portugal,2 - 3,Spain,51,4
+Portugal,2 - 1,Morocco,51,18
+Portugal,2 - 1,Iran,51,-35
+Spain,1 - 2,Morocco,51,36
+Spain,3 - 0,Iran,51,-20
+Morocco,0 - 0,Iran,51,3
+France,2 - 1,Australia,51,5
+France,4 - 0,Peru,51,22
+France,0 - 1,Denmark,51,-38
+Australia,0 - 1,Peru,51,37
+Australia,1 - 3,Denmark,51,-21
+Peru,1 - 2,Denmark,51,7
+Argentina,2 - 0,Island,51,6
+Argentina,0 - 3,Croatia,51,23
+Argentina,2 - 1,Nigeria,51,-39
+Island,2 - 2,Croatia,51,40
+Island,5 - 1,Nigeria,51,-25
+Croatia,0 - 3,Nigeria,51,8
+Brazil,0 - 0,Switzerland,51,11
+Brazil,3 - 1,Costa Rica,51,24
+Brazil,3 - 0,Serbia,51,-43
+Switzerland,1 - 2,Costa Rica,51,44
+Switzerland,1 - 1,Serbia,51,-26
+Costa Rica,0 - 5,Serbia,51,9
+Germany,3 - 1,Mexico,51,10
+Germany,0 - 0,Sweden,51,29
+Germany,4 - 1,South Korea,51,-42
+Mexico,0 - 1,Sweden,51,41
+Mexico,1 - 0,South Korea,51,-28
+Sweden,2 - 3,South Korea,51,12
+Belgium,3 - 0,Panama,51,13
+Belgium,7 - 0,Tunesia,51,27
+Belgium,1 - 4,England,51,-45
+Panama,3 - 1,Tunesia,51,47
+Panama,0 - 3,England,51,-30
+Tunesia,1 - 1,England,51,14
+Poland,1 - 4,Senegal,51,16
+Poland,3 - 0,Colombia,51,32
+Poland,2 - 3,Japan,51,-48
+Senegal,2 - 2,Colombia,51,46
+Senegal,4 - 5,Japan,51,-31
+Colombia,1 - 1,Japan,51,15
+Russia,4 - 1,Saudi Arabia,52,1
+Russia,1 - 2,Egypt,52,17
+Russia,3 - 2,Uruguay,52,-34
+Saudi Arabia,3 - 2,Egypt,52,33
+Saudi Arabia,0 - 4,Uruguay,52,-19
+Egypt,0 - 1,Uruguay,52,2
+Portugal,0 - 4,Spain,52,4
+Portugal,1 - 1,Morocco,52,18
+Portugal,4 - 2,Iran,52,-35
+Spain,2 - 2,Morocco,52,36
+Spain,0 - 0,Iran,52,-20
+Morocco,3 - 2,Iran,52,3
+France,2 - 2,Australia,52,5
+France,3 - 1,Peru,52,22
+France,3 - 2,Denmark,52,-38
+Australia,5 - 0,Peru,52,37
+Australia,0 - 3,Denmark,52,-21
+Peru,2 - 2,Denmark,52,7
+Argentina,3 - 0,Island,52,6
+Argentina,4 - 0,Croatia,52,23
+Argentina,0 - 2,Nigeria,52,-39
+Island,0 - 1,Croatia,52,40
+Island,4 - 1,Nigeria,52,-25
+Croatia,2 - 1,Nigeria,52,8
+Brazil,2 - 0,Switzerland,52,11
+Brazil,3 - 3,Costa Rica,52,24
+Brazil,0 - 0,Serbia,52,-43
+Switzerland,2 - 2,Costa Rica,52,44
+Switzerland,1 - 1,Serbia,52,-26
+Costa Rica,1 - 5,Serbia,52,9
+Germany,5 - 1,Mexico,52,10
+Germany,3 - 1,Sweden,52,29
+Germany,5 - 0,South Korea,52,-42
+Mexico,1 - 2,Sweden,52,41
+Mexico,4 - 2,South Korea,52,-28
+Sweden,2 - 2,South Korea,52,12
+Belgium,1 - 1,Panama,52,13
+Belgium,2 - 0,Tunesia,52,27
+Belgium,2 - 3,England,52,-45
+Panama,0 - 4,Tunesia,52,47
+Panama,0 - 4,England,52,-30
+Tunesia,2 - 0,England,52,14
+Poland,1 - 3,Senegal,52,16
+Poland,0 - 6,Colombia,52,32
+Poland,1 - 3,Japan,52,-48
+Senegal,3 - 4,Colombia,52,46
+Senegal,1 - 1,Japan,52,-31
+Colombia,2 - 2,Japan,52,15
+Russia,1 - 3,Saudi Arabia,53,1
+Russia,2 - 1,Egypt,53,17
+Russia,0 - 2,Uruguay,53,-34
+Saudi Arabia,0 - 0,Egypt,53,33
+Saudi Arabia,2 - 3,Uruguay,53,-19
+Egypt,1 - 3,Uruguay,53,2
+Portugal,3 - 2,Spain,53,4
+Portugal,1 - 0,Morocco,53,18
+Portugal,4 - 2,Iran,53,-35
+Spain,1 - 0,Morocco,53,36
+Spain,2 - 2,Iran,53,-20
+Morocco,2 - 0,Iran,53,3
+France,2 - 1,Australia,53,5
+France,3 - 2,Peru,53,22
+France,2 - 0,Denmark,53,-38
+Australia,0 - 3,Peru,53,37
+Australia,1 - 5,Denmark,53,-21
+Peru,0 - 3,Denmark,53,7
+Argentina,2 - 2,Island,53,6
+Argentina,1 - 3,Croatia,53,23
+Argentina,3 - 1,Nigeria,53,-39
+Island,1 - 2,Croatia,53,40
+Island,3 - 2,Nigeria,53,-25
+Croatia,3 - 4,Nigeria,53,8
+Brazil,3 - 0,Switzerland,53,11
+Brazil,3 - 3,Costa Rica,53,24
+Brazil,1 - 1,Serbia,53,-43
+Switzerland,0 - 1,Costa Rica,53,44
+Switzerland,2 - 0,Serbia,53,-26
+Costa Rica,1 - 0,Serbia,53,9
+Germany,3 - 0,Mexico,53,10
+Germany,3 - 1,Sweden,53,29
+Germany,3 - 1,South Korea,53,-42
+Mexico,2 - 2,Sweden,53,41
+Mexico,2 - 1,South Korea,53,-28
+Sweden,1 - 2,South Korea,53,12
+Belgium,2 - 0,Panama,53,13
+Belgium,3 - 1,Tunesia,53,27
+Belgium,0 - 1,England,53,-45
+Panama,2 - 1,Tunesia,53,47
+Panama,0 - 0,England,53,-30
+Tunesia,3 - 4,England,53,14
+Poland,1 - 5,Senegal,53,16
+Poland,1 - 1,Colombia,53,32
+Poland,5 - 3,Japan,53,-48
+Senegal,1 - 2,Colombia,53,46
+Senegal,2 - 2,Japan,53,-31
+Colombia,0 - 1,Japan,53,15
+Russia,3 - 1,Saudi Arabia,54,1
+Russia,3 - 3,Egypt,54,17
+Russia,0 - 3,Uruguay,54,-34
+Saudi Arabia,1 - 4,Egypt,54,33
+Saudi Arabia,1 - 3,Uruguay,54,-19
+Egypt,1 - 5,Uruguay,54,2
+Portugal,2 - 1,Spain,54,4
+Portugal,2 - 1,Morocco,54,18
+Portugal,3 - 0,Iran,54,-35
+Spain,2 - 1,Morocco,54,36
+Spain,3 - 0,Iran,54,-20
+Morocco,3 - 1,Iran,54,3
+France,4 - 0,Australia,54,5
+France,2 - 2,Peru,54,22
+France,4 - 1,Denmark,54,-38
+Australia,2 - 0,Peru,54,37
+Australia,0 - 2,Denmark,54,-21
+Peru,1 - 3,Denmark,54,7
+Argentina,3 - 0,Island,54,6
+Argentina,0 - 0,Croatia,54,23
+Argentina,1 - 1,Nigeria,54,-39
+Island,1 - 1,Croatia,54,40
+Island,2 - 0,Nigeria,54,-25
+Croatia,2 - 2,Nigeria,54,8
+Brazil,1 - 1,Switzerland,54,11
+Brazil,2 - 2,Costa Rica,54,24
+Brazil,3 - 0,Serbia,54,-43
+Switzerland,4 - 0,Costa Rica,54,44
+Switzerland,2 - 2,Serbia,54,-26
+Costa Rica,0 - 2,Serbia,54,9
+Germany,1 - 2,Mexico,54,10
+Germany,5 - 1,Sweden,54,29
+Germany,2 - 0,South Korea,54,-42
+Mexico,2 - 2,Sweden,54,41
+Mexico,2 - 0,South Korea,54,-28
+Sweden,3 - 1,South Korea,54,12
+Belgium,1 - 1,Panama,54,13
+Belgium,4 - 1,Tunesia,54,27
+Belgium,2 - 2,England,54,-45
+Panama,3 - 1,Tunesia,54,47
+Panama,0 - 1,England,54,-30
+Tunesia,0 - 2,England,54,14
+Poland,3 - 1,Senegal,54,16
+Poland,1 - 3,Colombia,54,32
+Poland,1 - 0,Japan,54,-48
+Senegal,1 - 0,Colombia,54,46
+Senegal,2 - 0,Japan,54,-31
+Colombia,2 - 0,Japan,54,15
+Russia,2 - 0,Saudi Arabia,55,1
+Russia,1 - 2,Egypt,55,17
+Russia,0 - 2,Uruguay,55,-34
+Saudi Arabia,1 - 2,Egypt,55,33
+Saudi Arabia,0 - 3,Uruguay,55,-19
+Egypt,0 - 2,Uruguay,55,2
+Portugal,0 - 4,Spain,55,4
+Portugal,3 - 1,Morocco,55,18
+Portugal,2 - 0,Iran,55,-35
+Spain,1 - 1,Morocco,55,36
+Spain,3 - 0,Iran,55,-20
+Morocco,2 - 1,Iran,55,3
+France,2 - 0,Australia,55,5
+France,3 - 1,Peru,55,22
+France,3 - 1,Denmark,55,-38
+Australia,1 - 1,Peru,55,37
+Australia,1 - 0,Denmark,55,-21
+Peru,0 - 3,Denmark,55,7
+Argentina,2 - 1,Island,55,6
+Argentina,2 - 1,Croatia,55,23
+Argentina,3 - 3,Nigeria,55,-39
+Island,0 - 4,Croatia,55,40
+Island,0 - 1,Nigeria,55,-25
+Croatia,2 - 2,Nigeria,55,8
+Brazil,4 - 2,Switzerland,55,11
+Brazil,5 - 0,Costa Rica,55,24
+Brazil,1 - 0,Serbia,55,-43
+Switzerland,0 - 1,Costa Rica,55,44
+Switzerland,2 - 2,Serbia,55,-26
+Costa Rica,1 - 3,Serbia,55,9
+Germany,3 - 0,Mexico,55,10
+Germany,3 - 2,Sweden,55,29
+Germany,3 - 1,South Korea,55,-42
+Mexico,2 - 1,Sweden,55,41
+Mexico,1 - 2,South Korea,55,-28
+Sweden,0 - 0,South Korea,55,12
+Belgium,3 - 0,Panama,55,13
+Belgium,2 - 2,Tunesia,55,27
+Belgium,2 - 0,England,55,-45
+Panama,1 - 5,Tunesia,55,47
+Panama,0 - 2,England,55,-30
+Tunesia,0 - 3,England,55,14
+Poland,2 - 1,Senegal,55,16
+Poland,2 - 2,Colombia,55,32
+Poland,3 - 0,Japan,55,-48
+Senegal,1 - 2,Colombia,55,46
+Senegal,3 - 1,Japan,55,-31
+Colombia,3 - 1,Japan,55,15
+Russia,2 - 2,Saudi Arabia,56,1
+Russia,2 - 1,Egypt,56,17
+Russia,0 - 2,Uruguay,56,-34
+Saudi Arabia,1 - 3,Egypt,56,33
+Saudi Arabia,0 - 2,Uruguay,56,-19
+Egypt,0 - 4,Uruguay,56,2
+Portugal,1 - 1,Spain,56,4
+Portugal,2 - 0,Morocco,56,18
+Portugal,2 - 0,Iran,56,-35
+Spain,3 - 1,Morocco,56,36
+Spain,3 - 0,Iran,56,-20
+Morocco,1 - 1,Iran,56,3
+France,2 - 0,Australia,56,5
+France,2 - 0,Peru,56,22
+France,2 - 1,Denmark,56,-38
+Australia,1 - 2,Peru,56,37
+Australia,0 - 2,Denmark,56,-21
+Peru,0 - 1,Denmark,56,7
+Argentina,1 - 0,Island,56,6
+Argentina,3 - 1,Croatia,56,23
+Argentina,2 - 2,Nigeria,56,-39
+Island,2 - 2,Croatia,56,40
+Island,2 - 1,Nigeria,56,-25
+Croatia,4 - 1,Nigeria,56,8
+Brazil,4 - 2,Switzerland,56,11
+Brazil,4 - 0,Costa Rica,56,24
+Brazil,4 - 2,Serbia,56,-43
+Switzerland,2 - 1,Costa Rica,56,44
+Switzerland,2 - 0,Serbia,56,-26
+Costa Rica,1 - 3,Serbia,56,9
+Germany,3 - 2,Mexico,56,10
+Germany,5 - 0,Sweden,56,29
+Germany,1 - 1,South Korea,56,-42
+Mexico,1 - 1,Sweden,56,41
+Mexico,2 - 2,South Korea,56,-28
+Sweden,2 - 0,South Korea,56,12
+Belgium,2 - 1,Panama,56,13
+Belgium,3 - 0,Tunesia,56,27
+Belgium,3 - 2,England,56,-45
+Panama,1 - 3,Tunesia,56,47
+Panama,1 - 1,England,56,-30
+Tunesia,1 - 0,England,56,14
+Poland,1 - 1,Senegal,56,16
+Poland,2 - 3,Colombia,56,32
+Poland,1 - 2,Japan,56,-48
+Senegal,1 - 2,Colombia,56,46
+Senegal,2 - 1,Japan,56,-31
+Colombia,3 - 0,Japan,56,15
+Russia,4 - 1,Saudi Arabia,57,1
+Russia,3 - 2,Egypt,57,17
+Russia,0 - 1,Uruguay,57,-34
+Saudi Arabia,1 - 4,Egypt,57,33
+Saudi Arabia,1 - 0,Uruguay,57,-19
+Egypt,2 - 2,Uruguay,57,2
+Portugal,0 - 1,Spain,57,4
+Portugal,3 - 1,Morocco,57,18
+Portugal,2 - 1,Iran,57,-35
+Spain,1 - 0,Morocco,57,36
+Spain,3 - 0,Iran,57,-20
+Morocco,2 - 2,Iran,57,3
+France,4 - 1,Australia,57,5
+France,1 - 0,Peru,57,22
+France,3 - 3,Denmark,57,-38
+Australia,0 - 1,Peru,57,37
+Australia,0 - 4,Denmark,57,-21
+Peru,0 - 2,Denmark,57,7
+Argentina,1 - 0,Island,57,6
+Argentina,3 - 0,Croatia,57,23
+Argentina,3 - 1,Nigeria,57,-39
+Island,0 - 3,Croatia,57,40
+Island,1 - 0,Nigeria,57,-25
+Croatia,3 - 0,Nigeria,57,8
+Brazil,0 - 0,Switzerland,57,11
+Brazil,2 - 2,Costa Rica,57,24
+Brazil,0 - 0,Serbia,57,-43
+Switzerland,1 - 0,Costa Rica,57,44
+Switzerland,2 - 1,Serbia,57,-26
+Costa Rica,1 - 1,Serbia,57,9
+Germany,4 - 1,Mexico,57,10
+Germany,2 - 2,Sweden,57,29
+Germany,4 - 1,South Korea,57,-42
+Mexico,1 - 1,Sweden,57,41
+Mexico,3 - 0,South Korea,57,-28
+Sweden,1 - 0,South Korea,57,12
+Belgium,2 - 0,Panama,57,13
+Belgium,3 - 1,Tunesia,57,27
+Belgium,2 - 1,England,57,-45
+Panama,1 - 0,Tunesia,57,47
+Panama,2 - 3,England,57,-30
+Tunesia,0 - 3,England,57,14
+Poland,0 - 0,Senegal,57,16
+Poland,0 - 2,Colombia,57,32
+Poland,1 - 1,Japan,57,-48
+Senegal,1 - 1,Colombia,57,46
+Senegal,5 - 1,Japan,57,-31
+Colombia,1 - 0,Japan,57,15
+Russia,4 - 0,Saudi Arabia,58,1
+Russia,3 - 3,Egypt,58,17
+Russia,0 - 1,Uruguay,58,-34
+Saudi Arabia,0 - 0,Egypt,58,33
+Saudi Arabia,0 - 4,Uruguay,58,-19
+Egypt,0 - 0,Uruguay,58,2
+Portugal,1 - 2,Spain,58,4
+Portugal,0 - 0,Morocco,58,18
+Portugal,2 - 0,Iran,58,-35
+Spain,4 - 0,Morocco,58,36
+Spain,1 - 2,Iran,58,-20
+Morocco,1 - 3,Iran,58,3
+France,2 - 1,Australia,58,5
+France,3 - 0,Peru,58,22
+France,2 - 2,Denmark,58,-38
+Australia,2 - 1,Peru,58,37
+Australia,1 - 0,Denmark,58,-21
+Peru,3 - 3,Denmark,58,7
+Argentina,2 - 1,Island,58,6
+Argentina,2 - 2,Croatia,58,23
+Argentina,4 - 0,Nigeria,58,-39
+Island,0 - 3,Croatia,58,40
+Island,3 - 2,Nigeria,58,-25
+Croatia,1 - 2,Nigeria,58,8
+Brazil,2 - 1,Switzerland,58,11
+Brazil,3 - 0,Costa Rica,58,24
+Brazil,1 - 0,Serbia,58,-43
+Switzerland,3 - 2,Costa Rica,58,44
+Switzerland,1 - 2,Serbia,58,-26
+Costa Rica,2 - 2,Serbia,58,9
+Germany,2 - 1,Mexico,58,10
+Germany,2 - 0,Sweden,58,29
+Germany,1 - 1,South Korea,58,-42
+Mexico,0 - 3,Sweden,58,41
+Mexico,1 - 1,South Korea,58,-28
+Sweden,4 - 1,South Korea,58,12
+Belgium,2 - 0,Panama,58,13
+Belgium,3 - 3,Tunesia,58,27
+Belgium,1 - 1,England,58,-45
+Panama,1 - 1,Tunesia,58,47
+Panama,0 - 4,England,58,-30
+Tunesia,0 - 1,England,58,14
+Poland,2 - 3,Senegal,58,16
+Poland,2 - 3,Colombia,58,32
+Poland,0 - 0,Japan,58,-48
+Senegal,1 - 1,Colombia,58,46
+Senegal,2 - 1,Japan,58,-31
+Colombia,2 - 1,Japan,58,15
+Russia,2 - 1,Saudi Arabia,59,1
+Russia,1 - 1,Egypt,59,17
+Russia,0 - 2,Uruguay,59,-34
+Saudi Arabia,0 - 1,Egypt,59,33
+Saudi Arabia,1 - 1,Uruguay,59,-19
+Egypt,1 - 1,Uruguay,59,2
+Portugal,2 - 3,Spain,59,4
+Portugal,2 - 1,Morocco,59,18
+Portugal,2 - 0,Iran,59,-35
+Spain,4 - 1,Morocco,59,36
+Spain,1 - 0,Iran,59,-20
+Morocco,1 - 1,Iran,59,3
+France,2 - 1,Australia,59,5
+France,4 - 2,Peru,59,22
+France,2 - 2,Denmark,59,-38
+Australia,0 - 1,Peru,59,37
+Australia,1 - 4,Denmark,59,-21
+Peru,2 - 3,Denmark,59,7
+Argentina,2 - 0,Island,59,6
+Argentina,0 - 1,Croatia,59,23
+Argentina,0 - 0,Nigeria,59,-39
+Island,1 - 1,Croatia,59,40
+Island,3 - 3,Nigeria,59,-25
+Croatia,4 - 2,Nigeria,59,8
+Brazil,1 - 1,Switzerland,59,11
+Brazil,2 - 0,Costa Rica,59,24
+Brazil,2 - 0,Serbia,59,-43
+Switzerland,1 - 0,Costa Rica,59,44
+Switzerland,1 - 0,Serbia,59,-26
+Costa Rica,0 - 3,Serbia,59,9
+Germany,2 - 1,Mexico,59,10
+Germany,4 - 1,Sweden,59,29
+Germany,3 - 0,South Korea,59,-42
+Mexico,1 - 2,Sweden,59,41
+Mexico,0 - 0,South Korea,59,-28
+Sweden,3 - 1,South Korea,59,12
+Belgium,2 - 1,Panama,59,13
+Belgium,3 - 1,Tunesia,59,27
+Belgium,2 - 0,England,59,-45
+Panama,0 - 3,Tunesia,59,47
+Panama,1 - 2,England,59,-30
+Tunesia,0 - 1,England,59,14
+Poland,2 - 1,Senegal,59,16
+Poland,0 - 1,Colombia,59,32
+Poland,3 - 1,Japan,59,-48
+Senegal,2 - 0,Colombia,59,46
+Senegal,1 - 1,Japan,59,-31
+Colombia,1 - 0,Japan,59,15
+Russia,3 - 0,Saudi Arabia,60,1
+Russia,2 - 2,Egypt,60,17
+Russia,1 - 5,Uruguay,60,-34
+Saudi Arabia,0 - 2,Egypt,60,33
+Saudi Arabia,1 - 2,Uruguay,60,-19
+Egypt,1 - 4,Uruguay,60,2
+Portugal,2 - 2,Spain,60,4
+Portugal,2 - 2,Morocco,60,18
+Portugal,1 - 0,Iran,60,-35
+Spain,3 - 0,Morocco,60,36
+Spain,2 - 3,Iran,60,-20
+Morocco,3 - 1,Iran,60,3
+France,4 - 0,Australia,60,5
+France,2 - 1,Peru,60,22
+France,1 - 1,Denmark,60,-38
+Australia,0 - 4,Peru,60,37
+Australia,0 - 4,Denmark,60,-21
+Peru,2 - 3,Denmark,60,7
+Argentina,1 - 2,Island,60,6
+Argentina,1 - 2,Croatia,60,23
+Argentina,3 - 0,Nigeria,60,-39
+Island,1 - 3,Croatia,60,40
+Island,1 - 0,Nigeria,60,-25
+Croatia,3 - 2,Nigeria,60,8
+Brazil,1 - 1,Switzerland,60,11
+Brazil,3 - 0,Costa Rica,60,24
+Brazil,1 - 0,Serbia,60,-43
+Switzerland,1 - 2,Costa Rica,60,44
+Switzerland,1 - 0,Serbia,60,-26
+Costa Rica,1 - 2,Serbia,60,9
+Germany,3 - 2,Mexico,60,10
+Germany,0 - 0,Sweden,60,29
+Germany,1 - 2,South Korea,60,-42
+Mexico,0 - 2,Sweden,60,41
+Mexico,3 - 1,South Korea,60,-28
+Sweden,1 - 3,South Korea,60,12
+Belgium,1 - 0,Panama,60,13
+Belgium,4 - 0,Tunesia,60,27
+Belgium,1 - 2,England,60,-45
+Panama,1 - 1,Tunesia,60,47
+Panama,2 - 2,England,60,-30
+Tunesia,1 - 0,England,60,14
+Poland,1 - 0,Senegal,60,16
+Poland,3 - 2,Colombia,60,32
+Poland,2 - 0,Japan,60,-48
+Senegal,2 - 2,Colombia,60,46
+Senegal,2 - 5,Japan,60,-31
+Colombia,3 - 0,Japan,60,15
+Russia,2 - 3,Saudi Arabia,61,1
+Russia,1 - 1,Egypt,61,17
+Russia,3 - 3,Uruguay,61,-34
+Saudi Arabia,2 - 2,Egypt,61,33
+Saudi Arabia,1 - 5,Uruguay,61,-19
+Egypt,1 - 3,Uruguay,61,2
+Portugal,4 - 2,Spain,61,4
+Portugal,3 - 0,Morocco,61,18
+Portugal,1 - 2,Iran,61,-35
+Spain,2 - 1,Morocco,61,36
+Spain,2 - 0,Iran,61,-20
+Morocco,1 - 3,Iran,61,3
+France,5 - 0,Australia,61,5
+France,3 - 0,Peru,61,22
+France,2 - 2,Denmark,61,-38
+Australia,2 - 3,Peru,61,37
+Australia,1 - 1,Denmark,61,-21
+Peru,0 - 0,Denmark,61,7
+Argentina,2 - 3,Island,61,6
+Argentina,2 - 0,Croatia,61,23
+Argentina,1 - 0,Nigeria,61,-39
+Island,1 - 1,Croatia,61,40
+Island,1 - 1,Nigeria,61,-25
+Croatia,5 - 2,Nigeria,61,8
+Brazil,2 - 1,Switzerland,61,11
+Brazil,4 - 0,Costa Rica,61,24
+Brazil,2 - 3,Serbia,61,-43
+Switzerland,3 - 1,Costa Rica,61,44
+Switzerland,1 - 0,Serbia,61,-26
+Costa Rica,1 - 3,Serbia,61,9
+Germany,4 - 0,Mexico,61,10
+Germany,3 - 0,Sweden,61,29
+Germany,3 - 0,South Korea,61,-42
+Mexico,0 - 0,Sweden,61,41
+Mexico,3 - 4,South Korea,61,-28
+Sweden,4 - 2,South Korea,61,12
+Belgium,2 - 0,Panama,61,13
+Belgium,3 - 2,Tunesia,61,27
+Belgium,3 - 1,England,61,-45
+Panama,0 - 3,Tunesia,61,47
+Panama,0 - 3,England,61,-30
+Tunesia,0 - 1,England,61,14
+Poland,0 - 1,Senegal,61,16
+Poland,2 - 4,Colombia,61,32
+Poland,4 - 2,Japan,61,-48
+Senegal,1 - 3,Colombia,61,46
+Senegal,4 - 0,Japan,61,-31
+Colombia,1 - 0,Japan,61,15
+Russia,4 - 1,Saudi Arabia,62,1
+Russia,3 - 1,Egypt,62,17
+Russia,1 - 2,Uruguay,62,-34
+Saudi Arabia,1 - 3,Egypt,62,33
+Saudi Arabia,1 - 4,Uruguay,62,-19
+Egypt,0 - 1,Uruguay,62,2
+Portugal,1 - 3,Spain,62,4
+Portugal,2 - 2,Morocco,62,18
+Portugal,1 - 0,Iran,62,-35
+Spain,2 - 1,Morocco,62,36
+Spain,1 - 1,Iran,62,-20
+Morocco,1 - 2,Iran,62,3
+France,0 - 0,Australia,62,5
+France,2 - 1,Peru,62,22
+France,0 - 0,Denmark,62,-38
+Australia,1 - 2,Peru,62,37
+Australia,1 - 0,Denmark,62,-21
+Peru,1 - 2,Denmark,62,7
+Argentina,3 - 2,Island,62,6
+Argentina,1 - 0,Croatia,62,23
+Argentina,2 - 1,Nigeria,62,-39
+Island,0 - 1,Croatia,62,40
+Island,3 - 1,Nigeria,62,-25
+Croatia,5 - 0,Nigeria,62,8
+Brazil,2 - 0,Switzerland,62,11
+Brazil,4 - 0,Costa Rica,62,24
+Brazil,1 - 0,Serbia,62,-43
+Switzerland,4 - 1,Costa Rica,62,44
+Switzerland,2 - 3,Serbia,62,-26
+Costa Rica,1 - 1,Serbia,62,9
+Germany,3 - 2,Mexico,62,10
+Germany,3 - 1,Sweden,62,29
+Germany,2 - 0,South Korea,62,-42
+Mexico,1 - 1,Sweden,62,41
+Mexico,2 - 2,South Korea,62,-28
+Sweden,2 - 1,South Korea,62,12
+Belgium,4 - 1,Panama,62,13
+Belgium,2 - 0,Tunesia,62,27
+Belgium,3 - 2,England,62,-45
+Panama,3 - 2,Tunesia,62,47
+Panama,0 - 3,England,62,-30
+Tunesia,1 - 2,England,62,14
+Poland,4 - 1,Senegal,62,16
+Poland,3 - 2,Colombia,62,32
+Poland,5 - 2,Japan,62,-48
+Senegal,2 - 2,Colombia,62,46
+Senegal,0 - 1,Japan,62,-31
+Colombia,3 - 1,Japan,62,15
+Russia,3 - 1,Saudi Arabia,63,1
+Russia,2 - 1,Egypt,63,17
+Russia,2 - 2,Uruguay,63,-34
+Saudi Arabia,2 - 5,Egypt,63,33
+Saudi Arabia,1 - 2,Uruguay,63,-19
+Egypt,1 - 3,Uruguay,63,2
+Portugal,3 - 4,Spain,63,4
+Portugal,3 - 2,Morocco,63,18
+Portugal,5 - 1,Iran,63,-35
+Spain,0 - 1,Morocco,63,36
+Spain,2 - 1,Iran,63,-20
+Morocco,1 - 2,Iran,63,3
+France,1 - 2,Australia,63,5
+France,2 - 0,Peru,63,22
+France,2 - 0,Denmark,63,-38
+Australia,2 - 2,Peru,63,37
+Australia,2 - 3,Denmark,63,-21
+Peru,0 - 2,Denmark,63,7
+Argentina,1 - 1,Island,63,6
+Argentina,3 - 1,Croatia,63,23
+Argentina,2 - 2,Nigeria,63,-39
+Island,3 - 1,Croatia,63,40
+Island,0 - 2,Nigeria,63,-25
+Croatia,3 - 3,Nigeria,63,8
+Brazil,1 - 1,Switzerland,63,11
+Brazil,4 - 0,Costa Rica,63,24
+Brazil,2 - 0,Serbia,63,-43
+Switzerland,0 - 1,Costa Rica,63,44
+Switzerland,2 - 4,Serbia,63,-26
+Costa Rica,0 - 0,Serbia,63,9
+Germany,2 - 0,Mexico,63,10
+Germany,4 - 0,Sweden,63,29
+Germany,3 - 0,South Korea,63,-42
+Mexico,1 - 0,Sweden,63,41
+Mexico,1 - 0,South Korea,63,-28
+Sweden,1 - 0,South Korea,63,12
+Belgium,2 - 0,Panama,63,13
+Belgium,4 - 0,Tunesia,63,27
+Belgium,0 - 3,England,63,-45
+Panama,2 - 2,Tunesia,63,47
+Panama,1 - 4,England,63,-30
+Tunesia,0 - 3,England,63,14
+Poland,2 - 2,Senegal,63,16
+Poland,0 - 2,Colombia,63,32
+Poland,3 - 0,Japan,63,-48
+Senegal,0 - 2,Colombia,63,46
+Senegal,2 - 2,Japan,63,-31
+Colombia,1 - 1,Japan,63,15
+Russia,2 - 3,Saudi Arabia,64,1
+Russia,1 - 1,Egypt,64,17
+Russia,2 - 2,Uruguay,64,-34
+Saudi Arabia,1 - 2,Egypt,64,33
+Saudi Arabia,2 - 3,Uruguay,64,-19
+Egypt,1 - 2,Uruguay,64,2
+Portugal,2 - 2,Spain,64,4
+Portugal,0 - 3,Morocco,64,18
+Portugal,0 - 0,Iran,64,-35
+Spain,2 - 2,Morocco,64,36
+Spain,2 - 0,Iran,64,-20
+Morocco,0 - 2,Iran,64,3
+France,2 - 1,Australia,64,5
+France,2 - 0,Peru,64,22
+France,3 - 1,Denmark,64,-38
+Australia,1 - 0,Peru,64,37
+Australia,0 - 1,Denmark,64,-21
+Peru,1 - 3,Denmark,64,7
+Argentina,2 - 3,Island,64,6
+Argentina,0 - 1,Croatia,64,23
+Argentina,1 - 0,Nigeria,64,-39
+Island,2 - 3,Croatia,64,40
+Island,2 - 1,Nigeria,64,-25
+Croatia,0 - 0,Nigeria,64,8
+Brazil,1 - 1,Switzerland,64,11
+Brazil,3 - 0,Costa Rica,64,24
+Brazil,3 - 1,Serbia,64,-43
+Switzerland,3 - 0,Costa Rica,64,44
+Switzerland,2 - 2,Serbia,64,-26
+Costa Rica,1 - 2,Serbia,64,9
+Germany,5 - 1,Mexico,64,10
+Germany,4 - 0,Sweden,64,29
+Germany,2 - 1,South Korea,64,-42
+Mexico,1 - 2,Sweden,64,41
+Mexico,1 - 3,South Korea,64,-28
+Sweden,5 - 1,South Korea,64,12
+Belgium,7 - 0,Panama,64,13
+Belgium,2 - 0,Tunesia,64,27
+Belgium,1 - 1,England,64,-45
+Panama,2 - 1,Tunesia,64,47
+Panama,0 - 2,England,64,-30
+Tunesia,0 - 4,England,64,14
+Poland,4 - 0,Senegal,64,16
+Poland,1 - 4,Colombia,64,32
+Poland,3 - 1,Japan,64,-48
+Senegal,4 - 2,Colombia,64,46
+Senegal,1 - 1,Japan,64,-31
+Colombia,2 - 0,Japan,64,15
+Russia,2 - 0,Saudi Arabia,65,1
+Russia,2 - 0,Egypt,65,17
+Russia,0 - 1,Uruguay,65,-34
+Saudi Arabia,1 - 3,Egypt,65,33
+Saudi Arabia,1 - 4,Uruguay,65,-19
+Egypt,1 - 3,Uruguay,65,2
+Portugal,2 - 1,Spain,65,4
+Portugal,2 - 0,Morocco,65,18
+Portugal,3 - 0,Iran,65,-35
+Spain,6 - 0,Morocco,65,36
+Spain,2 - 3,Iran,65,-20
+Morocco,1 - 2,Iran,65,3
+France,2 - 0,Australia,65,5
+France,0 - 0,Peru,65,22
+France,3 - 4,Denmark,65,-38
+Australia,2 - 2,Peru,65,37
+Australia,0 - 3,Denmark,65,-21
+Peru,2 - 0,Denmark,65,7
+Argentina,1 - 1,Island,65,6
+Argentina,1 - 2,Croatia,65,23
+Argentina,1 - 1,Nigeria,65,-39
+Island,2 - 2,Croatia,65,40
+Island,3 - 0,Nigeria,65,-25
+Croatia,2 - 1,Nigeria,65,8
+Brazil,2 - 2,Switzerland,65,11
+Brazil,5 - 1,Costa Rica,65,24
+Brazil,1 - 1,Serbia,65,-43
+Switzerland,1 - 2,Costa Rica,65,44
+Switzerland,4 - 4,Serbia,65,-26
+Costa Rica,4 - 3,Serbia,65,9
+Germany,4 - 1,Mexico,65,10
+Germany,3 - 1,Sweden,65,29
+Germany,4 - 0,South Korea,65,-42
+Mexico,1 - 2,Sweden,65,41
+Mexico,2 - 1,South Korea,65,-28
+Sweden,2 - 1,South Korea,65,12
+Belgium,2 - 1,Panama,65,13
+Belgium,5 - 0,Tunesia,65,27
+Belgium,2 - 2,England,65,-45
+Panama,2 - 1,Tunesia,65,47
+Panama,2 - 0,England,65,-30
+Tunesia,1 - 4,England,65,14
+Poland,3 - 4,Senegal,65,16
+Poland,3 - 4,Colombia,65,32
+Poland,1 - 1,Japan,65,-48
+Senegal,0 - 1,Colombia,65,46
+Senegal,2 - 0,Japan,65,-31
+Colombia,2 - 2,Japan,65,15
+Russia,2 - 1,Saudi Arabia,66,1
+Russia,2 - 0,Egypt,66,17
+Russia,1 - 4,Uruguay,66,-34
+Saudi Arabia,2 - 1,Egypt,66,33
+Saudi Arabia,1 - 2,Uruguay,66,-19
+Egypt,1 - 4,Uruguay,66,2
+Portugal,1 - 1,Spain,66,4
+Portugal,3 - 0,Morocco,66,18
+Portugal,1 - 0,Iran,66,-35
+Spain,4 - 1,Morocco,66,36
+Spain,3 - 1,Iran,66,-20
+Morocco,2 - 1,Iran,66,3
+France,2 - 0,Australia,66,5
+France,2 - 1,Peru,66,22
+France,1 - 1,Denmark,66,-38
+Australia,4 - 2,Peru,66,37
+Australia,3 - 3,Denmark,66,-21
+Peru,2 - 1,Denmark,66,7
+Argentina,0 - 1,Island,66,6
+Argentina,3 - 1,Croatia,66,23
+Argentina,2 - 2,Nigeria,66,-39
+Island,0 - 3,Croatia,66,40
+Island,6 - 1,Nigeria,66,-25
+Croatia,1 - 1,Nigeria,66,8
+Brazil,1 - 1,Switzerland,66,11
+Brazil,5 - 0,Costa Rica,66,24
+Brazil,2 - 1,Serbia,66,-43
+Switzerland,3 - 1,Costa Rica,66,44
+Switzerland,4 - 4,Serbia,66,-26
+Costa Rica,3 - 1,Serbia,66,9
+Germany,2 - 2,Mexico,66,10
+Germany,1 - 0,Sweden,66,29
+Germany,2 - 0,South Korea,66,-42
+Mexico,1 - 3,Sweden,66,41
+Mexico,2 - 1,South Korea,66,-28
+Sweden,4 - 2,South Korea,66,12
+Belgium,4 - 0,Panama,66,13
+Belgium,1 - 0,Tunesia,66,27
+Belgium,2 - 2,England,66,-45
+Panama,1 - 3,Tunesia,66,47
+Panama,1 - 5,England,66,-30
+Tunesia,0 - 5,England,66,14
+Poland,1 - 0,Senegal,66,16
+Poland,0 - 4,Colombia,66,32
+Poland,3 - 0,Japan,66,-48
+Senegal,3 - 2,Colombia,66,46
+Senegal,1 - 1,Japan,66,-31
+Colombia,2 - 1,Japan,66,15
+Russia,2 - 1,Saudi Arabia,67,1
+Russia,2 - 1,Egypt,67,17
+Russia,2 - 1,Uruguay,67,-34
+Saudi Arabia,0 - 1,Egypt,67,33
+Saudi Arabia,1 - 2,Uruguay,67,-19
+Egypt,2 - 0,Uruguay,67,2
+Portugal,0 - 3,Spain,67,4
+Portugal,2 - 2,Morocco,67,18
+Portugal,1 - 2,Iran,67,-35
+Spain,4 - 0,Morocco,67,36
+Spain,0 - 0,Iran,67,-20
+Morocco,3 - 2,Iran,67,3
+France,1 - 0,Australia,67,5
+France,1 - 0,Peru,67,22
+France,1 - 0,Denmark,67,-38
+Australia,1 - 3,Peru,67,37
+Australia,1 - 3,Denmark,67,-21
+Peru,1 - 1,Denmark,67,7
+Argentina,4 - 0,Island,67,6
+Argentina,1 - 2,Croatia,67,23
+Argentina,3 - 2,Nigeria,67,-39
+Island,3 - 2,Croatia,67,40
+Island,1 - 1,Nigeria,67,-25
+Croatia,1 - 2,Nigeria,67,8
+Brazil,2 - 2,Switzerland,67,11
+Brazil,1 - 0,Costa Rica,67,24
+Brazil,0 - 0,Serbia,67,-43
+Switzerland,2 - 0,Costa Rica,67,44
+Switzerland,2 - 3,Serbia,67,-26
+Costa Rica,1 - 1,Serbia,67,9
+Germany,1 - 1,Mexico,67,10
+Germany,6 - 1,Sweden,67,29
+Germany,4 - 1,South Korea,67,-42
+Mexico,2 - 1,Sweden,67,41
+Mexico,2 - 2,South Korea,67,-28
+Sweden,1 - 3,South Korea,67,12
+Belgium,4 - 0,Panama,67,13
+Belgium,2 - 0,Tunesia,67,27
+Belgium,1 - 3,England,67,-45
+Panama,3 - 2,Tunesia,67,47
+Panama,1 - 2,England,67,-30
+Tunesia,1 - 1,England,67,14
+Poland,3 - 4,Senegal,67,16
+Poland,0 - 0,Colombia,67,32
+Poland,3 - 0,Japan,67,-48
+Senegal,0 - 1,Colombia,67,46
+Senegal,1 - 2,Japan,67,-31
+Colombia,3 - 0,Japan,67,15
+Russia,1 - 1,Saudi Arabia,68,1
+Russia,3 - 1,Egypt,68,17
+Russia,1 - 3,Uruguay,68,-34
+Saudi Arabia,1 - 2,Egypt,68,33
+Saudi Arabia,2 - 4,Uruguay,68,-19
+Egypt,2 - 2,Uruguay,68,2
+Portugal,0 - 1,Spain,68,4
+Portugal,4 - 3,Morocco,68,18
+Portugal,3 - 0,Iran,68,-35
+Spain,1 - 0,Morocco,68,36
+Spain,3 - 0,Iran,68,-20
+Morocco,4 - 3,Iran,68,3
+France,1 - 1,Australia,68,5
+France,1 - 0,Peru,68,22
+France,4 - 0,Denmark,68,-38
+Australia,1 - 2,Peru,68,37
+Australia,3 - 3,Denmark,68,-21
+Peru,2 - 2,Denmark,68,7
+Argentina,3 - 2,Island,68,6
+Argentina,2 - 1,Croatia,68,23
+Argentina,2 - 2,Nigeria,68,-39
+Island,1 - 1,Croatia,68,40
+Island,3 - 1,Nigeria,68,-25
+Croatia,2 - 2,Nigeria,68,8
+Brazil,2 - 1,Switzerland,68,11
+Brazil,2 - 1,Costa Rica,68,24
+Brazil,1 - 0,Serbia,68,-43
+Switzerland,1 - 1,Costa Rica,68,44
+Switzerland,4 - 1,Serbia,68,-26
+Costa Rica,1 - 2,Serbia,68,9
+Germany,2 - 2,Mexico,68,10
+Germany,2 - 2,Sweden,68,29
+Germany,2 - 0,South Korea,68,-42
+Mexico,2 - 2,Sweden,68,41
+Mexico,5 - 0,South Korea,68,-28
+Sweden,0 - 4,South Korea,68,12
+Belgium,1 - 0,Panama,68,13
+Belgium,2 - 2,Tunesia,68,27
+Belgium,2 - 1,England,68,-45
+Panama,2 - 2,Tunesia,68,47
+Panama,1 - 1,England,68,-30
+Tunesia,0 - 3,England,68,14
+Poland,0 - 3,Senegal,68,16
+Poland,0 - 2,Colombia,68,32
+Poland,2 - 1,Japan,68,-48
+Senegal,1 - 0,Colombia,68,46
+Senegal,2 - 1,Japan,68,-31
+Colombia,1 - 0,Japan,68,15
+Russia,5 - 0,Saudi Arabia,69,1
+Russia,0 - 2,Egypt,69,17
+Russia,1 - 2,Uruguay,69,-34
+Saudi Arabia,1 - 2,Egypt,69,33
+Saudi Arabia,1 - 1,Uruguay,69,-19
+Egypt,0 - 3,Uruguay,69,2
+Portugal,2 - 2,Spain,69,4
+Portugal,2 - 1,Morocco,69,18
+Portugal,1 - 1,Iran,69,-35
+Spain,2 - 0,Morocco,69,36
+Spain,3 - 3,Iran,69,-20
+Morocco,3 - 1,Iran,69,3
+France,5 - 1,Australia,69,5
+France,3 - 1,Peru,69,22
+France,2 - 4,Denmark,69,-38
+Australia,0 - 2,Peru,69,37
+Australia,1 - 1,Denmark,69,-21
+Peru,0 - 2,Denmark,69,7
+Argentina,2 - 1,Island,69,6
+Argentina,2 - 2,Croatia,69,23
+Argentina,2 - 1,Nigeria,69,-39
+Island,0 - 2,Croatia,69,40
+Island,3 - 3,Nigeria,69,-25
+Croatia,2 - 2,Nigeria,69,8
+Brazil,2 - 1,Switzerland,69,11
+Brazil,4 - 0,Costa Rica,69,24
+Brazil,3 - 1,Serbia,69,-43
+Switzerland,0 - 3,Costa Rica,69,44
+Switzerland,1 - 1,Serbia,69,-26
+Costa Rica,1 - 1,Serbia,69,9
+Germany,4 - 0,Mexico,69,10
+Germany,5 - 1,Sweden,69,29
+Germany,0 - 1,South Korea,69,-42
+Mexico,1 - 2,Sweden,69,41
+Mexico,3 - 1,South Korea,69,-28
+Sweden,2 - 1,South Korea,69,12
+Belgium,4 - 1,Panama,69,13
+Belgium,2 - 1,Tunesia,69,27
+Belgium,0 - 2,England,69,-45
+Panama,0 - 2,Tunesia,69,47
+Panama,0 - 2,England,69,-30
+Tunesia,0 - 2,England,69,14
+Poland,3 - 1,Senegal,69,16
+Poland,0 - 0,Colombia,69,32
+Poland,3 - 0,Japan,69,-48
+Senegal,0 - 3,Colombia,69,46
+Senegal,2 - 0,Japan,69,-31
+Colombia,1 - 1,Japan,69,15
+Russia,4 - 1,Saudi Arabia,70,1
+Russia,0 - 0,Egypt,70,17
+Russia,0 - 2,Uruguay,70,-34
+Saudi Arabia,0 - 2,Egypt,70,33
+Saudi Arabia,0 - 4,Uruguay,70,-19
+Egypt,0 - 2,Uruguay,70,2
+Portugal,1 - 2,Spain,70,4
+Portugal,2 - 0,Morocco,70,18
+Portugal,3 - 2,Iran,70,-35
+Spain,4 - 1,Morocco,70,36
+Spain,3 - 1,Iran,70,-20
+Morocco,0 - 1,Iran,70,3
+France,1 - 1,Australia,70,5
+France,1 - 1,Peru,70,22
+France,3 - 0,Denmark,70,-38
+Australia,2 - 1,Peru,70,37
+Australia,2 - 2,Denmark,70,-21
+Peru,2 - 1,Denmark,70,7
+Argentina,4 - 1,Island,70,6
+Argentina,1 - 1,Croatia,70,23
+Argentina,4 - 4,Nigeria,70,-39
+Island,1 - 1,Croatia,70,40
+Island,3 - 2,Nigeria,70,-25
+Croatia,4 - 1,Nigeria,70,8
+Brazil,1 - 0,Switzerland,70,11
+Brazil,5 - 0,Costa Rica,70,24
+Brazil,2 - 0,Serbia,70,-43
+Switzerland,0 - 0,Costa Rica,70,44
+Switzerland,2 - 2,Serbia,70,-26
+Costa Rica,2 - 3,Serbia,70,9
+Germany,3 - 2,Mexico,70,10
+Germany,3 - 1,Sweden,70,29
+Germany,3 - 1,South Korea,70,-42
+Mexico,1 - 1,Sweden,70,41
+Mexico,3 - 1,South Korea,70,-28
+Sweden,5 - 4,South Korea,70,12
+Belgium,3 - 0,Panama,70,13
+Belgium,6 - 0,Tunesia,70,27
+Belgium,2 - 1,England,70,-45
+Panama,2 - 1,Tunesia,70,47
+Panama,0 - 2,England,70,-30
+Tunesia,1 - 0,England,70,14
+Poland,1 - 0,Senegal,70,16
+Poland,2 - 3,Colombia,70,32
+Poland,1 - 1,Japan,70,-48
+Senegal,2 - 3,Colombia,70,46
+Senegal,1 - 3,Japan,70,-31
+Colombia,3 - 2,Japan,70,15
+Russia,3 - 1,Saudi Arabia,71,1
+Russia,3 - 1,Egypt,71,17
+Russia,1 - 2,Uruguay,71,-34
+Saudi Arabia,1 - 1,Egypt,71,33
+Saudi Arabia,0 - 3,Uruguay,71,-19
+Egypt,2 - 3,Uruguay,71,2
+Portugal,3 - 1,Spain,71,4
+Portugal,2 - 1,Morocco,71,18
+Portugal,0 - 0,Iran,71,-35
+Spain,2 - 0,Morocco,71,36
+Spain,3 - 0,Iran,71,-20
+Morocco,1 - 0,Iran,71,3
+France,4 - 0,Australia,71,5
+France,1 - 0,Peru,71,22
+France,5 - 3,Denmark,71,-38
+Australia,0 - 2,Peru,71,37
+Australia,1 - 2,Denmark,71,-21
+Peru,1 - 3,Denmark,71,7
+Argentina,0 - 2,Island,71,6
+Argentina,4 - 1,Croatia,71,23
+Argentina,1 - 1,Nigeria,71,-39
+Island,2 - 0,Croatia,71,40
+Island,3 - 0,Nigeria,71,-25
+Croatia,3 - 2,Nigeria,71,8
+Brazil,2 - 1,Switzerland,71,11
+Brazil,4 - 0,Costa Rica,71,24
+Brazil,3 - 0,Serbia,71,-43
+Switzerland,3 - 1,Costa Rica,71,44
+Switzerland,3 - 3,Serbia,71,-26
+Costa Rica,0 - 2,Serbia,71,9
+Germany,4 - 0,Mexico,71,10
+Germany,2 - 0,Sweden,71,29
+Germany,3 - 0,South Korea,71,-42
+Mexico,4 - 3,Sweden,71,41
+Mexico,2 - 1,South Korea,71,-28
+Sweden,2 - 2,South Korea,71,12
+Belgium,1 - 0,Panama,71,13
+Belgium,3 - 0,Tunesia,71,27
+Belgium,1 - 2,England,71,-45
+Panama,3 - 0,Tunesia,71,47
+Panama,0 - 3,England,71,-30
+Tunesia,0 - 1,England,71,14
+Poland,1 - 2,Senegal,71,16
+Poland,2 - 3,Colombia,71,32
+Poland,4 - 0,Japan,71,-48
+Senegal,2 - 0,Colombia,71,46
+Senegal,2 - 2,Japan,71,-31
+Colombia,4 - 0,Japan,71,15
+Russia,3 - 1,Saudi Arabia,72,1
+Russia,3 - 0,Egypt,72,17
+Russia,2 - 2,Uruguay,72,-34
+Saudi Arabia,3 - 2,Egypt,72,33
+Saudi Arabia,1 - 6,Uruguay,72,-19
+Egypt,0 - 3,Uruguay,72,2
+Portugal,2 - 3,Spain,72,4
+Portugal,3 - 1,Morocco,72,18
+Portugal,2 - 0,Iran,72,-35
+Spain,1 - 3,Morocco,72,36
+Spain,2 - 0,Iran,72,-20
+Morocco,1 - 3,Iran,72,3
+France,2 - 1,Australia,72,5
+France,3 - 0,Peru,72,22
+France,3 - 1,Denmark,72,-38
+Australia,1 - 3,Peru,72,37
+Australia,1 - 4,Denmark,72,-21
+Peru,0 - 1,Denmark,72,7
+Argentina,4 - 0,Island,72,6
+Argentina,1 - 1,Croatia,72,23
+Argentina,3 - 3,Nigeria,72,-39
+Island,0 - 2,Croatia,72,40
+Island,2 - 2,Nigeria,72,-25
+Croatia,2 - 2,Nigeria,72,8
+Brazil,5 - 0,Switzerland,72,11
+Brazil,2 - 1,Costa Rica,72,24
+Brazil,2 - 0,Serbia,72,-43
+Switzerland,2 - 0,Costa Rica,72,44
+Switzerland,2 - 2,Serbia,72,-26
+Costa Rica,2 - 1,Serbia,72,9
+Germany,2 - 0,Mexico,72,10
+Germany,2 - 0,Sweden,72,29
+Germany,2 - 1,South Korea,72,-42
+Mexico,2 - 3,Sweden,72,41
+Mexico,3 - 1,South Korea,72,-28
+Sweden,1 - 1,South Korea,72,12
+Belgium,3 - 0,Panama,72,13
+Belgium,1 - 1,Tunesia,72,27
+Belgium,2 - 2,England,72,-45
+Panama,3 - 3,Tunesia,72,47
+Panama,0 - 3,England,72,-30
+Tunesia,0 - 0,England,72,14
+Poland,2 - 0,Senegal,72,16
+Poland,2 - 0,Colombia,72,32
+Poland,2 - 3,Japan,72,-48
+Senegal,1 - 2,Colombia,72,46
+Senegal,4 - 1,Japan,72,-31
+Colombia,2 - 0,Japan,72,15
+Russia,2 - 0,Saudi Arabia,73,1
+Russia,1 - 1,Egypt,73,17
+Russia,2 - 1,Uruguay,73,-34
+Saudi Arabia,0 - 3,Egypt,73,33
+Saudi Arabia,0 - 1,Uruguay,73,-19
+Egypt,0 - 2,Uruguay,73,2
+Portugal,1 - 3,Spain,73,4
+Portugal,3 - 1,Morocco,73,18
+Portugal,1 - 0,Iran,73,-35
+Spain,2 - 0,Morocco,73,36
+Spain,3 - 3,Iran,73,-20
+Morocco,2 - 2,Iran,73,3
+France,6 - 1,Australia,73,5
+France,1 - 0,Peru,73,22
+France,3 - 0,Denmark,73,-38
+Australia,1 - 2,Peru,73,37
+Australia,1 - 2,Denmark,73,-21
+Peru,4 - 0,Denmark,73,7
+Argentina,2 - 0,Island,73,6
+Argentina,2 - 1,Croatia,73,23
+Argentina,1 - 1,Nigeria,73,-39
+Island,0 - 2,Croatia,73,40
+Island,1 - 1,Nigeria,73,-25
+Croatia,2 - 3,Nigeria,73,8
+Brazil,1 - 0,Switzerland,73,11
+Brazil,2 - 1,Costa Rica,73,24
+Brazil,2 - 1,Serbia,73,-43
+Switzerland,0 - 1,Costa Rica,73,44
+Switzerland,3 - 1,Serbia,73,-26
+Costa Rica,1 - 2,Serbia,73,9
+Germany,2 - 0,Mexico,73,10
+Germany,4 - 0,Sweden,73,29
+Germany,4 - 3,South Korea,73,-42
+Mexico,3 - 0,Sweden,73,41
+Mexico,1 - 0,South Korea,73,-28
+Sweden,2 - 1,South Korea,73,12
+Belgium,4 - 2,Panama,73,13
+Belgium,4 - 0,Tunesia,73,27
+Belgium,4 - 1,England,73,-45
+Panama,1 - 2,Tunesia,73,47
+Panama,0 - 1,England,73,-30
+Tunesia,0 - 3,England,73,14
+Poland,0 - 0,Senegal,73,16
+Poland,1 - 0,Colombia,73,32
+Poland,1 - 1,Japan,73,-48
+Senegal,0 - 3,Colombia,73,46
+Senegal,3 - 1,Japan,73,-31
+Colombia,2 - 0,Japan,73,15
+Russia,2 - 3,Saudi Arabia,74,1
+Russia,2 - 2,Egypt,74,17
+Russia,0 - 1,Uruguay,74,-34
+Saudi Arabia,2 - 0,Egypt,74,33
+Saudi Arabia,0 - 6,Uruguay,74,-19
+Egypt,0 - 3,Uruguay,74,2
+Portugal,2 - 4,Spain,74,4
+Portugal,2 - 3,Morocco,74,18
+Portugal,3 - 0,Iran,74,-35
+Spain,4 - 1,Morocco,74,36
+Spain,5 - 0,Iran,74,-20
+Morocco,0 - 1,Iran,74,3
+France,0 - 0,Australia,74,5
+France,3 - 0,Peru,74,22
+France,5 - 2,Denmark,74,-38
+Australia,3 - 2,Peru,74,37
+Australia,1 - 2,Denmark,74,-21
+Peru,3 - 2,Denmark,74,7
+Argentina,3 - 1,Island,74,6
+Argentina,3 - 2,Croatia,74,23
+Argentina,2 - 2,Nigeria,74,-39
+Island,1 - 1,Croatia,74,40
+Island,4 - 1,Nigeria,74,-25
+Croatia,2 - 1,Nigeria,74,8
+Brazil,0 - 0,Switzerland,74,11
+Brazil,4 - 2,Costa Rica,74,24
+Brazil,4 - 0,Serbia,74,-43
+Switzerland,4 - 0,Costa Rica,74,44
+Switzerland,2 - 3,Serbia,74,-26
+Costa Rica,2 - 2,Serbia,74,9
+Germany,4 - 3,Mexico,74,10
+Germany,2 - 2,Sweden,74,29
+Germany,3 - 1,South Korea,74,-42
+Mexico,1 - 1,Sweden,74,41
+Mexico,1 - 3,South Korea,74,-28
+Sweden,2 - 1,South Korea,74,12
+Belgium,3 - 0,Panama,74,13
+Belgium,2 - 0,Tunesia,74,27
+Belgium,0 - 4,England,74,-45
+Panama,1 - 1,Tunesia,74,47
+Panama,1 - 2,England,74,-30
+Tunesia,1 - 2,England,74,14
+Poland,2 - 1,Senegal,74,16
+Poland,2 - 2,Colombia,74,32
+Poland,2 - 2,Japan,74,-48
+Senegal,1 - 2,Colombia,74,46
+Senegal,3 - 0,Japan,74,-31
+Colombia,2 - 1,Japan,74,15
+Russia,3 - 2,Saudi Arabia,75,1
+Russia,1 - 3,Egypt,75,17
+Russia,2 - 3,Uruguay,75,-34
+Saudi Arabia,1 - 1,Egypt,75,33
+Saudi Arabia,1 - 4,Uruguay,75,-19
+Egypt,0 - 2,Uruguay,75,2
+Portugal,1 - 5,Spain,75,4
+Portugal,1 - 2,Morocco,75,18
+Portugal,1 - 1,Iran,75,-35
+Spain,1 - 0,Morocco,75,36
+Spain,3 - 0,Iran,75,-20
+Morocco,3 - 1,Iran,75,3
+France,2 - 0,Australia,75,5
+France,2 - 0,Peru,75,22
+France,1 - 3,Denmark,75,-38
+Australia,3 - 3,Peru,75,37
+Australia,1 - 5,Denmark,75,-21
+Peru,2 - 0,Denmark,75,7
+Argentina,3 - 3,Island,75,6
+Argentina,3 - 0,Croatia,75,23
+Argentina,2 - 0,Nigeria,75,-39
+Island,1 - 2,Croatia,75,40
+Island,2 - 0,Nigeria,75,-25
+Croatia,1 - 2,Nigeria,75,8
+Brazil,3 - 1,Switzerland,75,11
+Brazil,0 - 1,Costa Rica,75,24
+Brazil,1 - 0,Serbia,75,-43
+Switzerland,1 - 0,Costa Rica,75,44
+Switzerland,3 - 2,Serbia,75,-26
+Costa Rica,1 - 1,Serbia,75,9
+Germany,1 - 1,Mexico,75,10
+Germany,2 - 3,Sweden,75,29
+Germany,2 - 0,South Korea,75,-42
+Mexico,2 - 1,Sweden,75,41
+Mexico,3 - 2,South Korea,75,-28
+Sweden,3 - 1,South Korea,75,12
+Belgium,2 - 0,Panama,75,13
+Belgium,1 - 1,Tunesia,75,27
+Belgium,4 - 2,England,75,-45
+Panama,0 - 0,Tunesia,75,47
+Panama,0 - 5,England,75,-30
+Tunesia,1 - 4,England,75,14
+Poland,4 - 2,Senegal,75,16
+Poland,2 - 3,Colombia,75,32
+Poland,2 - 3,Japan,75,-48
+Senegal,1 - 4,Colombia,75,46
+Senegal,1 - 1,Japan,75,-31
+Colombia,3 - 1,Japan,75,15
+Russia,3 - 1,Saudi Arabia,76,1
+Russia,2 - 2,Egypt,76,17
+Russia,1 - 4,Uruguay,76,-34
+Saudi Arabia,2 - 3,Egypt,76,33
+Saudi Arabia,1 - 4,Uruguay,76,-19
+Egypt,1 - 2,Uruguay,76,2
+Portugal,1 - 3,Spain,76,4
+Portugal,2 - 1,Morocco,76,18
+Portugal,4 - 2,Iran,76,-35
+Spain,3 - 0,Morocco,76,36
+Spain,1 - 1,Iran,76,-20
+Morocco,1 - 2,Iran,76,3
+France,0 - 0,Australia,76,5
+France,1 - 0,Peru,76,22
+France,4 - 3,Denmark,76,-38
+Australia,2 - 2,Peru,76,37
+Australia,1 - 4,Denmark,76,-21
+Peru,1 - 2,Denmark,76,7
+Argentina,2 - 0,Island,76,6
+Argentina,0 - 1,Croatia,76,23
+Argentina,2 - 0,Nigeria,76,-39
+Island,1 - 2,Croatia,76,40
+Island,3 - 4,Nigeria,76,-25
+Croatia,1 - 3,Nigeria,76,8
+Brazil,2 - 1,Switzerland,76,11
+Brazil,6 - 1,Costa Rica,76,24
+Brazil,2 - 1,Serbia,76,-43
+Switzerland,2 - 2,Costa Rica,76,44
+Switzerland,1 - 1,Serbia,76,-26
+Costa Rica,2 - 3,Serbia,76,9
+Germany,3 - 0,Mexico,76,10
+Germany,3 - 3,Sweden,76,29
+Germany,4 - 1,South Korea,76,-42
+Mexico,0 - 1,Sweden,76,41
+Mexico,2 - 2,South Korea,76,-28
+Sweden,3 - 2,South Korea,76,12
+Belgium,1 - 2,Panama,76,13
+Belgium,3 - 1,Tunesia,76,27
+Belgium,1 - 1,England,76,-45
+Panama,0 - 2,Tunesia,76,47
+Panama,0 - 3,England,76,-30
+Tunesia,1 - 1,England,76,14
+Poland,1 - 2,Senegal,76,16
+Poland,4 - 6,Colombia,76,32
+Poland,3 - 3,Japan,76,-48
+Senegal,2 - 0,Colombia,76,46
+Senegal,1 - 2,Japan,76,-31
+Colombia,3 - 0,Japan,76,15
+Russia,2 - 0,Saudi Arabia,77,1
+Russia,1 - 3,Egypt,77,17
+Russia,1 - 2,Uruguay,77,-34
+Saudi Arabia,2 - 4,Egypt,77,33
+Saudi Arabia,2 - 3,Uruguay,77,-19
+Egypt,0 - 1,Uruguay,77,2
+Portugal,1 - 1,Spain,77,4
+Portugal,1 - 2,Morocco,77,18
+Portugal,1 - 0,Iran,77,-35
+Spain,4 - 1,Morocco,77,36
+Spain,4 - 0,Iran,77,-20
+Morocco,1 - 3,Iran,77,3
+France,2 - 0,Australia,77,5
+France,2 - 1,Peru,77,22
+France,2 - 2,Denmark,77,-38
+Australia,3 - 1,Peru,77,37
+Australia,1 - 2,Denmark,77,-21
+Peru,3 - 0,Denmark,77,7
+Argentina,2 - 0,Island,77,6
+Argentina,1 - 2,Croatia,77,23
+Argentina,2 - 1,Nigeria,77,-39
+Island,1 - 5,Croatia,77,40
+Island,4 - 2,Nigeria,77,-25
+Croatia,2 - 0,Nigeria,77,8
+Brazil,4 - 2,Switzerland,77,11
+Brazil,2 - 1,Costa Rica,77,24
+Brazil,1 - 1,Serbia,77,-43
+Switzerland,2 - 0,Costa Rica,77,44
+Switzerland,0 - 2,Serbia,77,-26
+Costa Rica,0 - 1,Serbia,77,9
+Germany,2 - 0,Mexico,77,10
+Germany,3 - 2,Sweden,77,29
+Germany,2 - 1,South Korea,77,-42
+Mexico,2 - 2,Sweden,77,41
+Mexico,0 - 1,South Korea,77,-28
+Sweden,2 - 0,South Korea,77,12
+Belgium,5 - 2,Panama,77,13
+Belgium,4 - 0,Tunesia,77,27
+Belgium,0 - 0,England,77,-45
+Panama,1 - 1,Tunesia,77,47
+Panama,0 - 2,England,77,-30
+Tunesia,0 - 2,England,77,14
+Poland,2 - 1,Senegal,77,16
+Poland,1 - 3,Colombia,77,32
+Poland,3 - 0,Japan,77,-48
+Senegal,0 - 2,Colombia,77,46
+Senegal,2 - 1,Japan,77,-31
+Colombia,1 - 1,Japan,77,15
+Russia,2 - 1,Saudi Arabia,78,1
+Russia,2 - 4,Egypt,78,17
+Russia,1 - 1,Uruguay,78,-34
+Saudi Arabia,0 - 1,Egypt,78,33
+Saudi Arabia,0 - 1,Uruguay,78,-19
+Egypt,1 - 3,Uruguay,78,2
+Portugal,2 - 1,Spain,78,4
+Portugal,1 - 1,Morocco,78,18
+Portugal,2 - 0,Iran,78,-35
+Spain,3 - 1,Morocco,78,36
+Spain,3 - 1,Iran,78,-20
+Morocco,2 - 2,Iran,78,3
+France,4 - 2,Australia,78,5
+France,5 - 2,Peru,78,22
+France,0 - 2,Denmark,78,-38
+Australia,0 - 2,Peru,78,37
+Australia,1 - 2,Denmark,78,-21
+Peru,0 - 3,Denmark,78,7
+Argentina,1 - 0,Island,78,6
+Argentina,3 - 4,Croatia,78,23
+Argentina,2 - 1,Nigeria,78,-39
+Island,3 - 1,Croatia,78,40
+Island,2 - 2,Nigeria,78,-25
+Croatia,1 - 1,Nigeria,78,8
+Brazil,2 - 2,Switzerland,78,11
+Brazil,5 - 1,Costa Rica,78,24
+Brazil,2 - 1,Serbia,78,-43
+Switzerland,2 - 3,Costa Rica,78,44
+Switzerland,2 - 2,Serbia,78,-26
+Costa Rica,1 - 3,Serbia,78,9
+Germany,4 - 0,Mexico,78,10
+Germany,4 - 1,Sweden,78,29
+Germany,4 - 0,South Korea,78,-42
+Mexico,2 - 3,Sweden,78,41
+Mexico,4 - 2,South Korea,78,-28
+Sweden,4 - 4,South Korea,78,12
+Belgium,4 - 0,Panama,78,13
+Belgium,2 - 1,Tunesia,78,27
+Belgium,2 - 6,England,78,-45
+Panama,2 - 1,Tunesia,78,47
+Panama,0 - 4,England,78,-30
+Tunesia,0 - 2,England,78,14
+Poland,1 - 1,Senegal,78,16
+Poland,0 - 2,Colombia,78,32
+Poland,1 - 2,Japan,78,-48
+Senegal,0 - 1,Colombia,78,46
+Senegal,1 - 2,Japan,78,-31
+Colombia,3 - 0,Japan,78,15
+Russia,4 - 4,Saudi Arabia,79,1
+Russia,2 - 1,Egypt,79,17
+Russia,0 - 3,Uruguay,79,-34
+Saudi Arabia,2 - 3,Egypt,79,33
+Saudi Arabia,3 - 4,Uruguay,79,-19
+Egypt,0 - 3,Uruguay,79,2
+Portugal,3 - 0,Spain,79,4
+Portugal,4 - 0,Morocco,79,18
+Portugal,1 - 0,Iran,79,-35
+Spain,4 - 0,Morocco,79,36
+Spain,3 - 2,Iran,79,-20
+Morocco,3 - 0,Iran,79,3
+France,3 - 1,Australia,79,5
+France,0 - 2,Peru,79,22
+France,1 - 5,Denmark,79,-38
+Australia,1 - 1,Peru,79,37
+Australia,0 - 4,Denmark,79,-21
+Peru,0 - 2,Denmark,79,7
+Argentina,3 - 0,Island,79,6
+Argentina,0 - 1,Croatia,79,23
+Argentina,5 - 0,Nigeria,79,-39
+Island,2 - 2,Croatia,79,40
+Island,2 - 1,Nigeria,79,-25
+Croatia,3 - 1,Nigeria,79,8
+Brazil,3 - 1,Switzerland,79,11
+Brazil,4 - 1,Costa Rica,79,24
+Brazil,3 - 1,Serbia,79,-43
+Switzerland,2 - 0,Costa Rica,79,44
+Switzerland,2 - 0,Serbia,79,-26
+Costa Rica,0 - 1,Serbia,79,9
+Germany,1 - 0,Mexico,79,10
+Germany,2 - 0,Sweden,79,29
+Germany,2 - 1,South Korea,79,-42
+Mexico,0 - 3,Sweden,79,41
+Mexico,2 - 4,South Korea,79,-28
+Sweden,3 - 1,South Korea,79,12
+Belgium,4 - 0,Panama,79,13
+Belgium,2 - 1,Tunesia,79,27
+Belgium,2 - 0,England,79,-45
+Panama,0 - 2,Tunesia,79,47
+Panama,0 - 3,England,79,-30
+Tunesia,0 - 2,England,79,14
+Poland,0 - 3,Senegal,79,16
+Poland,1 - 1,Colombia,79,32
+Poland,0 - 0,Japan,79,-48
+Senegal,2 - 5,Colombia,79,46
+Senegal,1 - 0,Japan,79,-31
+Colombia,3 - 4,Japan,79,15
+Russia,2 - 1,Saudi Arabia,80,1
+Russia,1 - 1,Egypt,80,17
+Russia,1 - 1,Uruguay,80,-34
+Saudi Arabia,1 - 4,Egypt,80,33
+Saudi Arabia,0 - 2,Uruguay,80,-19
+Egypt,0 - 2,Uruguay,80,2
+Portugal,2 - 2,Spain,80,4
+Portugal,2 - 1,Morocco,80,18
+Portugal,3 - 1,Iran,80,-35
+Spain,3 - 0,Morocco,80,36
+Spain,4 - 2,Iran,80,-20
+Morocco,3 - 1,Iran,80,3
+France,4 - 0,Australia,80,5
+France,2 - 0,Peru,80,22
+France,4 - 2,Denmark,80,-38
+Australia,3 - 1,Peru,80,37
+Australia,1 - 1,Denmark,80,-21
+Peru,1 - 1,Denmark,80,7
+Argentina,4 - 3,Island,80,6
+Argentina,2 - 0,Croatia,80,23
+Argentina,3 - 0,Nigeria,80,-39
+Island,1 - 2,Croatia,80,40
+Island,0 - 1,Nigeria,80,-25
+Croatia,4 - 1,Nigeria,80,8
+Brazil,2 - 1,Switzerland,80,11
+Brazil,1 - 0,Costa Rica,80,24
+Brazil,0 - 0,Serbia,80,-43
+Switzerland,1 - 0,Costa Rica,80,44
+Switzerland,2 - 2,Serbia,80,-26
+Costa Rica,2 - 4,Serbia,80,9
+Germany,2 - 3,Mexico,80,10
+Germany,4 - 0,Sweden,80,29
+Germany,4 - 0,South Korea,80,-42
+Mexico,3 - 1,Sweden,80,41
+Mexico,3 - 3,South Korea,80,-28
+Sweden,3 - 2,South Korea,80,12
+Belgium,4 - 1,Panama,80,13
+Belgium,3 - 1,Tunesia,80,27
+Belgium,2 - 4,England,80,-45
+Panama,1 - 3,Tunesia,80,47
+Panama,0 - 3,England,80,-30
+Tunesia,2 - 5,England,80,14
+Poland,0 - 2,Senegal,80,16
+Poland,2 - 1,Colombia,80,32
+Poland,4 - 1,Japan,80,-48
+Senegal,2 - 3,Colombia,80,46
+Senegal,1 - 1,Japan,80,-31
+Colombia,3 - 0,Japan,80,15
+Russia,3 - 2,Saudi Arabia,81,1
+Russia,1 - 4,Egypt,81,17
+Russia,1 - 1,Uruguay,81,-34
+Saudi Arabia,1 - 2,Egypt,81,33
+Saudi Arabia,1 - 1,Uruguay,81,-19
+Egypt,0 - 4,Uruguay,81,2
+Portugal,0 - 1,Spain,81,4
+Portugal,4 - 1,Morocco,81,18
+Portugal,1 - 1,Iran,81,-35
+Spain,4 - 1,Morocco,81,36
+Spain,2 - 0,Iran,81,-20
+Morocco,2 - 0,Iran,81,3
+France,4 - 0,Australia,81,5
+France,0 - 1,Peru,81,22
+France,3 - 1,Denmark,81,-38
+Australia,0 - 4,Peru,81,37
+Australia,2 - 2,Denmark,81,-21
+Peru,1 - 1,Denmark,81,7
+Argentina,1 - 1,Island,81,6
+Argentina,0 - 0,Croatia,81,23
+Argentina,1 - 0,Nigeria,81,-39
+Island,0 - 2,Croatia,81,40
+Island,0 - 1,Nigeria,81,-25
+Croatia,1 - 0,Nigeria,81,8
+Brazil,2 - 0,Switzerland,81,11
+Brazil,3 - 1,Costa Rica,81,24
+Brazil,1 - 1,Serbia,81,-43
+Switzerland,3 - 0,Costa Rica,81,44
+Switzerland,1 - 0,Serbia,81,-26
+Costa Rica,2 - 4,Serbia,81,9
+Germany,1 - 1,Mexico,81,10
+Germany,3 - 1,Sweden,81,29
+Germany,2 - 1,South Korea,81,-42
+Mexico,0 - 0,Sweden,81,41
+Mexico,3 - 0,South Korea,81,-28
+Sweden,2 - 0,South Korea,81,12
+Belgium,2 - 0,Panama,81,13
+Belgium,2 - 1,Tunesia,81,27
+Belgium,1 - 2,England,81,-45
+Panama,2 - 1,Tunesia,81,47
+Panama,0 - 3,England,81,-30
+Tunesia,0 - 4,England,81,14
+Poland,1 - 2,Senegal,81,16
+Poland,1 - 1,Colombia,81,32
+Poland,1 - 2,Japan,81,-48
+Senegal,1 - 4,Colombia,81,46
+Senegal,1 - 2,Japan,81,-31
+Colombia,2 - 2,Japan,81,15
+Russia,2 - 1,Saudi Arabia,82,1
+Russia,2 - 0,Egypt,82,17
+Russia,1 - 2,Uruguay,82,-34
+Saudi Arabia,2 - 4,Egypt,82,33
+Saudi Arabia,2 - 2,Uruguay,82,-19
+Egypt,2 - 2,Uruguay,82,2
+Portugal,1 - 0,Spain,82,4
+Portugal,3 - 0,Morocco,82,18
+Portugal,2 - 1,Iran,82,-35
+Spain,3 - 0,Morocco,82,36
+Spain,3 - 3,Iran,82,-20
+Morocco,1 - 5,Iran,82,3
+France,4 - 1,Australia,82,5
+France,1 - 4,Peru,82,22
+France,1 - 0,Denmark,82,-38
+Australia,1 - 3,Peru,82,37
+Australia,2 - 1,Denmark,82,-21
+Peru,2 - 0,Denmark,82,7
+Argentina,6 - 1,Island,82,6
+Argentina,1 - 1,Croatia,82,23
+Argentina,2 - 0,Nigeria,82,-39
+Island,1 - 3,Croatia,82,40
+Island,0 - 3,Nigeria,82,-25
+Croatia,3 - 0,Nigeria,82,8
+Brazil,2 - 1,Switzerland,82,11
+Brazil,2 - 1,Costa Rica,82,24
+Brazil,1 - 2,Serbia,82,-43
+Switzerland,3 - 2,Costa Rica,82,44
+Switzerland,1 - 2,Serbia,82,-26
+Costa Rica,0 - 2,Serbia,82,9
+Germany,3 - 2,Mexico,82,10
+Germany,1 - 0,Sweden,82,29
+Germany,8 - 3,South Korea,82,-42
+Mexico,1 - 3,Sweden,82,41
+Mexico,1 - 0,South Korea,82,-28
+Sweden,2 - 2,South Korea,82,12
+Belgium,1 - 1,Panama,82,13
+Belgium,1 - 1,Tunesia,82,27
+Belgium,0 - 3,England,82,-45
+Panama,3 - 0,Tunesia,82,47
+Panama,2 - 3,England,82,-30
+Tunesia,0 - 1,England,82,14
+Poland,2 - 1,Senegal,82,16
+Poland,2 - 4,Colombia,82,32
+Poland,4 - 2,Japan,82,-48
+Senegal,1 - 5,Colombia,82,46
+Senegal,0 - 1,Japan,82,-31
+Colombia,4 - 1,Japan,82,15
+Russia,2 - 2,Saudi Arabia,83,1
+Russia,2 - 4,Egypt,83,17
+Russia,1 - 3,Uruguay,83,-34
+Saudi Arabia,0 - 1,Egypt,83,33
+Saudi Arabia,0 - 2,Uruguay,83,-19
+Egypt,0 - 2,Uruguay,83,2
+Portugal,1 - 3,Spain,83,4
+Portugal,1 - 1,Morocco,83,18
+Portugal,2 - 2,Iran,83,-35
+Spain,2 - 2,Morocco,83,36
+Spain,0 - 0,Iran,83,-20
+Morocco,2 - 1,Iran,83,3
+France,1 - 0,Australia,83,5
+France,4 - 0,Peru,83,22
+France,1 - 2,Denmark,83,-38
+Australia,0 - 2,Peru,83,37
+Australia,1 - 2,Denmark,83,-21
+Peru,0 - 1,Denmark,83,7
+Argentina,1 - 1,Island,83,6
+Argentina,1 - 2,Croatia,83,23
+Argentina,2 - 1,Nigeria,83,-39
+Island,1 - 2,Croatia,83,40
+Island,0 - 2,Nigeria,83,-25
+Croatia,1 - 1,Nigeria,83,8
+Brazil,2 - 1,Switzerland,83,11
+Brazil,5 - 0,Costa Rica,83,24
+Brazil,2 - 0,Serbia,83,-43
+Switzerland,4 - 0,Costa Rica,83,44
+Switzerland,1 - 2,Serbia,83,-26
+Costa Rica,1 - 0,Serbia,83,9
+Germany,4 - 4,Mexico,83,10
+Germany,3 - 2,Sweden,83,29
+Germany,1 - 1,South Korea,83,-42
+Mexico,2 - 0,Sweden,83,41
+Mexico,3 - 1,South Korea,83,-28
+Sweden,0 - 1,South Korea,83,12
+Belgium,2 - 2,Panama,83,13
+Belgium,2 - 1,Tunesia,83,27
+Belgium,2 - 2,England,83,-45
+Panama,1 - 2,Tunesia,83,47
+Panama,0 - 3,England,83,-30
+Tunesia,0 - 1,England,83,14
+Poland,4 - 1,Senegal,83,16
+Poland,2 - 4,Colombia,83,32
+Poland,4 - 1,Japan,83,-48
+Senegal,3 - 1,Colombia,83,46
+Senegal,2 - 1,Japan,83,-31
+Colombia,2 - 0,Japan,83,15
+Russia,0 - 2,Saudi Arabia,84,1
+Russia,2 - 2,Egypt,84,17
+Russia,2 - 2,Uruguay,84,-34
+Saudi Arabia,1 - 2,Egypt,84,33
+Saudi Arabia,0 - 2,Uruguay,84,-19
+Egypt,1 - 2,Uruguay,84,2
+Portugal,0 - 3,Spain,84,4
+Portugal,2 - 0,Morocco,84,18
+Portugal,4 - 1,Iran,84,-35
+Spain,3 - 2,Morocco,84,36
+Spain,3 - 1,Iran,84,-20
+Morocco,1 - 2,Iran,84,3
+France,2 - 2,Australia,84,5
+France,1 - 3,Peru,84,22
+France,4 - 0,Denmark,84,-38
+Australia,4 - 1,Peru,84,37
+Australia,2 - 0,Denmark,84,-21
+Peru,1 - 0,Denmark,84,7
+Argentina,0 - 0,Island,84,6
+Argentina,5 - 1,Croatia,84,23
+Argentina,3 - 1,Nigeria,84,-39
+Island,1 - 2,Croatia,84,40
+Island,1 - 2,Nigeria,84,-25
+Croatia,4 - 1,Nigeria,84,8
+Brazil,4 - 0,Switzerland,84,11
+Brazil,3 - 0,Costa Rica,84,24
+Brazil,4 - 1,Serbia,84,-43
+Switzerland,1 - 1,Costa Rica,84,44
+Switzerland,1 - 1,Serbia,84,-26
+Costa Rica,2 - 3,Serbia,84,9
+Germany,2 - 0,Mexico,84,10
+Germany,4 - 1,Sweden,84,29
+Germany,1 - 1,South Korea,84,-42
+Mexico,0 - 0,Sweden,84,41
+Mexico,1 - 1,South Korea,84,-28
+Sweden,2 - 0,South Korea,84,12
+Belgium,2 - 1,Panama,84,13
+Belgium,2 - 0,Tunesia,84,27
+Belgium,1 - 3,England,84,-45
+Panama,0 - 2,Tunesia,84,47
+Panama,0 - 5,England,84,-30
+Tunesia,0 - 2,England,84,14
+Poland,0 - 2,Senegal,84,16
+Poland,0 - 6,Colombia,84,32
+Poland,0 - 1,Japan,84,-48
+Senegal,1 - 2,Colombia,84,46
+Senegal,1 - 2,Japan,84,-31
+Colombia,2 - 1,Japan,84,15
+Russia,4 - 1,Saudi Arabia,85,1
+Russia,2 - 0,Egypt,85,17
+Russia,0 - 3,Uruguay,85,-34
+Saudi Arabia,0 - 2,Egypt,85,33
+Saudi Arabia,1 - 1,Uruguay,85,-19
+Egypt,1 - 2,Uruguay,85,2
+Portugal,2 - 0,Spain,85,4
+Portugal,0 - 1,Morocco,85,18
+Portugal,1 - 2,Iran,85,-35
+Spain,2 - 1,Morocco,85,36
+Spain,1 - 2,Iran,85,-20
+Morocco,1 - 2,Iran,85,3
+France,3 - 0,Australia,85,5
+France,1 - 0,Peru,85,22
+France,2 - 1,Denmark,85,-38
+Australia,1 - 2,Peru,85,37
+Australia,0 - 3,Denmark,85,-21
+Peru,4 - 0,Denmark,85,7
+Argentina,3 - 1,Island,85,6
+Argentina,1 - 2,Croatia,85,23
+Argentina,4 - 1,Nigeria,85,-39
+Island,1 - 0,Croatia,85,40
+Island,3 - 0,Nigeria,85,-25
+Croatia,1 - 1,Nigeria,85,8
+Brazil,2 - 2,Switzerland,85,11
+Brazil,1 - 1,Costa Rica,85,24
+Brazil,2 - 0,Serbia,85,-43
+Switzerland,4 - 1,Costa Rica,85,44
+Switzerland,3 - 5,Serbia,85,-26
+Costa Rica,1 - 1,Serbia,85,9
+Germany,1 - 0,Mexico,85,10
+Germany,4 - 1,Sweden,85,29
+Germany,1 - 0,South Korea,85,-42
+Mexico,4 - 0,Sweden,85,41
+Mexico,2 - 0,South Korea,85,-28
+Sweden,4 - 1,South Korea,85,12
+Belgium,4 - 0,Panama,85,13
+Belgium,3 - 1,Tunesia,85,27
+Belgium,2 - 4,England,85,-45
+Panama,3 - 3,Tunesia,85,47
+Panama,1 - 3,England,85,-30
+Tunesia,0 - 2,England,85,14
+Poland,3 - 1,Senegal,85,16
+Poland,1 - 4,Colombia,85,32
+Poland,4 - 1,Japan,85,-48
+Senegal,2 - 1,Colombia,85,46
+Senegal,2 - 0,Japan,85,-31
+Colombia,2 - 1,Japan,85,15
+Russia,2 - 2,Saudi Arabia,86,1
+Russia,1 - 1,Egypt,86,17
+Russia,1 - 2,Uruguay,86,-34
+Saudi Arabia,1 - 3,Egypt,86,33
+Saudi Arabia,1 - 3,Uruguay,86,-19
+Egypt,1 - 2,Uruguay,86,2
+Portugal,1 - 2,Spain,86,4
+Portugal,2 - 0,Morocco,86,18
+Portugal,3 - 1,Iran,86,-35
+Spain,4 - 1,Morocco,86,36
+Spain,2 - 3,Iran,86,-20
+Morocco,0 - 2,Iran,86,3
+France,1 - 1,Australia,86,5
+France,3 - 2,Peru,86,22
+France,2 - 1,Denmark,86,-38
+Australia,1 - 4,Peru,86,37
+Australia,0 - 3,Denmark,86,-21
+Peru,1 - 4,Denmark,86,7
+Argentina,3 - 0,Island,86,6
+Argentina,3 - 3,Croatia,86,23
+Argentina,3 - 0,Nigeria,86,-39
+Island,2 - 2,Croatia,86,40
+Island,1 - 1,Nigeria,86,-25
+Croatia,2 - 0,Nigeria,86,8
+Brazil,4 - 1,Switzerland,86,11
+Brazil,2 - 1,Costa Rica,86,24
+Brazil,2 - 1,Serbia,86,-43
+Switzerland,0 - 0,Costa Rica,86,44
+Switzerland,1 - 1,Serbia,86,-26
+Costa Rica,1 - 3,Serbia,86,9
+Germany,0 - 0,Mexico,86,10
+Germany,2 - 0,Sweden,86,29
+Germany,4 - 1,South Korea,86,-42
+Mexico,2 - 3,Sweden,86,41
+Mexico,3 - 0,South Korea,86,-28
+Sweden,1 - 3,South Korea,86,12
+Belgium,1 - 2,Panama,86,13
+Belgium,1 - 0,Tunesia,86,27
+Belgium,1 - 1,England,86,-45
+Panama,1 - 2,Tunesia,86,47
+Panama,0 - 2,England,86,-30
+Tunesia,0 - 5,England,86,14
+Poland,1 - 2,Senegal,86,16
+Poland,1 - 2,Colombia,86,32
+Poland,5 - 0,Japan,86,-48
+Senegal,0 - 2,Colombia,86,46
+Senegal,0 - 1,Japan,86,-31
+Colombia,2 - 0,Japan,86,15
+Russia,4 - 1,Saudi Arabia,87,1
+Russia,4 - 3,Egypt,87,17
+Russia,2 - 1,Uruguay,87,-34
+Saudi Arabia,2 - 2,Egypt,87,33
+Saudi Arabia,2 - 1,Uruguay,87,-19
+Egypt,1 - 4,Uruguay,87,2
+Portugal,1 - 1,Spain,87,4
+Portugal,3 - 1,Morocco,87,18
+Portugal,1 - 0,Iran,87,-35
+Spain,1 - 1,Morocco,87,36
+Spain,2 - 1,Iran,87,-20
+Morocco,1 - 1,Iran,87,3
+France,2 - 1,Australia,87,5
+France,1 - 1,Peru,87,22
+France,3 - 4,Denmark,87,-38
+Australia,4 - 2,Peru,87,37
+Australia,0 - 3,Denmark,87,-21
+Peru,3 - 1,Denmark,87,7
+Argentina,4 - 3,Island,87,6
+Argentina,0 - 1,Croatia,87,23
+Argentina,2 - 1,Nigeria,87,-39
+Island,1 - 1,Croatia,87,40
+Island,4 - 1,Nigeria,87,-25
+Croatia,1 - 1,Nigeria,87,8
+Brazil,2 - 1,Switzerland,87,11
+Brazil,3 - 0,Costa Rica,87,24
+Brazil,2 - 0,Serbia,87,-43
+Switzerland,2 - 1,Costa Rica,87,44
+Switzerland,4 - 1,Serbia,87,-26
+Costa Rica,0 - 1,Serbia,87,9
+Germany,2 - 0,Mexico,87,10
+Germany,1 - 0,Sweden,87,29
+Germany,0 - 1,South Korea,87,-42
+Mexico,1 - 1,Sweden,87,41
+Mexico,2 - 1,South Korea,87,-28
+Sweden,2 - 0,South Korea,87,12
+Belgium,4 - 1,Panama,87,13
+Belgium,0 - 0,Tunesia,87,27
+Belgium,1 - 1,England,87,-45
+Panama,3 - 0,Tunesia,87,47
+Panama,2 - 4,England,87,-30
+Tunesia,0 - 3,England,87,14
+Poland,1 - 3,Senegal,87,16
+Poland,1 - 2,Colombia,87,32
+Poland,4 - 2,Japan,87,-48
+Senegal,2 - 0,Colombia,87,46
+Senegal,4 - 0,Japan,87,-31
+Colombia,2 - 0,Japan,87,15
+Russia,2 - 0,Saudi Arabia,88,1
+Russia,2 - 1,Egypt,88,17
+Russia,0 - 1,Uruguay,88,-34
+Saudi Arabia,2 - 4,Egypt,88,33
+Saudi Arabia,0 - 1,Uruguay,88,-19
+Egypt,0 - 3,Uruguay,88,2
+Portugal,1 - 1,Spain,88,4
+Portugal,4 - 3,Morocco,88,18
+Portugal,4 - 1,Iran,88,-35
+Spain,2 - 1,Morocco,88,36
+Spain,3 - 1,Iran,88,-20
+Morocco,2 - 1,Iran,88,3
+France,2 - 0,Australia,88,5
+France,1 - 1,Peru,88,22
+France,3 - 1,Denmark,88,-38
+Australia,1 - 3,Peru,88,37
+Australia,0 - 3,Denmark,88,-21
+Peru,3 - 1,Denmark,88,7
+Argentina,2 - 0,Island,88,6
+Argentina,2 - 1,Croatia,88,23
+Argentina,2 - 2,Nigeria,88,-39
+Island,2 - 2,Croatia,88,40
+Island,4 - 0,Nigeria,88,-25
+Croatia,2 - 1,Nigeria,88,8
+Brazil,5 - 1,Switzerland,88,11
+Brazil,3 - 0,Costa Rica,88,24
+Brazil,4 - 2,Serbia,88,-43
+Switzerland,3 - 2,Costa Rica,88,44
+Switzerland,0 - 2,Serbia,88,-26
+Costa Rica,1 - 3,Serbia,88,9
+Germany,1 - 2,Mexico,88,10
+Germany,2 - 1,Sweden,88,29
+Germany,2 - 2,South Korea,88,-42
+Mexico,2 - 4,Sweden,88,41
+Mexico,2 - 1,South Korea,88,-28
+Sweden,0 - 1,South Korea,88,12
+Belgium,4 - 2,Panama,88,13
+Belgium,2 - 1,Tunesia,88,27
+Belgium,2 - 2,England,88,-45
+Panama,1 - 1,Tunesia,88,47
+Panama,0 - 2,England,88,-30
+Tunesia,0 - 3,England,88,14
+Poland,4 - 2,Senegal,88,16
+Poland,2 - 3,Colombia,88,32
+Poland,3 - 0,Japan,88,-48
+Senegal,1 - 3,Colombia,88,46
+Senegal,0 - 0,Japan,88,-31
+Colombia,3 - 2,Japan,88,15
+Russia,2 - 1,Saudi Arabia,89,1
+Russia,1 - 2,Egypt,89,17
+Russia,1 - 1,Uruguay,89,-34
+Saudi Arabia,0 - 2,Egypt,89,33
+Saudi Arabia,0 - 2,Uruguay,89,-19
+Egypt,1 - 1,Uruguay,89,2
+Portugal,1 - 1,Spain,89,4
+Portugal,2 - 1,Morocco,89,18
+Portugal,4 - 0,Iran,89,-35
+Spain,3 - 1,Morocco,89,36
+Spain,3 - 1,Iran,89,-20
+Morocco,2 - 2,Iran,89,3
+France,1 - 1,Australia,89,5
+France,2 - 2,Peru,89,22
+France,2 - 2,Denmark,89,-38
+Australia,0 - 1,Peru,89,37
+Australia,0 - 2,Denmark,89,-21
+Peru,1 - 2,Denmark,89,7
+Argentina,1 - 2,Island,89,6
+Argentina,2 - 2,Croatia,89,23
+Argentina,3 - 1,Nigeria,89,-39
+Island,0 - 1,Croatia,89,40
+Island,5 - 1,Nigeria,89,-25
+Croatia,3 - 0,Nigeria,89,8
+Brazil,3 - 2,Switzerland,89,11
+Brazil,4 - 1,Costa Rica,89,24
+Brazil,2 - 0,Serbia,89,-43
+Switzerland,1 - 1,Costa Rica,89,44
+Switzerland,1 - 1,Serbia,89,-26
+Costa Rica,1 - 2,Serbia,89,9
+Germany,5 - 2,Mexico,89,10
+Germany,2 - 1,Sweden,89,29
+Germany,1 - 0,South Korea,89,-42
+Mexico,1 - 1,Sweden,89,41
+Mexico,1 - 3,South Korea,89,-28
+Sweden,1 - 2,South Korea,89,12
+Belgium,5 - 0,Panama,89,13
+Belgium,0 - 1,Tunesia,89,27
+Belgium,3 - 2,England,89,-45
+Panama,1 - 2,Tunesia,89,47
+Panama,0 - 3,England,89,-30
+Tunesia,0 - 3,England,89,14
+Poland,4 - 0,Senegal,89,16
+Poland,1 - 2,Colombia,89,32
+Poland,2 - 2,Japan,89,-48
+Senegal,0 - 4,Colombia,89,46
+Senegal,4 - 1,Japan,89,-31
+Colombia,3 - 0,Japan,89,15
+Russia,5 - 1,Saudi Arabia,90,1
+Russia,0 - 1,Egypt,90,17
+Russia,2 - 1,Uruguay,90,-34
+Saudi Arabia,0 - 1,Egypt,90,33
+Saudi Arabia,1 - 2,Uruguay,90,-19
+Egypt,0 - 1,Uruguay,90,2
+Portugal,0 - 2,Spain,90,4
+Portugal,3 - 1,Morocco,90,18
+Portugal,2 - 0,Iran,90,-35
+Spain,1 - 3,Morocco,90,36
+Spain,4 - 1,Iran,90,-20
+Morocco,1 - 0,Iran,90,3
+France,3 - 0,Australia,90,5
+France,1 - 0,Peru,90,22
+France,3 - 0,Denmark,90,-38
+Australia,0 - 4,Peru,90,37
+Australia,2 - 5,Denmark,90,-21
+Peru,3 - 0,Denmark,90,7
+Argentina,1 - 2,Island,90,6
+Argentina,3 - 1,Croatia,90,23
+Argentina,3 - 3,Nigeria,90,-39
+Island,0 - 1,Croatia,90,40
+Island,2 - 2,Nigeria,90,-25
+Croatia,4 - 1,Nigeria,90,8
+Brazil,0 - 1,Switzerland,90,11
+Brazil,4 - 1,Costa Rica,90,24
+Brazil,4 - 2,Serbia,90,-43
+Switzerland,4 - 2,Costa Rica,90,44
+Switzerland,4 - 1,Serbia,90,-26
+Costa Rica,1 - 3,Serbia,90,9
+Germany,6 - 0,Mexico,90,10
+Germany,3 - 0,Sweden,90,29
+Germany,3 - 1,South Korea,90,-42
+Mexico,4 - 1,Sweden,90,41
+Mexico,2 - 1,South Korea,90,-28
+Sweden,3 - 1,South Korea,90,12
+Belgium,3 - 0,Panama,90,13
+Belgium,3 - 0,Tunesia,90,27
+Belgium,2 - 2,England,90,-45
+Panama,0 - 3,Tunesia,90,47
+Panama,0 - 1,England,90,-30
+Tunesia,2 - 2,England,90,14
+Poland,1 - 2,Senegal,90,16
+Poland,3 - 1,Colombia,90,32
+Poland,3 - 1,Japan,90,-48
+Senegal,1 - 1,Colombia,90,46
+Senegal,3 - 0,Japan,90,-31
+Colombia,2 - 0,Japan,90,15
+Russia,2 - 0,Saudi Arabia,91,1
+Russia,1 - 2,Egypt,91,17
+Russia,0 - 2,Uruguay,91,-34
+Saudi Arabia,0 - 2,Egypt,91,33
+Saudi Arabia,1 - 3,Uruguay,91,-19
+Egypt,3 - 1,Uruguay,91,2
+Portugal,1 - 2,Spain,91,4
+Portugal,2 - 1,Morocco,91,18
+Portugal,4 - 0,Iran,91,-35
+Spain,2 - 3,Morocco,91,36
+Spain,5 - 0,Iran,91,-20
+Morocco,0 - 2,Iran,91,3
+France,1 - 0,Australia,91,5
+France,2 - 3,Peru,91,22
+France,2 - 2,Denmark,91,-38
+Australia,0 - 2,Peru,91,37
+Australia,0 - 3,Denmark,91,-21
+Peru,4 - 1,Denmark,91,7
+Argentina,1 - 0,Island,91,6
+Argentina,1 - 4,Croatia,91,23
+Argentina,1 - 0,Nigeria,91,-39
+Island,0 - 2,Croatia,91,40
+Island,3 - 2,Nigeria,91,-25
+Croatia,0 - 2,Nigeria,91,8
+Brazil,5 - 1,Switzerland,91,11
+Brazil,3 - 0,Costa Rica,91,24
+Brazil,1 - 1,Serbia,91,-43
+Switzerland,4 - 1,Costa Rica,91,44
+Switzerland,0 - 0,Serbia,91,-26
+Costa Rica,0 - 3,Serbia,91,9
+Germany,2 - 1,Mexico,91,10
+Germany,1 - 0,Sweden,91,29
+Germany,1 - 2,South Korea,91,-42
+Mexico,1 - 3,Sweden,91,41
+Mexico,1 - 2,South Korea,91,-28
+Sweden,2 - 2,South Korea,91,12
+Belgium,2 - 2,Panama,91,13
+Belgium,1 - 0,Tunesia,91,27
+Belgium,1 - 3,England,91,-45
+Panama,0 - 2,Tunesia,91,47
+Panama,1 - 1,England,91,-30
+Tunesia,2 - 1,England,91,14
+Poland,0 - 2,Senegal,91,16
+Poland,0 - 1,Colombia,91,32
+Poland,2 - 4,Japan,91,-48
+Senegal,2 - 3,Colombia,91,46
+Senegal,4 - 2,Japan,91,-31
+Colombia,3 - 1,Japan,91,15
+Russia,2 - 0,Saudi Arabia,92,1
+Russia,2 - 3,Egypt,92,17
+Russia,0 - 0,Uruguay,92,-34
+Saudi Arabia,1 - 3,Egypt,92,33
+Saudi Arabia,0 - 3,Uruguay,92,-19
+Egypt,0 - 2,Uruguay,92,2
+Portugal,0 - 1,Spain,92,4
+Portugal,1 - 1,Morocco,92,18
+Portugal,3 - 0,Iran,92,-35
+Spain,3 - 0,Morocco,92,36
+Spain,1 - 1,Iran,92,-20
+Morocco,1 - 2,Iran,92,3
+France,3 - 0,Australia,92,5
+France,1 - 1,Peru,92,22
+France,2 - 3,Denmark,92,-38
+Australia,3 - 1,Peru,92,37
+Australia,1 - 1,Denmark,92,-21
+Peru,1 - 0,Denmark,92,7
+Argentina,0 - 0,Island,92,6
+Argentina,3 - 1,Croatia,92,23
+Argentina,2 - 0,Nigeria,92,-39
+Island,2 - 1,Croatia,92,40
+Island,4 - 1,Nigeria,92,-25
+Croatia,2 - 0,Nigeria,92,8
+Brazil,2 - 2,Switzerland,92,11
+Brazil,2 - 0,Costa Rica,92,24
+Brazil,5 - 1,Serbia,92,-43
+Switzerland,3 - 3,Costa Rica,92,44
+Switzerland,1 - 2,Serbia,92,-26
+Costa Rica,0 - 2,Serbia,92,9
+Germany,2 - 0,Mexico,92,10
+Germany,4 - 0,Sweden,92,29
+Germany,2 - 0,South Korea,92,-42
+Mexico,1 - 1,Sweden,92,41
+Mexico,2 - 2,South Korea,92,-28
+Sweden,3 - 4,South Korea,92,12
+Belgium,2 - 0,Panama,92,13
+Belgium,1 - 2,Tunesia,92,27
+Belgium,3 - 1,England,92,-45
+Panama,0 - 2,Tunesia,92,47
+Panama,0 - 4,England,92,-30
+Tunesia,1 - 4,England,92,14
+Poland,2 - 1,Senegal,92,16
+Poland,1 - 2,Colombia,92,32
+Poland,3 - 0,Japan,92,-48
+Senegal,3 - 3,Colombia,92,46
+Senegal,1 - 2,Japan,92,-31
+Colombia,2 - 0,Japan,92,15
+Russia,1 - 0,Saudi Arabia,93,1
+Russia,1 - 3,Egypt,93,17
+Russia,0 - 2,Uruguay,93,-34
+Saudi Arabia,0 - 2,Egypt,93,33
+Saudi Arabia,0 - 3,Uruguay,93,-19
+Egypt,0 - 0,Uruguay,93,2
+Portugal,2 - 1,Spain,93,4
+Portugal,2 - 2,Morocco,93,18
+Portugal,3 - 1,Iran,93,-35
+Spain,2 - 1,Morocco,93,36
+Spain,3 - 1,Iran,93,-20
+Morocco,0 - 3,Iran,93,3
+France,0 - 0,Australia,93,5
+France,3 - 1,Peru,93,22
+France,2 - 4,Denmark,93,-38
+Australia,1 - 3,Peru,93,37
+Australia,1 - 1,Denmark,93,-21
+Peru,0 - 2,Denmark,93,7
+Argentina,5 - 0,Island,93,6
+Argentina,3 - 0,Croatia,93,23
+Argentina,3 - 0,Nigeria,93,-39
+Island,0 - 2,Croatia,93,40
+Island,3 - 1,Nigeria,93,-25
+Croatia,2 - 0,Nigeria,93,8
+Brazil,3 - 0,Switzerland,93,11
+Brazil,3 - 0,Costa Rica,93,24
+Brazil,2 - 1,Serbia,93,-43
+Switzerland,0 - 0,Costa Rica,93,44
+Switzerland,0 - 1,Serbia,93,-26
+Costa Rica,2 - 1,Serbia,93,9
+Germany,3 - 1,Mexico,93,10
+Germany,2 - 1,Sweden,93,29
+Germany,0 - 0,South Korea,93,-42
+Mexico,1 - 0,Sweden,93,41
+Mexico,2 - 1,South Korea,93,-28
+Sweden,1 - 1,South Korea,93,12
+Belgium,2 - 0,Panama,93,13
+Belgium,4 - 2,Tunesia,93,27
+Belgium,1 - 1,England,93,-45
+Panama,1 - 4,Tunesia,93,47
+Panama,1 - 6,England,93,-30
+Tunesia,1 - 2,England,93,14
+Poland,4 - 1,Senegal,93,16
+Poland,0 - 1,Colombia,93,32
+Poland,1 - 0,Japan,93,-48
+Senegal,3 - 3,Colombia,93,46
+Senegal,5 - 2,Japan,93,-31
+Colombia,2 - 0,Japan,93,15
+Russia,2 - 1,Saudi Arabia,94,1
+Russia,1 - 1,Egypt,94,17
+Russia,5 - 1,Uruguay,94,-34
+Saudi Arabia,1 - 1,Egypt,94,33
+Saudi Arabia,1 - 3,Uruguay,94,-19
+Egypt,0 - 0,Uruguay,94,2
+Portugal,2 - 2,Spain,94,4
+Portugal,3 - 1,Morocco,94,18
+Portugal,2 - 0,Iran,94,-35
+Spain,2 - 0,Morocco,94,36
+Spain,4 - 0,Iran,94,-20
+Morocco,1 - 3,Iran,94,3
+France,2 - 0,Australia,94,5
+France,3 - 1,Peru,94,22
+France,1 - 2,Denmark,94,-38
+Australia,1 - 2,Peru,94,37
+Australia,1 - 2,Denmark,94,-21
+Peru,0 - 3,Denmark,94,7
+Argentina,3 - 2,Island,94,6
+Argentina,1 - 0,Croatia,94,23
+Argentina,2 - 0,Nigeria,94,-39
+Island,1 - 2,Croatia,94,40
+Island,3 - 2,Nigeria,94,-25
+Croatia,2 - 1,Nigeria,94,8
+Brazil,3 - 2,Switzerland,94,11
+Brazil,4 - 1,Costa Rica,94,24
+Brazil,0 - 0,Serbia,94,-43
+Switzerland,2 - 2,Costa Rica,94,44
+Switzerland,2 - 0,Serbia,94,-26
+Costa Rica,0 - 0,Serbia,94,9
+Germany,2 - 2,Mexico,94,10
+Germany,1 - 0,Sweden,94,29
+Germany,2 - 0,South Korea,94,-42
+Mexico,0 - 1,Sweden,94,41
+Mexico,2 - 0,South Korea,94,-28
+Sweden,2 - 2,South Korea,94,12
+Belgium,2 - 1,Panama,94,13
+Belgium,2 - 0,Tunesia,94,27
+Belgium,1 - 2,England,94,-45
+Panama,0 - 0,Tunesia,94,47
+Panama,0 - 3,England,94,-30
+Tunesia,0 - 2,England,94,14
+Poland,4 - 1,Senegal,94,16
+Poland,1 - 1,Colombia,94,32
+Poland,2 - 1,Japan,94,-48
+Senegal,1 - 6,Colombia,94,46
+Senegal,2 - 2,Japan,94,-31
+Colombia,4 - 0,Japan,94,15
+Russia,1 - 1,Saudi Arabia,95,1
+Russia,2 - 0,Egypt,95,17
+Russia,2 - 2,Uruguay,95,-34
+Saudi Arabia,0 - 2,Egypt,95,33
+Saudi Arabia,1 - 5,Uruguay,95,-19
+Egypt,2 - 3,Uruguay,95,2
+Portugal,1 - 3,Spain,95,4
+Portugal,2 - 0,Morocco,95,18
+Portugal,0 - 1,Iran,95,-35
+Spain,6 - 1,Morocco,95,36
+Spain,1 - 0,Iran,95,-20
+Morocco,2 - 0,Iran,95,3
+France,3 - 0,Australia,95,5
+France,2 - 1,Peru,95,22
+France,3 - 1,Denmark,95,-38
+Australia,1 - 4,Peru,95,37
+Australia,3 - 5,Denmark,95,-21
+Peru,2 - 2,Denmark,95,7
+Argentina,3 - 1,Island,95,6
+Argentina,1 - 0,Croatia,95,23
+Argentina,2 - 1,Nigeria,95,-39
+Island,0 - 2,Croatia,95,40
+Island,3 - 3,Nigeria,95,-25
+Croatia,1 - 2,Nigeria,95,8
+Brazil,1 - 2,Switzerland,95,11
+Brazil,6 - 1,Costa Rica,95,24
+Brazil,0 - 3,Serbia,95,-43
+Switzerland,1 - 0,Costa Rica,95,44
+Switzerland,2 - 2,Serbia,95,-26
+Costa Rica,1 - 1,Serbia,95,9
+Germany,2 - 2,Mexico,95,10
+Germany,2 - 0,Sweden,95,29
+Germany,6 - 2,South Korea,95,-42
+Mexico,1 - 2,Sweden,95,41
+Mexico,4 - 1,South Korea,95,-28
+Sweden,4 - 2,South Korea,95,12
+Belgium,3 - 1,Panama,95,13
+Belgium,2 - 0,Tunesia,95,27
+Belgium,2 - 2,England,95,-45
+Panama,3 - 1,Tunesia,95,47
+Panama,0 - 2,England,95,-30
+Tunesia,2 - 4,England,95,14
+Poland,3 - 0,Senegal,95,16
+Poland,0 - 5,Colombia,95,32
+Poland,1 - 0,Japan,95,-48
+Senegal,3 - 0,Colombia,95,46
+Senegal,1 - 2,Japan,95,-31
+Colombia,4 - 0,Japan,95,15
+Russia,4 - 0,Saudi Arabia,96,1
+Russia,6 - 2,Egypt,96,17
+Russia,0 - 0,Uruguay,96,-34
+Saudi Arabia,2 - 2,Egypt,96,33
+Saudi Arabia,0 - 1,Uruguay,96,-19
+Egypt,0 - 4,Uruguay,96,2
+Portugal,1 - 3,Spain,96,4
+Portugal,3 - 0,Morocco,96,18
+Portugal,4 - 2,Iran,96,-35
+Spain,3 - 2,Morocco,96,36
+Spain,0 - 1,Iran,96,-20
+Morocco,3 - 1,Iran,96,3
+France,1 - 0,Australia,96,5
+France,3 - 0,Peru,96,22
+France,1 - 3,Denmark,96,-38
+Australia,0 - 2,Peru,96,37
+Australia,0 - 1,Denmark,96,-21
+Peru,2 - 0,Denmark,96,7
+Argentina,2 - 2,Island,96,6
+Argentina,1 - 0,Croatia,96,23
+Argentina,2 - 1,Nigeria,96,-39
+Island,0 - 1,Croatia,96,40
+Island,0 - 1,Nigeria,96,-25
+Croatia,3 - 1,Nigeria,96,8
+Brazil,2 - 0,Switzerland,96,11
+Brazil,2 - 0,Costa Rica,96,24
+Brazil,2 - 0,Serbia,96,-43
+Switzerland,3 - 0,Costa Rica,96,44
+Switzerland,2 - 3,Serbia,96,-26
+Costa Rica,0 - 0,Serbia,96,9
+Germany,2 - 1,Mexico,96,10
+Germany,4 - 2,Sweden,96,29
+Germany,1 - 0,South Korea,96,-42
+Mexico,0 - 0,Sweden,96,41
+Mexico,4 - 0,South Korea,96,-28
+Sweden,4 - 0,South Korea,96,12
+Belgium,2 - 0,Panama,96,13
+Belgium,0 - 2,Tunesia,96,27
+Belgium,1 - 3,England,96,-45
+Panama,3 - 1,Tunesia,96,47
+Panama,0 - 0,England,96,-30
+Tunesia,0 - 2,England,96,14
+Poland,3 - 3,Senegal,96,16
+Poland,1 - 0,Colombia,96,32
+Poland,2 - 0,Japan,96,-48
+Senegal,1 - 1,Colombia,96,46
+Senegal,3 - 1,Japan,96,-31
+Colombia,0 - 2,Japan,96,15
+Russia,2 - 2,Saudi Arabia,97,1
+Russia,2 - 2,Egypt,97,17
+Russia,1 - 0,Uruguay,97,-34
+Saudi Arabia,3 - 1,Egypt,97,33
+Saudi Arabia,1 - 2,Uruguay,97,-19
+Egypt,0 - 2,Uruguay,97,2
+Portugal,2 - 0,Spain,97,4
+Portugal,2 - 4,Morocco,97,18
+Portugal,4 - 1,Iran,97,-35
+Spain,1 - 1,Morocco,97,36
+Spain,3 - 1,Iran,97,-20
+Morocco,0 - 0,Iran,97,3
+France,1 - 0,Australia,97,5
+France,2 - 0,Peru,97,22
+France,1 - 1,Denmark,97,-38
+Australia,2 - 2,Peru,97,37
+Australia,2 - 0,Denmark,97,-21
+Peru,2 - 3,Denmark,97,7
+Argentina,4 - 0,Island,97,6
+Argentina,2 - 1,Croatia,97,23
+Argentina,3 - 0,Nigeria,97,-39
+Island,0 - 4,Croatia,97,40
+Island,2 - 0,Nigeria,97,-25
+Croatia,0 - 4,Nigeria,97,8
+Brazil,1 - 1,Switzerland,97,11
+Brazil,2 - 2,Costa Rica,97,24
+Brazil,3 - 2,Serbia,97,-43
+Switzerland,4 - 1,Costa Rica,97,44
+Switzerland,0 - 0,Serbia,97,-26
+Costa Rica,1 - 0,Serbia,97,9
+Germany,4 - 1,Mexico,97,10
+Germany,3 - 0,Sweden,97,29
+Germany,1 - 1,South Korea,97,-42
+Mexico,4 - 1,Sweden,97,41
+Mexico,2 - 0,South Korea,97,-28
+Sweden,2 - 1,South Korea,97,12
+Belgium,1 - 0,Panama,97,13
+Belgium,2 - 1,Tunesia,97,27
+Belgium,2 - 0,England,97,-45
+Panama,2 - 0,Tunesia,97,47
+Panama,1 - 0,England,97,-30
+Tunesia,1 - 1,England,97,14
+Poland,1 - 1,Senegal,97,16
+Poland,1 - 4,Colombia,97,32
+Poland,3 - 0,Japan,97,-48
+Senegal,1 - 1,Colombia,97,46
+Senegal,2 - 0,Japan,97,-31
+Colombia,1 - 0,Japan,97,15
+Russia,1 - 1,Saudi Arabia,98,1
+Russia,1 - 0,Egypt,98,17
+Russia,0 - 4,Uruguay,98,-34
+Saudi Arabia,1 - 1,Egypt,98,33
+Saudi Arabia,2 - 3,Uruguay,98,-19
+Egypt,1 - 1,Uruguay,98,2
+Portugal,1 - 2,Spain,98,4
+Portugal,4 - 2,Morocco,98,18
+Portugal,2 - 1,Iran,98,-35
+Spain,2 - 1,Morocco,98,36
+Spain,4 - 1,Iran,98,-20
+Morocco,0 - 1,Iran,98,3
+France,3 - 0,Australia,98,5
+France,3 - 1,Peru,98,22
+France,2 - 2,Denmark,98,-38
+Australia,0 - 4,Peru,98,37
+Australia,1 - 1,Denmark,98,-21
+Peru,2 - 2,Denmark,98,7
+Argentina,1 - 0,Island,98,6
+Argentina,4 - 0,Croatia,98,23
+Argentina,3 - 0,Nigeria,98,-39
+Island,1 - 2,Croatia,98,40
+Island,1 - 1,Nigeria,98,-25
+Croatia,3 - 1,Nigeria,98,8
+Brazil,2 - 1,Switzerland,98,11
+Brazil,1 - 0,Costa Rica,98,24
+Brazil,5 - 0,Serbia,98,-43
+Switzerland,3 - 1,Costa Rica,98,44
+Switzerland,2 - 2,Serbia,98,-26
+Costa Rica,1 - 1,Serbia,98,9
+Germany,3 - 2,Mexico,98,10
+Germany,4 - 1,Sweden,98,29
+Germany,1 - 0,South Korea,98,-42
+Mexico,1 - 3,Sweden,98,41
+Mexico,1 - 4,South Korea,98,-28
+Sweden,1 - 2,South Korea,98,12
+Belgium,2 - 2,Panama,98,13
+Belgium,2 - 1,Tunesia,98,27
+Belgium,1 - 1,England,98,-45
+Panama,0 - 1,Tunesia,98,47
+Panama,1 - 3,England,98,-30
+Tunesia,0 - 3,England,98,14
+Poland,3 - 1,Senegal,98,16
+Poland,1 - 3,Colombia,98,32
+Poland,3 - 0,Japan,98,-48
+Senegal,2 - 3,Colombia,98,46
+Senegal,1 - 1,Japan,98,-31
+Colombia,3 - 2,Japan,98,15
+Russia,4 - 0,Saudi Arabia,99,1
+Russia,1 - 2,Egypt,99,17
+Russia,2 - 5,Uruguay,99,-34
+Saudi Arabia,2 - 2,Egypt,99,33
+Saudi Arabia,1 - 3,Uruguay,99,-19
+Egypt,0 - 1,Uruguay,99,2
+Portugal,1 - 2,Spain,99,4
+Portugal,4 - 1,Morocco,99,18
+Portugal,1 - 1,Iran,99,-35
+Spain,4 - 1,Morocco,99,36
+Spain,1 - 1,Iran,99,-20
+Morocco,2 - 2,Iran,99,3
+France,3 - 0,Australia,99,5
+France,0 - 1,Peru,99,22
+France,2 - 2,Denmark,99,-38
+Australia,1 - 2,Peru,99,37
+Australia,2 - 2,Denmark,99,-21
+Peru,3 - 3,Denmark,99,7
+Argentina,1 - 0,Island,99,6
+Argentina,0 - 1,Croatia,99,23
+Argentina,3 - 1,Nigeria,99,-39
+Island,0 - 4,Croatia,99,40
+Island,3 - 2,Nigeria,99,-25
+Croatia,0 - 2,Nigeria,99,8
+Brazil,1 - 0,Switzerland,99,11
+Brazil,3 - 1,Costa Rica,99,24
+Brazil,1 - 0,Serbia,99,-43
+Switzerland,2 - 0,Costa Rica,99,44
+Switzerland,2 - 4,Serbia,99,-26
+Costa Rica,0 - 2,Serbia,99,9
+Germany,2 - 1,Mexico,99,10
+Germany,3 - 3,Sweden,99,29
+Germany,3 - 0,South Korea,99,-42
+Mexico,1 - 2,Sweden,99,41
+Mexico,1 - 4,South Korea,99,-28
+Sweden,8 - 0,South Korea,99,12
+Belgium,1 - 0,Panama,99,13
+Belgium,6 - 0,Tunesia,99,27
+Belgium,0 - 0,England,99,-45
+Panama,3 - 2,Tunesia,99,47
+Panama,1 - 3,England,99,-30
+Tunesia,0 - 2,England,99,14
+Poland,1 - 3,Senegal,99,16
+Poland,0 - 3,Colombia,99,32
+Poland,1 - 2,Japan,99,-48
+Senegal,0 - 1,Colombia,99,46
+Senegal,2 - 1,Japan,99,-31
+Colombia,3 - 0,Japan,99,15
