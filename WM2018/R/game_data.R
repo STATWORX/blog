@@ -16,8 +16,8 @@ game_data <- function() {
     1, 2, 1, 2, 3, 1, 1, 0, 1, 0, 0, 1,
     1, 1, 1, 0, 0, 3, 2, 0, 2, 0, 1, 2,
     5, 2, 1, 2, 2, 1, 6, 1, 2, 2, 0, 3,
-    NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,
-    NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA)),
+    3, 0, 2, 1, 1, 1, 2, 2, 0, 0, 0, 2, 1, 2, 1, 2,
+    2, 0, 0, 3, 0, 2, 2 ,2 , 0, 1, 0, 1, 0, 1, 1, 2)),
     ncol = 2, byrow = TRUE)
   
   out$realscores <- realscores
