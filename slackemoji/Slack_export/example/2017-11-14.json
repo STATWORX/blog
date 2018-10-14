@@ -1,0 +1,61 @@
+[
+    {
+        "type": "message",
+        "user": "U03BPADJA",
+        "text": "Im Office geht nur der AB ran, ist das Absicht?",
+        "ts": "1510675822.000101"
+    },
+    {
+        "type": "message",
+        "user": "U03BPADJA",
+        "text": "<!channel>",
+        "ts": "1510675830.000199"
+    },
+    {
+        "type": "message",
+        "user": "U03H1727X",
+        "text": "Merk dir die Durchwahlen ;)",
+        "ts": "1510675861.000369",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U4TGE4YJH",
+                    "U5PAQU337"
+                ],
+                "count": 2
+            },
+            {
+                "name": "phone",
+                "users": [
+                    "U19DE9QMR"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U03BPADJA",
+        "text": ":see_no_evil:",
+        "ts": "1510675892.000093"
+    },
+    {
+        "type": "message",
+        "user": "U4U60L18W",
+        "text": "nächstes jahr gibts stechkarten",
+        "ts": "1510676367.000903"
+    },
+    {
+        "type": "message",
+        "user": "U03H1727X",
+        "text": "Regt euch ab. Heute hat kein eines mal das Telefon geklingelt. ",
+        "ts": "1510676487.000393"
+    },
+    {
+        "type": "message",
+        "user": "U03BPADJA",
+        "text": "(ich hab nur gefragt, weil ich nicht wußte, ob evtl. das Problem oder ähnliches vorliegt)",
+        "ts": "1510676533.000845"
+    }
+]

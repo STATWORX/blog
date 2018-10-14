@@ -1,0 +1,74 @@
+[
+    {
+        "type": "message",
+        "user": "U3YJ7JBEU",
+        "text": "Wollte mich mal wieder aus dem MA-Exil melden. Ich sitze gerade an den Grundzügen der MA und freue mich über jeden, der sich dazu aufopfert, mal drüber zu lesen. :slightly_smiling_face:",
+        "ts": "1521714925.000209"
+    },
+    {
+        "type": "message",
+        "user": "U03BPADJA",
+        "text": "Kann nichts versprechen, aber wenn ich Zeit finde, lese ich gerne drüber!",
+        "ts": "1521715015.000502"
+    },
+    {
+        "type": "message",
+        "user": "U3YJ7JBEU",
+        "text": "Ich fände es auch schon cool, wenn man den generellen Eindruck von Abstract, Intro und Conclusion beurteilt; also das Ding wie ein Paper liest.",
+        "edited": {
+            "user": "U3YJ7JBEU",
+            "ts": "1521715186.000000"
+        },
+        "ts": "1521715177.000476"
+    },
+    {
+        "type": "message",
+        "user": "U03BPADJA",
+        "text": "das sollte machbar sein, schicks mir einfach mal per Mail",
+        "ts": "1521715200.000168"
+    },
+    {
+        "type": "message",
+        "text": "",
+        "user": "U7D4ZLZ0U",
+        "reactions": [
+            {
+                "name": "nullproblemo",
+                "users": [
+                    "U0ADU2CSV"
+                ],
+                "count": 1
+            }
+        ],
+        "ts": "1521723111.000612"
+    },
+    {
+        "type": "message",
+        "user": "U4U60L18W",
+        "text": "haha :slightly_smiling_face:",
+        "ts": "1521723404.000078"
+    },
+    {
+        "type": "message",
+        "user": "U19DE9QMR",
+        "text": "#großerBeerpongTisch",
+        "ts": "1521723515.000497",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U9JF5UCDQ",
+                    "U7D4ZLZ0U",
+                    "U9GLW5HHR"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U03H1727X",
+        "text": "Raubkunst :smile:",
+        "ts": "1521723965.000083"
+    }
+]
