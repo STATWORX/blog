@@ -1,8 +1,6 @@
 
 
 # settings ----------------------------------------------------------------
-rm(list = ls())
-
 # devtools::install_github("STATWORX/helfRlein")
 
 library(data.table)
@@ -42,11 +40,18 @@ emoji_dt <- data.table(EMOJI = paste0(":", unlist(emoji_json), ":"),
                        CATEGORY = rep(names(emoji_json), lapply(emoji_json, length)))
 
 ## custom emojis
-custom_emoji <- as.data.table(read.csv2(paste0(main_path, "emojis/custom_emoji.csv"),
-                                        header = FALSE,
-                                        stringsAsFactors = FALSE))
-custom_emoji[, INDEX := rep(1:(.N/3), each = 3)]
-custom_emoji <- dcast.data.table(custom_emoji, INDEX ~ V1, value.var = "V2")
+if (file.exists(paste0(main_path, "emojis/custom_emoji.csv"))) {
+  custom_emoji <- as.data.table(read.csv2(paste0(main_path, "emojis/custom_emoji.csv"),
+                                          header = FALSE,
+                                          stringsAsFactors = FALSE))
+  custom_emoji[, INDEX := rep(1:(.N/3), each = 3)]
+  custom_emoji <- dcast.data.table(custom_emoji, INDEX ~ V1, value.var = "V2")
+} else {
+  custom_emoji <- data.table(INDEX = 1,
+                             CREATOR = "Jakob",
+                             EMOJI = ":nullproblemo:",
+                             NAME = "nullproblemo")
+}
 
 emoji_list <- unique(c(emoji_dt[, EMOJI], custom_emoji[, EMOJI]))
 #emoji_list <- sort(readLines(paste0(main_path, "emojilist.txt")))
@@ -115,7 +120,7 @@ add_to_matrix <- function(x, y, mat, emoji_list) {
     reaction <- reaction[idx]
   }
   
-  mat[used_row, used_col] <-  matrix(rep(reaction, length(used_row)),
+  mat[used_row, used_col] <-  matrix(as.integer(rep(reaction, length(used_row))),
                                      nrow = length(used_row),
                                      byrow = TRUE)
   
@@ -123,7 +128,7 @@ add_to_matrix <- function(x, y, mat, emoji_list) {
 }
 
 eval_json <- function(this_json) {
-  #this_json <- json_files[120]
+  #this_json <- json_files[1]
   this_channel <- basename(dirname(this_json))
   daten <- fromJSON(this_json)
   
@@ -158,7 +163,7 @@ eval_json <- function(this_json) {
   
   # which meassage and reactions come together
   emoji_net_tmp <- lapply(seq_along(word_dt), function(i) {
-    # i <- 8
+    # i <- 1
     add_to_matrix(x = word_dt[[i]], y = tmp_reactions[[i]],
                   mat = emoji_net_raw, emoji_list = emoji_list)
   })
@@ -222,8 +227,8 @@ get_unicode <-function(x) {
 
 # matrix for network: message -> reactions
 emoji_net_raw <- emoji_net <- matrix(
-  0, nrow  = num_emoji, ncol = num_emoji,
-  dimnames = list(emoji_list, emoji_list)) 
+  as.integer(0), nrow  = num_emoji, ncol = num_emoji,
+  dimnames = list(emoji_list, emoji_list))
 
 # for (i in json_files[320:340]) {
 #   # i <- json_files[30]
