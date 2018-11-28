@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><tableProperties xmlns="http://xml.spss.com/spss/viewer/table-looks" xmlns:vizml="http://xml.spss.com/visualization" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xml.spss.com/spss/viewer/table-looks http://xml.spss.com/spss/viewer/table-looks-1.2.xsd">
+	<!-- ***************************************************************** -->
+	<!--                                                                   -->
+	<!-- IBM Confidential                                                  -->
+	<!--                                                                   -->
+	<!-- OCO Source Materials                                              -->
+	<!--                                                                   -->
+	<!-- IBM SPSS Products: Analytic Components                            -->
+	<!--                                                                   -->
+	<!-- (C) Copyright IBM Corp. 2007, 2015                                -->
+	<!--                                                                   -->
+	<!-- The source code for this program is not published or otherwise    -->
+	<!-- divested of its trade secrets, irrespective of what has been      -->
+	<!-- deposited with the U.S. Copyright Office.                         -->
+	<!--                                                                   -->
+	<!-- ***************************************************************** -->
+	<generalProperties hideEmptyRows="true" maximumColumnWidth="72" maximumRowWidth="120" minimumColumnWidth="50" minimumRowWidth="36" rowDimensionLabels="inCorner"/>
+    <footnoteProperties markerPosition="superscript" numberFormat="alphabetic"/>
+    <cellFormatProperties>
+        <caption>
+            <vizml:style color="#000000" font-family="Times New Roman,SansSerif" font-size="12pt" labelLocationVertical="positive" margin-bottom="1pt" margin-left="6pt" margin-right="8pt" margin-top="1pt" textAlignment="left"/>
+        </caption>
+        <footnotes>
+            <vizml:style color="#000000" font-family="Times New Roman,SansSerif" font-size="12pt" labelLocationVertical="positive" margin-bottom="2pt" margin-left="18pt" margin-right="18pt" margin-top="2pt" textAlignment="left"/>
+        </footnotes>
+        <rowLabels>
+            <vizml:style color="#000000" font-family="Times New Roman,SansSerif" font-size="12pt" labelLocationVertical="positive" margin-bottom="1pt" margin-left="6pt" margin-right="8pt" margin-top="1pt" textAlignment="left"/>
+        </rowLabels>
+        <columnLabels>
+            <vizml:style color="#000000" font-family="Times New Roman,SansSerif" font-size="12pt" labelLocationVertical="negative" margin-bottom="2pt" margin-left="6pt" margin-right="8pt" margin-top="1pt" textAlignment="center"/>
+        </columnLabels>
+        <data>
+            <vizml:style color="#000000" font-family="Times New Roman,SansSerif" font-size="12pt" labelLocationVertical="positive" margin-bottom="3pt" margin-left="6pt" margin-right="8pt" margin-top="1pt" textAlignment="mixed"/>
+        </data>
+        <layers>
+            <vizml:style color="#000000" font-family="Times New Roman,SansSerif" font-size="12pt" labelLocationVertical="negative" margin-bottom="1pt" margin-left="6pt" margin-right="8pt" margin-top="1pt" textAlignment="left"/>
+        </layers>
+        <title>
+            <vizml:style color="#000000" font-family="Times New Roman,SansSerif" font-size="12pt" font-style="italic" labelLocationVertical="center" margin-bottom="6pt" margin-left="6pt" margin-right="8pt" margin-top="1pt" textAlignment="left"/>
+        </title>
+        <cornerLabels>
+            <vizml:style color="#000000" font-family="Times New Roman,SansSerif" font-size="12pt" labelLocationVertical="negative" margin-bottom="1pt" margin-left="6pt" margin-right="8pt" margin-top="1pt" textAlignment="left"/>
+        </cornerLabels>
+    </cellFormatProperties>
+    <borderProperties>
+        <topInnerFrame borderStyleType="thin" color="#000000"/>
+        <rightInnerFrame borderStyleType="none" color="#000000"/>
+        <horizontalDimensionBorderColumns borderStyleType="solid" color="#000000"/>
+        <horizontalDimensionBorderRows borderStyleType="solid" color="#000000"/>
+        <horizontalCategoryBorderColumns borderStyleType="thin" color="#000000"/>
+        <leftInnerFrame borderStyleType="none" color="#000000"/>
+        <verticalDimensionBorderRows borderStyleType="none" color="#000000"/>
+        <titleLayerSeparator borderStyleType="none" color="#000000"/>
+        <verticalCategoryBorderRows borderStyleType="none" color="#000000"/>
+        <topOuterFrame borderStyleType="none" color="#000000"/>
+        <bottomInnerFrame borderStyleType="thin" color="#000000"/>
+        <leftOuterFrame borderStyleType="none" color="#000000"/>
+        <dataAreaTop borderStyleType="thin" color="#000000"/>
+        <verticalDimensionBorderColumns borderStyleType="none" color="#000000"/>
+        <dataAreaLeft borderStyleType="none" color="#000000"/>
+        <horizontalCategoryBorderRows borderStyleType="none" color="#000000"/>
+        <bottomOuterFrame borderStyleType="none" color="#000000"/>
+        <rightOuterFrame borderStyleType="none" color="#000000"/>
+        <verticalCategoryBorderColumns borderStyleType="none" color="#000000"/>
+    </borderProperties>
+    <printingProperties continuationText="(cont.)" continuationTextAtBottom="false" continuationTextAtTop="false" printAllLayers="false" printEachLayerOnSeparatePage="false" rescaleLongTableToFitPage="false" rescaleWideTableToFitPage="false" windowOrphanLines="2"/>
+</tableProperties>
