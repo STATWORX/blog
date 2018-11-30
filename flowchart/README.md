@@ -21,7 +21,7 @@ The `getnetwork` function will stay in its current state, so it is consistent wi
 
 ## Overview
 
-The aim of the function is to visualise the connections between R functions within a project as a flowchart. Herefore, input a directory path to the function and the outputs are an adjacency matrix and an `igraph` object. As an example we use [the R folder of the helfRlein package]():
+The aim of the function is to visualise the connections between R functions within a project as a flowchart. Herefore, the input a directory path to the function or a list with the functions and the outputs are an adjacency matrix and an `igraph` object. As an example we use [the R folder of the helfRlein package](https://github.com/STATWORX/helfRlein/tree/master/R):
 
 ```R
 net <- get_network(dir = "R/", simplify = TRUE)
@@ -33,7 +33,7 @@ The given plots looks like the following. It shows the connections of each funct
 
 ![example-network-helfRlein](plots/example-network-helfRlein.png)
 
-##Input
+## Input
 
 There are five parameters to interact with the function:
 
