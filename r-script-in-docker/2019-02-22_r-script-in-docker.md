@@ -1,6 +1,8 @@
 # Running your R-Script in Docker
 
-Since its release in 2014 Docker has become an essential tool for deploying applications. As a Data Scientist who most often works with R I was thrilled to learn about [RStudio's Rocker Project](https://github.com/rocker-org/rocker), which makes containerizing R-Code easier than ever. This blog entry will guide you through the entire process of getting your R-script to run in a Docker container one step at a time. 
+Since its release in 2014 Docker has become an essential tool for deploying applications. At [STATWORX](https://www.statworx.com/de/data-science/) we often work with R, so many were thrilled to learn about [RStudio's Rocker Project](https://github.com/rocker-org/rocker) which makes containerizing R-Code easier than ever. This is very useful when deploying R-Code in a cloud computing environment, where the coded workflow needs to be run on a regular schedule. Docker is a perfect fit for this task for two reasons: You can simply schedule a container to be started at your desired interval and because of the static nature of Docker you always know how it behaves and what output to expect. 
+
+This blog entry will guide you through the entire process of getting your R-script to run in a Docker container one step at a time. For the sake of simplicity we'll be working with a local dataset. 
 
 I'd like to start off with emphasizing that this blog entry is not a general Docker tutorial. If you're not sure what images and containers are, I recommend you take a look at the [Docker Curriculum](https://docker-curriculum.com/) first. If you're  interested in running an RStudio session within a Docker container then I suggest you pay the [OpenSciLabs Docker Tutorial](https://ropenscilabs.github.io/r-docker-tutorial/) a visit instead. This blog specifically focuses on containerizing an R-script to eventually execute it automatically each time the container is started, without any user interaction - thus eliminating the need for the RStudio IDE. I will only briefly touch on the syntax used in the Dockerfile and the command line so it is best to get familiar with the basics of Docker before reading any further. 
 
@@ -9,14 +11,14 @@ I'd like to start off with emphasizing that this blog entry is not a general Doc
 For the entire procedure we'll be needing the following:
 
 * an R-script which we'll build into an image
-* a Base Image on top of which we'll build our new image
+* a base image on top of which we'll build our new image
 * a Dockerfile with which we'll build our new image
 
-You can clone all my files and the used folderstructure from my [GitHub Repository](https://github.com/OGuggenbuehl/R-Script-in-Docker).
+You can clone all files and the used folderstructure from the [STATWORX GitHub Repository](https://github.com/STATWORX/blog).
 
-### The R-Script
+### The R-script
 
-We're working with a very simple R-script that imports a dataframe, manipulates it, creates a plot based on the manipulated data and at the end exports both the plot and the data it is based on. The dataframe used for this example is the [US 500 Records](https://www.briandunning.com/sample-data/us-500.zip) dataset provided by Brian Dunning. If you'd like following along I recommend you copy this dataset into the 01_data folder after cloning [my repository](https://github.com/OGuggenbuehl/R-Script-in-Docker).
+We're working with a very simple R-script that imports a dataframe, manipulates it, creates a plot based on the manipulated data and at the end exports both the plot and the data it is based on. The dataframe used for this example is the [US 500 Records](https://www.briandunning.com/sample-data/us-500.zip) dataset provided by Brian Dunning. If you'd like following along I recommend you copy this dataset into the 01_data folder. 
 
 ```R
 library(readr)
@@ -54,9 +56,13 @@ plot <- plot_data %>%
 ggsave("03_output/myplot.png", width = 10, height = 8, dpi = 100)
 ```
 
+This creates a simple barplot plot based on our dataset:
+
+![myplot](/Users/oliverguggenbuehl/Intern/Blog/blog/r-script-in-docker/03_output/myplot.png)
+
 We use this script because not only do we want to run R-code inside a Docker container, we often want to run said R-code on data from outside our container and afterwards save our results. 
 
-### The Base Image
+### The base image
 
 The [DockerHub page of the Rocker project](https://hub.docker.com/u/rocker) lists all available Rocker repositories. Seeing as we're using Tidyverse-packages in our script the ```rocker/tidyverse``` image should be an obvious choice. The problem with this repository is that it also includes RStudio, which is not something we want for this specific project. This means we'll have to work with the ```r-base``` repository instead and build our own Tidyverse-enabled image. We can pull the ```rocker/r-base``` image from DockerHub by executing the following command in the terminal:  
 
