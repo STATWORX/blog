@@ -6,6 +6,8 @@ This blog entry will guide you through the entire process of getting your R-scri
 
 I'd like to start off with emphasizing that this blog entry is not a general Docker tutorial. If you're not sure what images and containers are, I recommend you take a look at the [Docker Curriculum](https://docker-curriculum.com/) first. If you're  interested in running an RStudio session within a Docker container then I suggest you pay the [OpenSciLabs Docker Tutorial](https://ropenscilabs.github.io/r-docker-tutorial/) a visit instead. This blog specifically focuses on containerizing an R-script to eventually execute it automatically each time the container is started, without any user interaction - thus eliminating the need for the RStudio IDE. I will only briefly touch on the syntax used in the Dockerfile and the command line so it is best to get familiar with the basics of Docker before reading any further. 
 
+![docker run](/Users/oliverguggenbuehl/Intern/Blog/blog/r-script-in-docker/docker run.png)
+
 ### What we'll need
 
 For the entire procedure we'll be needing the following:
@@ -15,6 +17,8 @@ For the entire procedure we'll be needing the following:
 * a Dockerfile with which we'll build our new image
 
 You can clone all files and the used folderstructure from the [STATWORX GitHub Repository](https://github.com/STATWORX/blog).
+
+![docker build](/Users/oliverguggenbuehl/Intern/Blog/blog/r-script-in-docker/docker build.png) 
 
 ### The R-script
 
