@@ -1,12 +1,10 @@
 # Running your R-Script in Docker
 
-Since its release in 2014 Docker has become an essential tool for deploying applications. At [STATWORX](https://www.statworx.com/de/data-science/) we often work with R, so many were thrilled to learn about [RStudio's Rocker Project](https://github.com/rocker-org/rocker) which makes containerizing R-Code easier than ever. This is very useful when deploying R-Code in a cloud computing environment, where the coded workflow needs to be run on a regular schedule. Docker is a perfect fit for this task for two reasons: You can simply schedule a container to be started at your desired interval and because of the static nature of Docker you always know how it behaves and what output to expect. 
+Since its release in 2014 Docker has become an essential tool for deploying applications. At [STATWORX](https://www.statworx.com/de/data-science/) R is one of our daily tools, so many were thrilled to learn about [RStudio's Rocker Project](https://github.com/rocker-org/rocker) which makes containerizing R-Code easier than ever. 
 
-This blog entry will guide you through the entire process of getting your R-script to run in a Docker container one step at a time. For the sake of simplicity we'll be working with a local dataset. 
+Containerization is useful in many different situations. I found it very helpful when deploying R-Code in a cloud computing environment, where the coded workflow needs to be run on a regular schedule. Docker is a perfect fit for this task for two reasons: You can simply schedule a container to be started at your desired interval and because of the static nature of Docker you always know how it behaves and what output to expect. So if you're tasked with deploying a machine-learning model that should regularly make predictions consider doing so with the help of Docker containers. This blog entry will guide you through the entire process of getting your R-script to run in a Docker container one step at a time. For the sake of simplicity we'll be working with a local dataset. 
 
 I'd like to start off with emphasizing that this blog entry is not a general Docker tutorial. If you're not sure what images and containers are, I recommend you take a look at the [Docker Curriculum](https://docker-curriculum.com/) first. If you're  interested in running an RStudio session within a Docker container then I suggest you pay the [OpenSciLabs Docker Tutorial](https://ropenscilabs.github.io/r-docker-tutorial/) a visit instead. This blog specifically focuses on containerizing an R-script to eventually execute it automatically each time the container is started, without any user interaction - thus eliminating the need for the RStudio IDE. I will only briefly touch on the syntax used in the Dockerfile and the command line so it is best to get familiar with the basics of Docker before reading any further. 
-
-![docker run](/Users/oliverguggenbuehl/Intern/Blog/blog/r-script-in-docker/docker run.png)
 
 ### What we'll need
 
@@ -129,6 +127,8 @@ docker run -it --rm -v ~/"R-Script in Docker"/01_data:/01_data -v ~/"R-Script in
 Using the ```-v``` arguments tells Docker which local folders to map to the created folders inside the container. This is important because we want to both get our dataframe inside the container and save our output from the workflow locally so it isn't lost once the container is stopped. 
 
 This container can now interact with our dataframe in the 01_data folder and has a copy of our workflow-script inside its own 02_code folder. Telling R to ```source("02_code/myScript.R")``` will run the script and save the output into the 03_output folder, from where it will also be copied to our local 03_output folder. 
+
+![docker run](/Users/oliverguggenbuehl/Intern/Blog/blog/r-script-in-docker/docker run.png)
 
 ### Improving on what we have
 
