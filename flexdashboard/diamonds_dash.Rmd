@@ -1,0 +1,331 @@
+---
+title: "Dashing diamonds"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    vertical_layout: fill
+    css: bootswatch-3.3.5-4/flatly/bootstrap.css
+    logo: STATWORX_2.jpg
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+rm(list = ls())
+
+# load packages ----
+
+library(tidyverse)
+library(glmnet)
+library(shiny)
+library(plotly)
+
+# set seed ----
+set.seed(1)
+
+# train test split ----
+df <- diamonds %>% sample_n(3000)
+rows_sample <- sample(nrow(df), 0.6 * nrow(df))
+train_df <- df[rows_sample,]
+test_df <- df[-rows_sample,]
+
+# type conversions ----
+train_df_cont <- train_df %>% dplyr::select_if(is.numeric)
+train_df_cat <- train_df %>% dplyr::select_if(is.factor)
+
+test_df_cont <- test_df %>% dplyr::select_if(is.numeric)
+```
+
+Exploratory plots 
+=======================================================================
+
+Sidebar {.sidebar data-width=700} 
+-----------------------------------------------------------------------
+
+**Exploratory plots**
+
+This dashboard explores the `diamonds` dataset from the `ggplot2` package. It was created with **R Studio**'s package `flexdashboard`. 
+
+<br>
+
+**Scatterplots**
+
+Choose, which variables should be displayed in the scatterplot and which model should be used. You can also 
+choose to display the uncertainty around the regression lines. All widgets were created with `shiny`. 
+```{r inputs_1}
+# inputs for scatter plot ----
+selectInput("x", "X-Axis", choices = names(train_df), selected = "x")
+selectInput("y", "Y-Axis", choices = names(train_df), selected = "price")
+selectInput("z", "Color by:", choices = names(train_df), selected = "carat")
+selectInput("model_type", "Select model", choices = c("LOESS" = "loess", "Linear" = "lm"), selected = "lm")
+checkboxInput("se", "Confidence intervals ?")
+```
+
+<br>
+
+**Density plot**
+
+Select the variable to be shown in the density plot and the categorical variable by which to group it. 
+```{r inputs_2}
+# input for density plot
+selectInput("density_var", "Select variable for density plot", choices = names(train_df_cont), 
+            selected = names(train_df_cont)[1])
+selectInput("grouping_var", "Select variable by which to group", choices = names(train_df_cat), 
+            selected = names(train_df_cat)[1])
+```
+
+<br>
+
+**Summary statistics**
+
+Finally, the mean and standard deviation are calculated for the price of the diamonds:
+
+Pick a variable by which to group the calculation. 
+```{r inputs_3}
+# input for datatable
+selectInput("summary_grouping_var", "Variable by which to group summary statistics",
+            choices = names(train_df_cat), selected = names(train_df_cat)[1])
+```
+
+<br>
+
+
+Row {.tabset}
+-----------------------------------------------------------------------
+
+### Scatterplot of selected variables
+
+```{r scatterplot}
+renderPlotly({
+  p <- train_df %>% ggplot(aes_string(x = input$x, y = input$y, col = input$z)) + 
+    geom_point() +
+    theme_minimal() + 
+    geom_smooth(method = input$model_type, position = "identity", se = input$se) + 
+    scale_fill_distiller(palette = "Spectral") +
+    labs(x = input$x, y = input$y)
+  
+  p %>% ggplotly()
+})
+```
+
+### Density plot for selected variable
+```{r density_plot}
+renderPlotly({
+  p <- train_df %>% ggplot(aes_string(x = input$density_var, col = input$grouping_var)) + 
+    geom_density() + theme_minimal() + labs(x = input$density_var)
+  
+  p %>% ggplotly()
+})
+```
+
+Row 
+-----------------------------------------------------------------------
+
+### Maximum carats {data-width=50}
+```{r}
+flexdashboard::valueBox(max(train_df$carat), 
+                        caption = "maximal amount of carats",
+                        color = "info",
+                        icon = "fa-gem")
+```
+
+### Most expensive color {data-width=50}
+```{r}
+most_expensive_color <- train_df %>% 
+                        group_by(color) %>% 
+                        summarise(max_price = max(price)) %>% 
+                        arrange(max_price) %>% 
+                        slice(1)
+
+flexdashboard::valueBox(most_expensive_color$color,
+                        caption = "most expensive color",
+                        color = "primary",
+                        icon = "fa-gift")
+```
+
+### Maximal price {data-width=50}
+```{r}
+flexdashboard::valueBox(most_expensive_color$max_price, 
+                        caption = "highest price",
+                        color = "success", 
+                        icon = 'fa-dollar-sign')
+```
+
+
+Row {data-height=500}
+-----------------------------------------------------------------------
+
+### Summary statistics {data-width=500}
+```{r summary_stats}
+
+df_plot <- reactive({
+  train_df %>% 
+  group_by(!!sym(input$summary_grouping_var)) %>% 
+  summarise(
+    `Mean price` = round(mean(price, na.rm = TRUE), 2),
+    `SD price` = round(sd(price, na.rm = TRUE), 2),
+    `Mean carats` = round(mean(carat, na.rm = TRUE), 2),
+    `SD carats` = round(sd(carat, na.rm = TRUE), 2),
+    `Mean depth`= round(mean(depth, na.rm = TRUE), 2),
+    `SD depth` = round(sd(depth, na.rm = TRUE), 2)
+  ) %>% reshape2::melt(id = input$summary_grouping_var) %>% 
+  filter(str_detect(variable, "price"))
+})
+
+renderPlotly({
+    df_plot() %>%
+    ggplot(aes_string(x = input$summary_grouping_var, y = "value", fill = "variable")) +
+    geom_bar(stat = "identity", position = "dodge") + theme_minimal() + labs(y = " ", fill = " ")
+})
+
+```
+
+
+
+Model comparison
+=======================================================================
+
+```{r model_comp_1, include=FALSE}
+
+X_train <- train_df %>% 
+  dplyr::select_if(is.numeric) %>% 
+  as.matrix()
+
+Y_train <- train_df %>% 
+  dplyr::select(price) %>% 
+  as.matrix()
+
+X_test <- test_df %>% 
+  dplyr::select_if(is.numeric) %>% 
+  as.matrix()
+
+Y_test <- test_df %>% 
+  dplyr::select(price) %>% 
+  as.matrix()
+
+# train linear and loess model
+linear_model <- lm(price ~ carat + table + x + y, data = train_df_cont)
+glmnet_model <- glmnet::cv.glmnet(X_train, Y_train, type.measure = "mse")
+
+# get predictions on test set ----
+preds_lm <- predict(linear_model, test_df_cont) 
+preds_glmnet <- predict.cv.glmnet(glmnet_model, newx = X_test) %>% as.numeric()
+
+# get fitted values ----
+fitted_vals_lm <- fitted.values(linear_model)
+fitted_vals_glm <- predict.cv.glmnet(glmnet_model, newx = X_train) %>% as.numeric()
+
+# functio to compare two models ----
+error_scores <- function(x_1, x_2, y){
+  MAE_1 <- mean(abs(y- x_1))
+  MAE_2 <- mean(abs(y - x_2))
+  RMSE_1 <- sqrt(mean((y - x_1)^2))
+  RMSE_2 <- sqrt(mean((y - x_2)^2))
+  MAPE_1 <- 100 * mean(abs((y - x_1)/ y))
+  MAPE_2 <- 100 * mean(abs((y - x_2)/ y))
+  res <- data.frame(Model = c("Linear Model", "Ridge Regression"),
+                    MAE = c(MAE_1, MAE_2),
+                    RMSE = c(RMSE_1, RMSE_2),
+                    MAPE = c(MAPE_1, MAPE_2))
+  return(res)
+}
+
+# insample errors ----
+errors_insample <- error_scores(x_1 = fitted_vals_lm, 
+                                x_2 = fitted_vals_glm, 
+                                y = train_df$price)
+# test set errors ----
+errors_test <- error_scores(x_1 = preds_lm, 
+                            x_2 = preds_glmnet, 
+                            y = test_df$price)
+
+# dataframe for plots ----
+df_preds <- data.frame(prediction_glm = preds_glmnet, 
+                       prediction_lm = preds_lm,
+                       target = test_df$price)
+```
+
+Sidebar {.sidebar data-width=700}
+-----------------------------------------------------------------------
+
+**Model comparison**
+
+<br> 
+
+This page compares the performance of an linear model and an elastic net on a 60-40 train-test split. The target variable is the price of the diamonds. 
+
+<br>
+
+The in sample performance is: 
+
+```{r insample_performance}
+renderTable({
+  errors_insample
+}, striped = TRUE, 
+   bordered = TRUE, 
+   spacing = "s", 
+   align = "l")
+```
+
+On the test set, the performance is:
+
+```{r outofsample_performance}
+renderTable({
+  errors_test
+}, striped = TRUE, 
+   bordered = TRUE, 
+   spacing = "s", 
+   align = "l")
+```
+
+Both in and out of sample errors show, that the ridge regression is clearly preferable, when compared to a simple linear model. 
+
+<br>
+
+Row{.tabset}
+-----------------------------------------------------------------------
+
+ **Comparison of Predictions and Target**
+
+### Linear Model
+```{r test_preds_lm}
+renderPlot({
+  df_preds %>% 
+  ggplot(aes(x = prediction_lm, y = target)) + 
+  geom_point() + 
+  geom_abline(slope = 1, intercept = 0) +
+  theme_minimal() + 
+  labs(x = "Predicted price", y = "Actual price")
+})
+```
+
+### Ridge Regression 
+```{r test_preds_glmnet}
+renderPlot({
+  df_preds %>% 
+  ggplot(aes(x = prediction_glm, y = target)) + 
+  geom_point() + 
+  geom_abline(slope = 1, intercept = 0) +
+  theme_minimal() + 
+  labs(x = "Predicted price", y = "Actual price")
+})
+```
+
+
+Row
+-----------------------------------------------------------------------
+
+### Densities of predictions vs target 
+```{r preds_densities_glmnet}
+renderPlot({
+  df_preds %>% 
+  rename("Linear model predicted price" = prediction_lm, 
+         "Elastic Net predicted price" = prediction_glm,
+         "Actual price" = target) %>% 
+  gather() %>% 
+  ggplot(aes(x = value, color = key)) + 
+  labs(x = "Price") +
+  geom_density() + 
+  theme_minimal() +
+  labs(color = " ")
+})
+```
