@@ -1,0 +1,14 @@
+# data
+.csv
+.xlsx
+.xlsm
+.xls
+
+.DS_Store
+
+# log files
+/docker_log_files
+
+# creator only
+/How To Use.docx
+.Rproj.user

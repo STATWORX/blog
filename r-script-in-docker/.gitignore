@@ -1,0 +1,4 @@
+# Don't track files with these extensions
+*.DS_Store
+.Rproj.user
+BlogBody.md

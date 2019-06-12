@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# This is a script bash for docker log files!
+# activate via: chmod 0755 logup_bash or chmod +x logup_bash
+# navigate to wd docker_contents
+# excute in terminal via source ../logup_bash
+
+echo ""
+echo "Welcome, You are executing a docker error log tool."
+echo ""
+echo "Do you want to use the Default from the global configurations?"
+echo ""
+source global_conf.sh
+echo $container_name
+echo ""
+read -p "[Y/n] " y_n
+echo ""
+if [ $y_n = "Y" ]; then
+    docker cp $container_name:/var/log/shiny-server/. ./docker_log_files
+    open ./docker_log_files
+else
+    read -p "What is the name of your docker container? " container_name
+    echo ""
+    docker cp $container_name:/var/log/shiny-server/. ./docker_log_files
+    open ./docker_log_files
+fi
+
+# (created by Stephan Emmer)

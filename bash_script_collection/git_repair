@@ -1,0 +1,35 @@
+#!/bin/bash
+
+# This is a script bash for github repositories!
+# activate via: chmod 0755 gitup_bash or chmod +x gitup_bash
+# excute in terminal via source ../gittup_bash
+
+echo ""
+echo "Welcome, You are executing a shell script bash for github repositotries."
+echo ""
+read -p "Do you want to check if the local git repository is connected remotely? (y/n) " y_n
+echo ""
+if [ $y_n == y ]; then
+read -p "What is the repository URL you are looking for? " repo
+echo ""
+if [[ "$(git remote 2> /dev/null)" != "" && -d ".git" ]]; then
+echo "The requested git repository has a local clone and is connected."
+else
+echo "Cloning requested git repository..."
+git clone $repo repository_clone # das darf nur wenn noch gar nichts da
+mv repository_clone/.git .
+rm -rf repository_clone
+fi
+echo ""
+else
+echo "No check requested."
+echo ""
+fi
+git pull
+git add .
+read -p "Enter your commit message: " uservar
+echo ""
+git commit -a -m "$uservar"
+git push
+
+# (created by Stephan Emmer)
