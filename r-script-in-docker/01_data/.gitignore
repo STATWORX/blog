@@ -2,3 +2,6 @@
 *
 # Except this file
 !.gitignore
+# and the input data file
+!us-500.zip
+!us-500.csv
