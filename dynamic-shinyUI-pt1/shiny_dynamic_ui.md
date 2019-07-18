@@ -12,7 +12,7 @@ Shiny natively provides convenient tools to turn the UI of any app reactive to i
 
 `conditionalPanel` simply lets us conditionally show or hide UI elements and thus helps us reduce visual clutter. 
 
-### `renderUI`
+### Basic Example
 
 Imagine a situation where you are tasked with building a dashboard showing the user three different KPIs for three different countries. The most obvious approach would be to specify the position of each KPI-box on the UI side of the app and creating each element on the server side with the help of `shinydashboard::renderValueBox` as seen in the example below. 
 
@@ -186,3 +186,6 @@ shinyApp(ui = ui, server = server)
 ```
 
 The UI now dynamically responds to our inputs in the `selectizeInput`. This means that users can still show all KPI boxes if needed - but they won't have to. In my opinion this flexibility is what shiny was designed for - letting users interact with R-code dynamically. We have also effectively cut down on copy-pasted code by 66% already! There is still some repetition in the multiple `renderUI` function calls, but the server side of our app is already much more pleasing to read and make sense of that in the static example of our app. 
+
+### Advanced Example
+
