@@ -6,13 +6,11 @@ One of the biggest strengths of Shiny is it's inherent reactivity, after all bei
 
 ### The Tools
 
-Shiny natively provides convenient tools to turn the UI of any app reactive to input. We are namely going to look at the `renderUI` (in conjunction with `lapply`) and `conditionalPanel` functions. 
+Shiny natively provides convenient tools to turn the UI of any app reactive to input. In today's blog entry we are namely going to look at the `renderUI` in conjunction with `lapply` and `do.call`.
 
 `renderUI` is helpful because it frees us from the chains of having to define what kind of object we'd like to render in our `render` function. `renderUI` can render any UI element, so we could, for example, let the type of the content of our `uiOutput` be reactive to an input instead of being set in stone.
 
-`conditionalPanel` simply lets us conditionally show or hide UI elements and thus helps us reduce visual clutter. 
-
-### Basic Example
+### A Basic Example
 
 Imagine a situation where you are tasked with building a dashboard showing the user three different KPIs for three different countries. The most obvious approach would be to specify the position of each KPI-box on the UI side of the app and creating each element on the server side with the help of `shinydashboard::renderValueBox` as seen in the example below. 
 
@@ -187,5 +185,8 @@ shinyApp(ui = ui, server = server)
 
 The UI now dynamically responds to our inputs in the `selectizeInput`. This means that users can still show all KPI boxes if needed - but they won't have to. In my opinion this flexibility is what shiny was designed for - letting users interact with R-code dynamically. We have also effectively cut down on copy-pasted code by 66% already! There is still some repetition in the multiple `renderUI` function calls, but the server side of our app is already much more pleasing to read and make sense of that in the static example of our app. 
 
-### Advanced Example
+### An Advanced Example
 
+We have just seen that with the help of `lapply` `renderUI` can dynamically generate entire UI elements. That is however not the full extent of what `renderUI` can do. Individual parts of a UI element can also be generated dynamically if we employ the help of  functions that allow us to pass the dynamically generated parts of a UI element as arguments to the function call creating the element. Within the reactive context of `renderUI` we can call functions at will, which means that we have more tools than just `lapply` on our hands. Enter `do.call`. The `do.call` function enables us to execute function calls by passing a list of arguments to said function. This may sound like function-caption, but bear with me. 
+
+Assume that we'd like to create a `tabsetPanel`, but instead of specifying the number of tabs shown we let the users decide. The solution to this task is a two-step process.  
