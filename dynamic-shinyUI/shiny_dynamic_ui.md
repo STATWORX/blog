@@ -14,3 +14,88 @@ Shiny natively provides convenient tools to turn the UI of any app reactive to i
 
 ### `renderUI`
 
+Imagine a situation where you are tasked with building a dashboard showing the user three different KPIs for three different countries. The most obvious approach would be to specify the position of each KPI-box on the UI side of the app and creating each element on the server side with the help of `shinydashboard::renderValueBox()` as seen in the example below. 
+
+```R
+library(shiny)
+library(shinydashboard)
+
+ui <- dashboardPage(
+  
+  dashboardHeader(),
+  dashboardSidebar(),
+  
+  dashboardBody(column(width = 4, 
+                       fluidRow(valueBoxOutput("ch_1", width = 12)),
+                       fluidRow(valueBoxOutput("jp_1", width = 12)),
+                       fluidRow(valueBoxOutput("ger_1", width = 12))),
+                column(width = 4,
+                       fluidRow(valueBoxOutput("ch_2", width = 12)),
+                       fluidRow(valueBoxOutput("jp_2", width = 12)),
+                       fluidRow(valueBoxOutput("ger_2", width = 12))),
+                column(width = 4, 
+                       fluidRow(valueBoxOutput("ch_3", width = 12)),
+                       fluidRow(valueBoxOutput("jp_3", width = 12)),
+                       fluidRow(valueBoxOutput("ger_3", width = 12)))
+  )
+)
+
+server <- function(input, output) {
+  
+  output$ch_1 <- renderValueBox({
+    valueBox(value = "CH",
+             subtitle = "Box 1")
+  })
+  
+  output$ch_2 <- renderValueBox({
+    valueBox(value = "CH",
+             subtitle = "Box 2")
+  })
+  
+  output$ch_3 <- renderValueBox({
+    valueBox(value = "CH",
+             subtitle = "Box 3",
+             width = 12)
+  })
+  
+  output$jp_1 <- renderValueBox({
+    valueBox(value = "JP",
+             subtitle = "Box 1",
+             width = 12)
+  })
+  
+  output$jp_2 <- renderValueBox({
+    valueBox(value = "JP",
+             subtitle = "Box 2",
+             width = 12)
+  })
+  
+  output$jp_3 <- renderValueBox({
+    valueBox(value = "JP",
+             subtitle = "Box 3",
+             width = 12)
+  })
+  
+  output$ger_1 <- renderValueBox({
+    valueBox(value = "GER",
+             subtitle = "Box 1",
+             width = 12)
+  })
+  
+  output$ger_2 <- renderValueBox({
+    valueBox(value = "GER",
+             subtitle = "Box 2",
+             width = 12)
+  })
+  
+  output$ger_3 <- renderValueBox({
+    valueBox(value = "GER",
+             subtitle = "Box 3",
+             width = 12)
+  })
+}
+
+shinyApp(ui = ui, server = server)
+```
+
+This might be a working solution to the task at hand, but it is hardly an elegant one. The valueboxes take up a large amount of space in our app and even though they can be resized or moved around, we always have to look at all the boxes, regardless of which ones are currently of interest. This is of course not optimal. A much more elegant solution would be to only show the boxes for each unit of interest (in our case countries) as chosen by the user. 
