@@ -187,6 +187,81 @@ The UI now dynamically responds to our inputs in the `selectizeInput`. This mean
 
 ### An Advanced Example
 
-We have just seen that with the help of `lapply` `renderUI` can dynamically generate entire UI elements. That is however not the full extent of what `renderUI` can do. Individual parts of a UI element can also be generated dynamically if we employ the help of  functions that allow us to pass the dynamically generated parts of a UI element as arguments to the function call creating the element. Within the reactive context of `renderUI` we can call functions at will, which means that we have more tools than just `lapply` on our hands. Enter `do.call`. The `do.call` function enables us to execute function calls by passing a list of arguments to said function. This may sound like function-caption, but bear with me. 
+We have just seen that with the help of `lapply` `renderUI` can dynamically generate entire UI elements. That is however not the full extent of what `renderUI` can do. Individual parts of a UI element can also be generated dynamically if we employ the help of  functions that allow us to pass the dynamically generated parts of a UI element as arguments to the function call creating the element. Within the reactive context of `renderUI` we can call functions at will, which means that we have more tools than just `lapply` on our hands. Enter `do.call`. The `do.call` function enables us to execute function calls by passing a list of arguments to said function. This may sound like function-ception, but bear with me. 
 
 Assume that we'd like to create a `tabsetPanel`, but instead of specifying the number of tabs shown we let the users decide. The solution to this task is a two-step process.  
+
+1. We use `lapply` to iterate over a user-chosen number to create the specified amount of tabs.
+2. We use `do.call` to execute the `shiny::tabsetPanel` function with the  tabs from step 1 being passed to the `do.call` as a simple argument. 
+
+This would look something like this:
+
+```
+# create tabs from input
+myTabs <- lapply(1:input$slider, function(i) {
+  
+  tabPanel(title = glue("Tab {i}"),
+           h3(glue("Content {i}"))
+  )
+})
+
+# execute tabsetPanel with tabs added as arguments
+do.call(tabsetPanel, myTabs)
+```
+
+This creates the HTML for a tabset panel with a user-chosen number of tabs that all have a unique title and can be filled with content. You can try it out with this example app:
+
+```R
+library(shiny)
+library(shinydashboard)
+library(glue)
+
+ui <- dashboardPage(
+  dashboardHeader(),
+  
+  dashboardSidebar(
+    sliderInput(inputId = "slider", label = NULL, min = 1, max = 5, value = 3, step = 1)
+  ),
+  
+  dashboardBody(
+    fluidRow(
+      box(width = 12,
+          p(mainPanel(width = 12,
+                      column(width = 6, uiOutput("reference")),
+                      column(width = 6, uiOutput("comparison"))
+          )
+          )
+      )
+    )
+  )
+)
+
+server <- function(input, output) {
+  
+  output$reference <- renderUI({
+    tabsetPanel(
+      tabPanel(
+        "Reference",
+        h3("Reference Content"))
+    )
+  })
+  
+  output$comparison <- renderUI({
+    req(input$slider)
+    
+    myTabs <- lapply(1:input$slider, function(i) {
+      
+      tabPanel(title = glue("Tab {i}"),
+               h3(glue("Content {i}"))
+      )
+    })
+    do.call(tabsetPanel, myTabs)
+  })
+}
+
+shinyApp(ui = ui, server = server)
+```
+
+As you can see, `renderUI` offers has a very flexible and dynamic approach to offer to UI design when being used in conjunction with `lapply` and the more advanced `do.call`. 
+
+Try using these tools next time you build an app and bring the same reactivity to Shiny's UI as you're already used to utilizing in its server part. 
