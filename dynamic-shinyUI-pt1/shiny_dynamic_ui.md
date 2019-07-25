@@ -2,7 +2,7 @@
 
 At STATWORX we regularly deploy our project results with the help of Shiny. It is not only an easy way of letting potential users interact with your R-code, it's also fun to design a good-looking app. 
 
-One of the biggest strengths of Shiny is its inherent reactivity, after all being reactive to user input is a web-applications prime purpose. It is unfortunate that many apps seem to only make use of Shiny's reactivity on the server side while keeping the UI completely static. This does not have to be necessarily bad - some apps would not profit from having dynamic UI elements and adding them regardless could quickly result in the app feeling gimmicky. But in many cases adding reactivity to the UI can not only result in less clutter on the screen, but also cleaner code. And we all like that, don't we? 
+One of Shiny's biggest strengths is its inherent reactivity, after all being reactive to user input is a web-applications prime purpose. It is unfortunate that many apps seem to only make use of Shiny's reactivity on the server side while keeping the UI completely static. This does not have to be necessarily bad - some apps would not profit from having dynamic UI elements and adding them regardless could quickly result in the app feeling gimmicky. But in many cases adding reactivity to the UI can not only result in less clutter on the screen, but also cleaner code. And we all like that, don't we? 
 
 ### The Tools
 
@@ -96,7 +96,7 @@ server <- function(input, output) {
 shinyApp(ui = ui, server = server)
 ```
 
-This might be a working solution to the task at hand, but it is hardly an elegant one. The valueboxes take up a large amount of space in our app and even though they can be resized or moved around, we always have to look at all the boxes, regardless of which ones are currently of interest. The code is also highly repetitive and largely consists of copy-pasted code chunks. This is of course suboptimal. A much more elegant solution would be to only show the boxes for each unit of interest (in our case countries) as chosen by the user. Here's where `renderUI` comes in.
+This might be a working solution to the task at hand, but it is hardly an elegant one. The valueboxes take up a large amount of space in our app and even though they can be resized or moved around, we always have to look at all the boxes, regardless of which ones are currently of interest. The code is also highly repetitive and largely consists of copy-pasted code chunks. A much more elegant solution would be to only show the boxes for each unit of interest (in our case countries) as chosen by the user. Here's where `renderUI` comes in.
 
 `renderUI` not only allows us to render UI objects of any type, but also integrates well with the `lapply` function. This means that we don't have to render every valuebox separately, but let `lapply` do this repeptitive job for us. 
 
@@ -112,7 +112,7 @@ lapply(seq_along(input$select), function(i) {
     })
 ``````
 
-How does this work exactly? The `lapply` function iterates over each element of our input called "select" and executes whatever code we feed it once per element. In our case that means `lapply` takes the elements of our input and creates a valuebox embedded in a fluidrow for each (technically it just spits out the corresponding HTML code that would create that). 
+How does this work exactly? The `lapply` function iterates over each element of our input "select" and executes whatever code we feed it once per element. In our case that means `lapply` takes the elements of our input and creates a valuebox embedded in a fluidrow for each (technically it just spits out the corresponding HTML code that would create that). 
 
 This has multiple advantages: 
 
@@ -183,7 +183,7 @@ server <- function(input, output) {
 shinyApp(ui = ui, server = server)
 ```
 
-The UI now dynamically responds to our inputs in the `selectizeInput`. This means that users can still show all KPI boxes if needed - but they won't have to. In my opinion this flexibility is what shiny was designed for - letting users interact with R-code dynamically. We have also effectively cut down on copy-pasted code by 66% already! There is still some repetition in the multiple `renderUI` function calls, but the server side of our app is already much more pleasing to read and make sense of that in the static example of our app. 
+The UI now dynamically responds to our inputs in the `selectizeInput`. This means that users can still show all KPI boxes if needed - but they won't have to. In my opinion this flexibility is what shiny was designed for - letting users interact with R-code dynamically. We have also effectively cut down on copy-pasted code by 66% already! There is still some repetition in the multiple `renderUI` function calls, but the server side of our app is already much more pleasing to read and make sense of than the static example of our previous app. 
 
 ### An Advanced Example
 
@@ -209,7 +209,7 @@ myTabs <- lapply(1:input$slider, function(i) {
 do.call(tabsetPanel, myTabs)
 ```
 
-This creates the HTML for a tabset panel with a user-chosen number of tabs that all have a unique title and can be filled with content. You can try it out with this example app:
+This creates the HTML for a `tabsetPanel` with a user-chosen number of tabs that all have a unique title and can be filled with content. You can try it out with this example app:
 
 ```R
 library(shiny)
@@ -265,3 +265,8 @@ shinyApp(ui = ui, server = server)
 As you can see, `renderUI` offers a very flexible and dynamic approach to offer to UI design when being used in conjunction with `lapply` and the more advanced `do.call`. 
 
 Try using these tools next time you build an app and bring the same reactivity to Shiny's UI as your already used to utilizing in its server part. 
+
+
+
+[author class="mtl" title="Über den Autor"]
+[global_block block="15819"]
