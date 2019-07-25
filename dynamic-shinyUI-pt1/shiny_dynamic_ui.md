@@ -264,4 +264,4 @@ shinyApp(ui = ui, server = server)
 
 As you can see, `renderUI` offers a very flexible and dynamic approach to offer to UI design when being used in conjunction with `lapply` and the more advanced `do.call`. 
 
-Try using these tools next time you build an app and bring the same reactivity to Shiny's UI as you're already used to utilizing in its server part. 
+Try using these tools next time you build an app and bring the same reactivity to Shiny's UI as your already used to utilizing in its server part. 
