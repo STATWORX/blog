@@ -183,7 +183,7 @@ server <- function(input, output) {
 shinyApp(ui = ui, server = server)
 ```
 
-The UI now dynamically responds to our inputs in the `selectizeInput`. This means that users can still show all KPI boxes if needed - but they won't have to. In my opinion this flexibility is what shiny was designed for - letting users interact with R-code dynamically. We have also effectively cut down on copy-pasted code by 66% already! There is still some repetition in the multiple `renderUI` function calls, but the server side of our app is already much more pleasing to read and make sense of than the static example of our previous app. 
+The UI now dynamically responds to our inputs in the `selectizeInput`. This means that users can still show all KPI boxes if needed - but they won't have to. In my opinion this flexibility is what shiny was designed for - letting users interact with R-code dynamically. We have also effectively cut down on copy-pasted code by 66% already! There is still some repetition in the multiple `renderUI` function calls, but the server side of our app is already much more pleasing to read and make sense of than the static example of our previous app. ![Bildschirmfoto 2019-08-14 um 09.44.53](/Users/oliverguggenbuehl/Desktop/Bildschirmfoto 2019-08-14 um 09.44.53.png)
 
 ### An Advanced Example
 
@@ -262,7 +262,7 @@ server <- function(input, output) {
 shinyApp(ui = ui, server = server)
 ```
 
-As you can see, `renderUI` offers a very flexible and dynamic approach to offer to UI design when being used in conjunction with `lapply` and the more advanced `do.call`. 
+![Bildschirmfoto 2019-08-14 um 09.45.46](/Users/oliverguggenbuehl/Desktop/Bildschirmfoto 2019-08-14 um 09.45.46.png)As you can see, `renderUI` offers a very flexible and dynamic approach to offer to UI design when being used in conjunction with `lapply` and the more advanced `do.call`. 
 
 Try using these tools next time you build an app and bring the same reactivity to Shiny's UI as your already used to utilizing in its server part. 
 
