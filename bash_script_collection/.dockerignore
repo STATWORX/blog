@@ -1,0 +1,51 @@
+# git
+.git
+.gitignore
+README.md
+
+# folders
+/some_folder
+/tmp/*
+
+# packrat
+# packrat/lib*/
+# packrat/src/
+
+# files
+Dockerfile
+
+# History files
+.Rhistory
+.Rapp.history
+.DS_Store
+
+# RStudio files
+.Rproj.user/
+*.Rproj
+# !shiny-showcase.Rproj
+
+# example code
+*-Ex.R
+
+# vignettes
+vignettes/*.html
+vignettes/*.pdf
+
+# Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
+rsconnect/
+.Rproj.user
+
+# data
+.csv
+.xlsx
+.xlsm
+.xls
+.RData
+
+# exceptions
+
+# utility
+git_repair
+docker_setup
+docker_error_logs
+/docker_log_files

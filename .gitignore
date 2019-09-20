@@ -5,3 +5,6 @@
 .DS_Store
 
 .ipynb_checkpoints
+
+# log files
+bash_script_collection/docker_log_files

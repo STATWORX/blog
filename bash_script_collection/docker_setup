@@ -1,0 +1,133 @@
+#!/bin/bash
+
+# This is a setup bash for docker containers!
+# activate via: chmod 0755 setup_bash or chmod +x setup_bash
+# navigate to wd docker_contents
+# excute in terminal via source ./setup_bash
+
+echo ""
+echo "Welcome, You are executing a setup script bash for docker containers."
+echo ""
+
+echo "Do you want to use the Default from the global configurations?"
+echo ""
+source global_conf.sh
+echo "machine name = $machine_name"
+echo "container = $container_name"
+echo "image = $image_name"
+echo "app name = $app_name"
+echo "password = $password_name"
+echo ""
+
+docker-machine ls
+echo ""
+read -p "What is the name of your docker-machine [default]? " machine_name
+echo ""
+if [[ "$(docker-machine status $machine_name 2> /dev/null)" == "" ]]; then
+    echo "creating machine..." \
+        && docker-machine create $machine_name
+else
+    echo "machine already exists, starting machine..." \
+        && docker-machine start $machine_name
+fi
+echo ""
+echo "activating machine..."
+eval $(docker-machine env --no-proxy $machine_name)
+echo ""
+
+docker ps -a
+echo ""
+read -p "What is the name of your docker container? " container_name
+echo ""
+
+docker image ls
+echo ""
+read -p "What is the name of your docker image? (lower case only!!) " image_name
+echo ""
+
+if [[ "$(docker ps -a | grep $container_name)" ]] \
+&& [[ "$(docker images -q $image_name:latest 2> /dev/null)" != "" ]]; then
+    echo "docker container already exists, checking for content..."
+    echo ""
+    read -p 'What is the name of your app folder? ' app_name
+    echo ""
+
+    if "docker exec -i $container_name ls /srv/shiny-server/$app_name"; then
+        
+        mkdir -p ./temp
+        docker cp $container_name:/srv/shiny-server/$app_name ./temp/$app_name
+
+        if [ ./temp/$app_name -ot ./$app_name ] \
+        || [ "$(diff ./temp/$app_name ./$app_name)" != 0 ]; then
+            echo "docker image already exists, updating image..."
+            echo ""
+            echo "Do you want to clean your available workspace?"
+            docker system prune
+            docker stop $container_name
+            docker rm $container_name
+            docker build -t $image_name .
+            echo ""
+            read -p "Enter old password or choose a new one: " password_name
+            echo ""
+            docker run -d -p 2000:3838 -e USER=STATWORX -e PASSWORD=$password_name --name $container_name $image_name
+            docker start $container_name
+        else
+            echo "docker image already exists and up to date, starting image..."
+            docker start $container_name
+        fi
+
+        rm -rf ./temp
+
+    else
+
+        echo "the folder does not exist, updating image..."
+        echo ""
+        echo "Do you want to clean your available workspace?"
+        docker system prune
+        docker stop $container_name
+        docker rm $container_name
+        docker build -t $image_name .
+        echo ""
+        read -p "Enter old password or choose a new one: " password_name
+        echo ""
+        docker run -d -p 2000:3838 -e USER=STATWORX -e PASSWORD=$password_name --name $container_name $image_name
+        docker start $container_name
+    fi
+
+elif [[ "$(docker ps -a | grep $container_name)" ]]; then
+
+    echo "docker container already exists, checking for content..."
+    echo "container image missing, building image..."
+    echo ""
+    echo "Do you want to clean your available workspace?"
+    docker system prune
+    docker stop $container_name
+    docker rm $container_name
+    docker build -t $image_name .
+    echo ""
+    read -p "Enter old password or choose a new one: " password_name
+    echo ""
+    docker run -d -p 2000:3838 -e USER=STATWORX -e PASSWORD=$password_name --name $container_name $image_name
+    docker start $container_name
+
+else
+
+    echo "docker container and image are missing, building content..."
+    echo ""
+    echo "Do you want to clean your available workspace?"
+    docker system prune
+    docker build -t $image_name .
+    echo ""
+    read -p "Choose a password: " password_name
+    echo ""
+    docker run -d -p 2000:3838 -e USER=STATWORX -e PASSWORD=$password_name --name $container_name $image_name
+    docker start $container_name
+
+fi
+
+echo "docker container ready, your IP: $(docker-machine ip $machine_name):2000"
+echo ""
+
+open http://$(docker-machine ip $machine_name):2000/
+
+# (created by Stephan Emmer)
