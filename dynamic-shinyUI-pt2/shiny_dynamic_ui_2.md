@@ -73,7 +73,6 @@ server <- function(input, output) {
   })
   
   output$comment_text <- renderText({
-    req(input$select == "B")
     
     input$comment
   })
@@ -84,9 +83,67 @@ shinyApp(ui = ui, server = server)
 
 
 
+### `conditionalPanel()`
 
+Out of all the tools available for reactive UI design this is probably the most widely used. The results obtained with `conditionalPanel()` are quite similar to what `req()` allowed us to do in the example above, but there are a few key differences. 
 
+`conditionalPanel()` was designed to specifially enable shiny programmers to conditionally show or hide UI elements. Unlike the `req()`-method, `conditionalPanel()` is evaluated within the UI-part of the app, meaning that it doesn't rely on `renderUI` to conditionally render the various inputs of the shinyverse. But wait, you might ask, how can shiny evaluate any conditions in the UI-side of the app? Isn't that sort of thing always done in the server-part? Well yes, that is true if the expression is written in R. To get around this, `conditionalPanel()` relies on JavaScript to evaluate its conditions. After stating the condition in JS we can add any given UI-elements to our `conditionalPanel()` as shown below:
 
+```R
+conditionalPanel(
+      # specify condition
+      condition = "input.select == 'B'",
+  
+      # execute only if condition is met
+      textAreaInput(inputId = "comment", 
+                    label = "please add a comment", 
+                    placeholder = "write comment here")
+    )
+```
+
+This code chunk displays the same behaviour as the example shown in the last chapter with one major difference: It is now part of our ShinyApp's UI-function unlike the `req()`-solution, which was a `uiOutput` calculated in the server-part of the app and later passed to our UI-function as a list-element. 
+
+Rewriting the app to include `conditionalPanel()` instead of `req()` yields a script that looks something like this:
+
+```R
+library(shiny)
+library(shinydashboard)
+
+ui <- dashboardPage(
+  
+  dashboardHeader(),
+  dashboardSidebar(
+    selectInput(inputId = "select", 
+                label = "please select an option", 
+                choices = LETTERS[1:3]),
+    conditionalPanel(
+      condition = "input.select == 'B'",
+      textAreaInput(inputId = "comment", 
+                    label = "please add a comment", 
+                    placeholder = "write comment here")
+    )
+  ),
+  dashboardBody(
+    uiOutput("selection_text"),
+    textOutput("comment_text")
+    )
+)
+
+server <- function(input, output) {
+  
+  output$selection_text <- renderUI({
+    
+    paste("The selected option is", input$select)
+  })
+  
+  output$comment_text <- renderText({
+    
+    input$comment
+  })
+}
+
+shinyApp(ui = ui, server = server)
+```
 
 
 
