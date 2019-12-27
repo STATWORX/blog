@@ -8,7 +8,7 @@ If you have questions or suggestions, feel free to contact me either or raise an
 
 ## Installation
 
-The `get_network` function within the [helfRlein]() package is the updated version of `getnetwork.R`.  You can install and use it with
+The `get_network` function within the [helfRlein](https://github.com/STATWORX/helfRlein) package is the updated version of `getnetwork.R`.  You can install and use it with
 
 ```R
 # install.packages("devtools")
