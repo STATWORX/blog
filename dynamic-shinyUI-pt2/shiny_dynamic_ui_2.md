@@ -10,7 +10,7 @@ I have previously discussed the advantages of using `renderUI` in combination wi
 
 In this particular case we're trying to build an app where one of the inputs reacts to another input dynamically. Let's assume we'd like to present the user with multiple options to choose from in the shape of a `selectInput`. Let's also assume that one of the options may call for more input from the user, let's say a comment, to more clearly explain the previous selection. One way to do this would be to add a static `textInput` or similar to the app. A much more elegant solution would be to conditionally render the second input to only appear if the proper option had been selected. The image below shows how this would look in practice.
 
-![example1](/Users/oliverguggenbuehl/Intern/blog/dynamic-shinyUI-pt2/images/example1.png)
+![example1](./images/example1.png)
 
 There are multiple ways of going about this in Shiny. I'd like to introduce two of them to you, both of which lead to the same result but with a few key differences between them. 
 
@@ -20,7 +20,7 @@ There are multiple ways of going about this in Shiny. I'd like to introduce two 
 
 `req` is a function from the Shiny package whose purpose is to check whether certain requirements are met before proceeding with your calculations inside a reactive environment. Usually this is used to avoid red error messages popping up in your ShinyApp UI when an element of your app depends on an input that doesn't have a set value yet. You may have seen one of these before:
 
-![](/Users/oliverguggenbuehl/Intern/blog/dynamic-shinyUI-pt2/images/error.png)
+![](./images/error.png)
 
 These errors usually disappear once you have assigned a value to the needed inputs. `req` makes it so that your desired output is only calculated once its required inputs have been set, thus offering an elegant way to avoid the rather garish looking error messages in your app's UI. 
 
