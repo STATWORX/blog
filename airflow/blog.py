@@ -1,8 +1,3 @@
-# set up blog
-# airflow is a framework for managing workflows. it allows you to programatically
-# define, schedule and monitor workflows with tasks and dependencies for whatever
-# job you need. it is based on directed acyclic graphs. error handling comes included.
-
 # import general modules
 import os
 import json
@@ -18,69 +13,7 @@ from airflow.contrib.operators.gcs_to_bq import GoogleCloudStorageToBigQueryOper
 from airflow.contrib.operators.bigquery_to_gcs import BigQueryToCloudStorageOperator
 from airflow.contrib.sensors.gcs_sensor import GoogleCloudStorageObjectSensor 
 
-# set up bigquery connection
-# airflow connections -d --conn_id bigquery_default
-# airflow connections -a --conn_id bigquery_default --conn_uri
-# 'google-cloud-platform://:@:?extra__google_cloud_platform__project=my-first-project-238015&
-# extra__google_cloud_platform__key_path=/Users/manueltilgner/personal_token.json'
-# airflow connections -d --conn_id google_cloud_default
-# airflow connections -a --conn_id google_cloud_default --conn_uri 
-# 'google-cloud-platform://:@:?extra__google_cloud_platform__project=my-first-project-238015&
-# extra__google_cloud_platform__key_path=/Users/manueltilgner/personal_token.json'
-
-# it is important to note that the scheduler runs your job one schedule_interval
-# AFTER the start date, at the END of the period. so if we set the
-# start_date for 2020-01-01, the dag will run on 2020-01-02, the
-# macro {{ ds }} will still equal 2020-01-01 though. you can also use
-# {{ yesterday_ds }}. by setting it to yesterday's date, the dag will run 
-# immidiately.
-
-# in the words of airflow 
-# If you run a DAG on a schedule_interval of one day, the run stamped 2020-01-01
-# will be triggered soon after 2020-01-01T23:59. In other words, the job instance
-# is started once the period it covers has ended. The execution_date available in
-# the context will also be 2020-01-01.
-
-# The first DAG Run is created based on the minimum start_date for the tasks
-# in your DAG. Subsequent DAG Runs are created by the scheduler process, based
-# on your DAG’s schedule_interval, sequentially. If your start_date is 2020-01-01
-# and schedule_interval is @daily, the first run will be created on 
-# 2020-01-02 i.e., after your start date has passed.
-
-# Now, about execution_date and when it is triggered, this is a common gotcha
-# for people onboarding on Airflow. Airflow sets execution_date based on the
-# left bound of the schedule period it is covering, not based on when it fires
-# (which would be the right bound of the period). When running an schedule='@hourly'
-# task for instance, a task will fire every hour. The task that fires at 2pm will
-# have an execution_date of 1pm because it assumes that you are processing the
-# 1pm to 2pm time window at 2pm. Similarly, if you run a daily job, the run an
-# with execution_date of 2016-01-01 would trigger soon after midnight on 2016-01-02.
-
-# start_date = The first dag start time. keep it STATIC
-# execution_date = max(start_date, last_run_date)
-# schedule_interval parameter accepts cron or timedelta values
-# next_dag_start_date = execution_date + schedule_interval
-# On Home Page, Last Run is execution_date. Hoover over on ( i ) to see
-# the actual last run time
-
-# Let’s pretend that we unpause the DAG. What will the scheduler do in regards
-# to the Foo DAG? It will attempt to find previous runs. However, since this
-# is a new DAG, there won’t be any previous runs.
-
-# Key Takeaway: The execution_date of a DAGRun is not when the DAG starts.
-# The general rule of thumb is: the execution_date is one cron iteration prior 
-# to when the DAG Run is supposed to be scheduled to run. For example, if a job 
-# is supposed to run every hour, the execution_date of the DAGRun created at
-# approximately 2 PM will be 1 PM.
-
-# When the scheduler taps this DAG (with 'start_date': datetime(2018, 1, 1)),
-# it will generate a DAG run for each day from the start_date to 4/30/18,
-# and then for each day going forward.
-
 # set up configuration
-# i'm setting the start date to yesterday, airflow recommends setting a static
-# date here as dynamic dates can behvave unpredictably,
-# so it's just for demonstration purposes
 start_date = datetime(2020, 2, 20)
 schedule_interval = timedelta(days=1)
 
@@ -109,8 +42,6 @@ DESTINATION_URI = BUCKET_URI + DESTINATION_OBJECT
 TYPE = 'DEAD ANIMAL'
 
 # set default dag arguments
-# choose the start date with care because airflow can and will do backfill from
-# this date to the present
 default_args = {'owner': 'Manuel Tilgner',
                 'depends_on_past': False,
                 'start_date': start_date,
@@ -119,10 +50,6 @@ default_args = {'owner': 'Manuel Tilgner',
                 'email_on_retry': False,
                 'retries': 1,
                 'retry_delay': timedelta(minutes=5)}
-
-# specify schema
-# bq show --format=prettyjson bigquery-public-data:austin_waste.waste_and_diversion
-# | jq '.schema.fields'
 
 # compose queries for our workflow
 check_bq_data_exists = """
