@@ -4,3 +4,7 @@ In a [previous blog post](https://www.statworx.com/at/blog/running-your-r-script
 
 So let's move on from simple R-scripts and run entire ShinyApps in Docker now!
 
+### Project Setup
+
+It is highly advisable to use RStudio's project setup when working with ShinyApps, especially when using Docker. Not only do projects make it easy to keep your RStudio neat and tidy, they also allow us to use the `renv` package to set up a package library for our specific project. This will come in especially handy when installing the needed packages for our app to the Docker image. 
+
