@@ -1,0 +1,10 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.Rprofile
+.DS_Store
+.md
+
+# log files
+bash_script_collection/docker_log_files
