@@ -1,8 +1,10 @@
 shinyUI(
     dashboardPage(
-        dashboardHeader(),
+        dashboardHeader(title = "Example ShinyApp"),
         dashboardSidebar(
-            sliderInput(inputId = "slider", label = NULL, min = 1, max = 5, value = 3, step = 1)
+            sliderInput(inputId = "slider", 
+                        label = "dynamically change the number of tabs by using the slider", 
+                        min = 1, max = 5, value = 3, step = 1)
     ),
     
     dashboardBody(
