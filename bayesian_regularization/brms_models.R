@@ -12,8 +12,16 @@ brms_model <- function(df, priors){
     control = list(adapt_delta = 0.95)
   )
   
+  return(my_model)
+}
+
+
+# Summary function --------------------------------------------------------
+
+brms_summary <- function(model){
+  
   # get summary
-  post_sum <- brms::posterior_summary(my_model)
+  post_sum <- brms::posterior_summary(model)
   
   # wrangle estimates into dataframe
   est <- post_sum[,"Estimate"]
@@ -29,6 +37,20 @@ brms_model <- function(df, priors){
   return(res)
 }
 
+# Get coefficients -----------------------------------------------------------
+
+brms_get_coef <- function(df, priors, lambdas_inv){
+  
+  model <- brms_model(
+    df = df,
+    priors = prior_fun(
+      prior_params = priors,
+      lambda = lambdas_inv
+    )
+  )
+  
+  brms_summary(model)
+}
 
 # prior function ----------------------------------------------------------
 

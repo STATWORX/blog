@@ -98,7 +98,9 @@ res_1 <- lambda_iterator(
   X = X,
   y = y,
   mu = rep(0, ncol(X)),
-  max_lambda = 50000
+  max_lambda = 1000,
+  X_new,
+  y_new
 )
 
 plot1 <- res_1 %>% 
@@ -113,7 +115,9 @@ res_2 <- lambda_iterator(
   X = X,
   y = y,
   mu = mu_param,
-  max_lambda = 50000
+  max_lambda = 1000,
+  X_new = X_new,
+  y_new = y_new
 )
 
 plot2 <- res_2 %>% 
@@ -121,17 +125,17 @@ plot2 <- res_2 %>%
   penalty_plot() +
   ggtitle("Meaningful prior")
 
-tiff(filename = "penalty_plots.tiff", res = 120, width = 1400, height = 700)
-gridExtra::grid.arrange(
-  plot1, plot2, nrow = 2
-)
-dev.off()
+# tiff(filename = "penalty_plots.tiff", res = 120, width = 1400, height = 700)
+# gridExtra::grid.arrange(
+#   plot1, plot2, nrow = 2
+# )
+# dev.off()
 
 # Bayesian model parameters -------------------------------------------------------------
 
 lambdas_inv <- rev(seq(
   from = 1,
-  to = 5000,
+  to = 500,
   by = 100
 ))
 
@@ -186,10 +190,66 @@ bayes_plot_no_prior <- res_bayes_ref %>%
        title = "Zero prior mean")
 
 # save image
-tiff(filename = "bayes_penalty_plots.tiff", res = 120, width = 1400, height = 700)
-gridExtra::grid.arrange(
-  bayes_plot_no_prior, bayes_plot_prior, nrow = 2
+# tiff(filename = "bayes_penalty_plots.tiff", res = 120, width = 1400, height = 700)
+# gridExtra::grid.arrange(
+#   bayes_plot_no_prior, bayes_plot_prior, nrow = 2
+# )
+# dev.off()
+
+
+# Performance comparison --------------------------------------------------
+
+# brms model
+b_model <- brms_model(
+  df = df_test,
+  priors = prior_fun(
+    prior_params = prior_params,
+    lambda = 300
+  )
 )
-dev.off()
 
+# get prediction
+x <- brms::posterior_predict(b_model)
+b_preds <- colMeans(x)
 
+error_tab <- errors(b_preds, y_new)
+
+# ridge model
+error_tab <- rbind(
+  error_tab,
+  res_2 %>% filter(lambda == 600) %>% 
+    dplyr::select(mape, rmse, mae) %>% 
+    dplyr::distinct()
+)
+
+rownames(error_tab) <- c("Bayesian Linear Model", "Ridge Estimator")
+colnames(error_tab) <- c("RMSE", "MAE", "MAPE")
+
+knitr::kable(error_tab, row.names = TRUE)
+
+# Mape plot for ridge --------------------------------------------------------------
+
+error_df <- error_plot_df(
+  res_list = list(res_1, res_2),
+  error_col = "rmse"
+)
+
+error_df <- error_df %>% 
+  dplyr::mutate(
+    prior = recode(
+      prior,
+      "prior 1" = "Mean zero prior", 
+      "prior 2" = "Non zero prior"
+    )
+  )
+
+mape_plot_ridge <- error_df %>% 
+  ggplot(aes(x = log(lambda), y = mape, color = prior)) +
+  geom_line() + theme_minimal() + 
+  labs(x = "log(Lambda)", y = "Mean Absolute Percentage Error", color = "") +
+  geom_hline(aes(yintercept = 100), linetype = 2) +
+  geom_hline(aes(yintercept = 50), linetype = 3) +
+  scale_y_continuous(breaks = seq(0,300,by = 50)) +
+  ggtitle("Prediction errors for ")
+
+mape_plot_ridge
