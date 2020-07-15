@@ -1,0 +1,16 @@
+version: "3.3"
+services:
+
+  api:
+    image: bookings-api:1.0
+    volumes:
+      - ./data:/root/bookings_api/data
+    restart: unless-stopped
+  nginx:
+    image: mynginx
+    ports:
+      - "443:443"
+      - "80:80" 
+    depends_on:
+      - api
+    restart: unless-stopped
