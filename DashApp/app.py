@@ -1,6 +1,7 @@
 import dash
-import dash_html_components as html
-import dash_core_components as dcc
+#import dash_html_components as html
+#import dash_core_components as dcc
+from dash import html, dcc
 import plotly.graph_objects as go
 import pandas as pd
 from dash.dependencies import Input, Output
@@ -45,7 +46,12 @@ app.layout = html.Div(
                              ),
                     html.Div(className='eight columns div-for-charts bg-grey',
                              children=[
-                                 dcc.Graph(id='timeseries', config={'displayModeBar': False}, animate=True)
+                                 dcc.Graph(id='timeseries',
+                                     config={'displayModeBar': False},
+                                     animate=True),
+                                 dcc.Graph(id='change',
+                                     config={'displayModeBar': False},
+                                     animate=True),
                              ])
                               ])
         ]
@@ -56,18 +62,25 @@ app.layout = html.Div(
 # Callback for timeseries price
 @app.callback(Output('timeseries', 'figure'),
               [Input('stockselector', 'value')])
-def update_graph(selected_dropdown_value):
-    trace1 = []
+def update_timeseries(selected_dropdown_value):
+    ''' Draw traces of the feature 'value' based one the currently selected stocks '''
+    # STEP 1
+    trace = []
     df_sub = df
+    # STEP 2
+    # Draw and append traces for each stock
     for stock in selected_dropdown_value:
-        trace1.append(go.Scatter(x=df_sub[df_sub['stock'] == stock].index,
+        trace.append(go.Scatter(x=df_sub[df_sub['stock'] == stock].index,
                                  y=df_sub[df_sub['stock'] == stock]['value'],
                                  mode='lines',
                                  opacity=0.7,
                                  name=stock,
                                  textposition='bottom center'))
-    traces = [trace1]
+    # STEP 3
+    traces = [trace]
     data = [val for sublist in traces for val in sublist]
+    # Define Figure
+    # STEP 4
     figure = {'data': data,
               'layout': go.Layout(
                   colorway=["#5E0DAC", '#FF4F00', '#375CB1', '#FF7400', '#FFF400', '#FF0056'],
@@ -80,7 +93,41 @@ def update_graph(selected_dropdown_value):
                   title={'text': 'Stock Prices', 'font': {'color': 'white'}, 'x': 0.5},
                   xaxis={'range': [df_sub.index.min(), df_sub.index.max()]},
               ),
+              }
 
+    return figure
+
+
+@app.callback(Output('change', 'figure'),
+              [Input('stockselector', 'value')])
+def update_change(selected_dropdown_value):
+    ''' Draw traces of the feature 'change' based one the currently selected stocks '''
+    trace = []
+    df_sub = df
+    # Draw and append traces for each stock
+    for stock in selected_dropdown_value:
+        trace.append(go.Scatter(x=df_sub[df_sub['stock'] == stock].index,
+                                 y=df_sub[df_sub['stock'] == stock]['change'],
+                                 mode='lines',
+                                 opacity=0.7,
+                                 name=stock,
+                                 textposition='bottom center'))
+    traces = [trace]
+    data = [val for sublist in traces for val in sublist]
+    # Define Figure
+    figure = {'data': data,
+              'layout': go.Layout(
+                  colorway=["#5E0DAC", '#FF4F00', '#375CB1', '#FF7400', '#FFF400', '#FF0056'],
+                  template='plotly_dark',
+                  paper_bgcolor='rgba(0, 0, 0, 0)',
+                  plot_bgcolor='rgba(0, 0, 0, 0)',
+                  margin={'t': 50},
+                  height=250,
+                  hovermode='x',
+                  autosize=True,
+                  title={'text': 'Daily Change', 'font': {'color': 'white'}, 'x': 0.5},
+                  xaxis={'showticklabels': False, 'range': [df_sub.index.min(), df_sub.index.max()]},
+              ),
               }
 
     return figure
