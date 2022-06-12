@@ -17,16 +17,22 @@ Ad-hoc queries definitely require good latency performance for user's trust and 
 
 ### Reliability / Precision
 Batch processing shall be resilient to downtimes of connected upstream system, shall be able to restore failed tasks, shall calculate the outcome in a precise manner as downstream processes rely on the output, shall produce the same outcome on the same data (idempotency).
-Ad-hoc queries' requirements are different: Value estimates instead of precise values (thinking of Theta sketches) are acceptable in various situations. Also recalcualting a value in case of an outage is supposed to be acceptable if not too often. However, the overall query service downtime should be reduced.
+Ad-hoc queries' requirements are different: Value estimates instead of precise values (thinking of Theta sketches) are acceptable in various situations. Also recalcualting a value in case of an outage is supposed to be acceptable if that does not occur too often. However, the overall query service downtime should be reduced.
 
 ### Data Layout
-The data layout shall enable good query performances on different kind of queries. Batch processing, having the nature of a defined process, uses specific queries that data can be optimized towards.
+The data layout shall enable good query performances on different kind of queries. Batch processing, having the nature of a defined process, uses specific queries that the layout can be optimized towards.
 
 ### Scalability
-Both types need scalability but in different aspects. The batch process and the backend need to expand with rising amount of data. This is observable and can be remediated if the backend systems can scale. Ad-hoc queries, in addition, have also scalability requirements in terms of number of queries.
+Both types need scalability but in different aspects. The batch process and the backend need to adapt with rising amount of data. This, in general, is observable and can be remediated by adding more components to the scalable backend. With the regards to ad-hoc queries, the scalability requirements also encloses the (unknown) rise in the number of queries.
 
 
 ## Performance Measures implemented in Parquet
+First, Parquet is a columnar format, i.e. data is not stored row-wise as in CSV or Avro format but columns are stored en bloc. To be more precise, data sets are split up into row groups (= slices of data in the row dimension) and within the groups, column data sticks together. Thus, whenever readers are supposed to read only a subset of columns, readers can look up the offset (Have a look at [parquet-format](https://github.com/apache/parquet-format#file-format) ) of the needs column blocks, and read only the portions needed to be loaded (to RAM / over network ?). 
+#TODO group by. That's nice!
+Secondly, lets have a look how data reads can be reduced. Parquet allows to store statistics of columns for minimal and maximal values within the metadata. Data pages not matching a filter clause can by that omitted.
+For columns with categorical values, checks against min-max-boundaries often do not make too much sense. Noting down every occuring element in a (sorted) dictionary, helps as a prefilter of data pages but comes with the downside of space usage. A good compromise is a Bloom Filter that is part of the format specification (# TODO since when? ). Briefly, a Bloom Filter is an efficient approximation to a set that produces true negatives but no false positives. Nice stuff, too! (See # TODO Link) 
+
+
 - Bloom Filters
 - Data Skipping with Column Statistics
 - Reading single columns instead of all
@@ -34,6 +40,7 @@ Both types need scalability but in different aspects. The batch process and the 
 - Which writer supports it?
 
 ## Push-Down predicates in modern Object Storages
+Nowadays, data resides mostly on object stores like S3 or Azure's Blobstorage. 
 - Filter on values?
 - Select columns precisely
 - AWS / minio yes
@@ -41,6 +48,8 @@ Both types need scalability but in different aspects. The batch process and the 
 - 
 
 ## Performance Measures implemented in Delta Tables
+According to the [Delta Table specifications](https://github.com/delta-io/delta/blob/master/PROTOCOL.md#per-file-statistics), statistics for min and max value can be added to the Delta log. Again, this enables data skipping, here on a more granular way compared to the Parquet implementation. 
+
 - Data Skipping with Statistics
 - Data Colocation with Z-Order
 
