@@ -1,7 +1,8 @@
 # Naive Considerations on Delta Lake querying
 
-Lakehouse is a prominent data approach to manage huge volumes. The main idea is the use of the columnar format parquet, put some metadata on top of that to basically ensure transactional writes and store it to cheap storage (object storages like S3, ADLS, etc). When I was working with that approach, I questioned the efficiency of the approach and my naive understanding was that all data would always to be read to process the data, to query it for reporting purposes. (Disclamer: this is not true). This is a uncovering.
+Lakehouse is a prominent data approach to manage huge volumes. The main idea is the use of the columnar format parquet, put some metadata on top of that to basically ensure transactional writes and store it to cheap storage (object storages like S3, ADLS, etc). When I was working with that approach, I questioned the efficiency of the approach and my naive understanding was that all data would always to be read to process the data or to query it for reporting purposes. (Disclamer: this is not true). This is a uncovering.
 First of all, I want to introduce main requirements from batch processing and ad-hoc querying, then move level by level to see what features are given. 
+The main optimizations take place on the parquet level.
 
 ## Different requirements ad-hoc queries vs. batch processing
 With ad-hoc queries an interface for a user/application is meant that can quasi-randomly execute queries on some data sets.
@@ -25,19 +26,31 @@ Both types need scalability but in different aspects. The batch process and the 
 
 ## Performance Measures implemented in Parquet
 ### Due to the nature of a columnar format
-**TODO** Image of Columnar.
 
-First of all, Parquet is a columnar format, i.e. data is not stored row-wise as in CSV or Avro format but columns are stored en bloc. To be more precise, data sets are split up into row groups (= slices of data in the row dimension) and within the groups, column data is kept together. Thus, whenever readers are supposed to read only a subset of columns, readers can look up the offset (Have a look at [parquet-format](https://github.com/apache/parquet-format#file-format) ) of the needed column blocks, and read only the portions needed to be loaded over network and into RAM. Especially for wide tables and/or slice and dice queries, this saves a lot of unnessarily loaded data.
-That's nice!
+![Image](resources/columnar_physical_table_representation.png)
+(Different representation of data: Row and Column layout)
+
+First of all, Parquet is a columnar format, i.e. data is not stored row-wise as in CSV or Avro format but columns are stored en bloc. 
+To be more precise, data sets are split up into row groups (= slices of data in the row dimension) and within the groups, column data is kept together. 
+Thus, whenever readers are supposed to read only a subset of columns, readers can look up the offset (Please also have a look at [parquet-format](https://github.com/apache/parquet-format#file-format) to understand the format layout, e.g. how to read the offset) of the needed column blocks, and read only the portions needed to be loaded over network and into RAM. 
+Especially for wide tables and/or slice and dice queries (~ filtering and aggregates), this saves a lot of unnessarily data reads.
+
 ### Statistics
-**TODO** Image of Bloom Filter
 
-Secondly, lets have a look how the number of data reads can be reduced. Parquet allows to **store statistics** of columns for minimal and maximal values within the metadata. Data pages not matching a filter clause can by that omitted.
-For those columns with categorical values and a high cardinality, checks against min-max-boundaries often do not make too much sense. Noting down every occuring element in a (sorted) dictionary, helps as a prefilter of data pages but comes with the downside of space usage. A good compromise is a **Bloom Filter** that is part of the format specification since version 2.7.0. Briefly, a Bloom Filter is an efficient approximation to a set that produces true negatives but no false positives.
-**TODO** bit more on bloom filters.
- Nice stuff, too! (See [Bloom Filter Wikipedia](https://en.wikipedia.org/wiki/Bloom_filter))
+![Bloom Filter](resources/Bloom_filter.svg.png)
 
- ### Indices
+Secondly, lets have a look how the number of data reads can be reduced. Parquet allows to **store statistics** of columns for minimal and maximal values within the metadata. Data pages not matching a filter clause can by that be omitted.
+Moreover, since version 2.5.0, the specification includes an extra column index, that stores the min-max values as a separate block of the metadata. 
+A reader implementation could first of all filter against those min-max ranges to get all necessary data chunks and then start reading. Even better: when the column is sorted (can be obtained from the metadata), the reader can perform a binary search on the min-max pairs. 
+To test the occurence of an element to a column, a min-max ranges could act as a prefilter and the dictionary of the encoding can be used to lookup the element. 
+However, high cardinality of distinct values, would blow up the dictionary. A good compromise is a **Bloom Filter** that is part of the format specification since version 2.7.0. 
+Briefly, a Bloom Filter is an efficient approximation to a set that produces false positives but no true negatives.
+The bloom filter is a bit array of fixed size whose bits are initially all set to zero. 
+A given element is represented by the outcome of k different hash functions. For a member of the set, the value of the corresponding positions to the hash functions are set to 1.
+Membership check is checking if all bits on the calculated positions are 1.
+For a given false positive rate, the length of the bit array and the number of hash functions can be calculated. 
+Nice stuff, too! (See [Bloom Filter Wikipedia](https://en.wikipedia.org/wiki/Bloom_filter))
+
  
 
 ### Supported Features of Writer Implementation
